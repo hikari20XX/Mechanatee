@@ -1,0 +1,17 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/rclrs_example_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rclrs_example_msgs/msg/detail/dds_fastrtps/nested_type__type_support.cpp.o"
+  "CMakeFiles/rclrs_example_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rclrs_example_msgs/msg/detail/dds_fastrtps/nested_type__type_support.cpp.o.d"
+  "CMakeFiles/rclrs_example_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rclrs_example_msgs/msg/detail/dds_fastrtps/various_types__type_support.cpp.o"
+  "CMakeFiles/rclrs_example_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rclrs_example_msgs/msg/detail/dds_fastrtps/various_types__type_support.cpp.o.d"
+  "librclrs_example_msgs__rosidl_typesupport_fastrtps_cpp.pdb"
+  "librclrs_example_msgs__rosidl_typesupport_fastrtps_cpp.so"
+  "rosidl_typesupport_fastrtps_cpp/rclrs_example_msgs/msg/detail/dds_fastrtps/nested_type__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/rclrs_example_msgs/msg/detail/dds_fastrtps/various_types__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/rclrs_example_msgs/msg/detail/nested_type__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/rclrs_example_msgs/msg/detail/various_types__rosidl_typesupport_fastrtps_cpp.hpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/rclrs_example_msgs__rosidl_typesupport_fastrtps_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

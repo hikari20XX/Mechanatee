@@ -1,0 +1,19 @@
+# ServoSpeed.msg
+
+# Timestamp for when the speed was set or measured
+int32 sec      # seconds since epoch
+uint32 nanosec # nanoseconds since the last second
+
+# Servo ID or name, to identify which servo this speed relates to
+string servo_id
+
+# Desired or measured speed of the servo. 
+# This could be in terms of degrees/sec for rotational servos.
+float64 speed
+
+# Optional: Direction in which the servo is moving, if relevant
+# -1 for counterclockwise, 1 for clockwise, 0 for stationary
+int8 direction
+
+# Optional: Additional information or status about the servo speed setting
+string additional_info

@@ -1,0 +1,8 @@
+#TargetSetpoint.msg
+
+int32 sec
+uint32 nanosec
+
+float32 position
+float32 velocity
+

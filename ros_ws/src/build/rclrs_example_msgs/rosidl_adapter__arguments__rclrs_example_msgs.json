@@ -1,0 +1,7 @@
+{
+  "package_name": "rclrs_example_msgs",
+  "non_idl_tuples": [
+    "/home/hikari/ROScribe/ros_ws/src/ros2_rust/rclrs_example_msgs:msg/NestedType.msg",
+    "/home/hikari/ROScribe/ros_ws/src/ros2_rust/rclrs_example_msgs:msg/VariousTypes.msg"
+  ]
+}

@@ -1,0 +1,699 @@
+[0.378s] Invoking command in '/home/hikari/ROScribe/ros_ws/src/build/custom_msgs': AMENT_PREFIX_PATH=/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_generators:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs:/home/hikari/ROScribe/ros_ws/src/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_generators:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs:/opt/ros/humble PYTHONPATH=/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake /home/hikari/ROScribe/ros_ws/src/custom_msgs -DCMAKE_INSTALL_PREFIX=/home/hikari/ROScribe/ros_ws/src/install/custom_msgs
+[0.554s] -- The C compiler identification is GNU 11.4.0
+[0.799s] -- The CXX compiler identification is GNU 11.4.0
+[0.918s] -- Detecting C compiler ABI info
+[1.031s] -- Detecting C compiler ABI info - done
+[1.055s] -- Check for working C compiler: /usr/lib/ccache/cc - skipped
+[1.056s] -- Detecting C compile features
+[1.057s] -- Detecting C compile features - done
+[1.065s] -- Detecting CXX compiler ABI info
+[1.198s] -- Detecting CXX compiler ABI info - done
+[1.222s] -- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped
+[1.223s] -- Detecting CXX compile features
+[1.224s] -- Detecting CXX compile features - done
+[1.229s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.683s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[3.866s] -- Found rosidl_default_generators: 1.2.0 (/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_generators/share/rosidl_default_generators/cmake)
+[3.878s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.890s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.084s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.879s] -- Found ament_cmake_cppcheck: 0.12.8 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[4.883s] -- Found ament_cmake_cpplint: 0.12.8 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[4.888s] -- Found ament_cmake_uncrustify: 0.12.8 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[4.892s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[5.150s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.482s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.492s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[6.178s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[6.719s] -- Found FastRTPS: /opt/ros/humble/include  
+[7.885s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[7.890s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[8.050s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[8.050s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[8.050s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[8.051s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[8.122s] -- Found PythonExtra: .so  
+[8.250s] -- Found ament_cmake_flake8: 0.12.8 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[8.258s] -- Found ament_cmake_pep257: 0.12.8 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[8.288s] -- Configuring done
+[8.525s] -- Generating done
+[8.534s] -- Build files have been written to: /home/hikari/ROScribe/ros_ws/src/build/custom_msgs
+[8.575s] Invoked command in '/home/hikari/ROScribe/ros_ws/src/build/custom_msgs' returned '0': AMENT_PREFIX_PATH=/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_generators:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs:/home/hikari/ROScribe/ros_ws/src/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_generators:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs:/opt/ros/humble PYTHONPATH=/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake /home/hikari/ROScribe/ros_ws/src/custom_msgs -DCMAKE_INSTALL_PREFIX=/home/hikari/ROScribe/ros_ws/src/install/custom_msgs
+[8.577s] Invoking command in '/home/hikari/ROScribe/ros_ws/src/build/custom_msgs': AMENT_PREFIX_PATH=/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_generators:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs:/home/hikari/ROScribe/ros_ws/src/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_generators:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs:/opt/ros/humble PYTHONPATH=/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --build /home/hikari/ROScribe/ros_ws/src/build/custom_msgs -- -j8 -l8
+[8.696s] [  0%] [34m[1mGenerating C code for ROS interfaces[0m
+[8.701s] [  0%] Built target ament_cmake_python_copy_custom_msgs
+[8.708s] [  0%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[8.709s] [  1%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[10.522s] running egg_info
+[10.525s] creating custom_msgs.egg-info
+[10.674s] writing custom_msgs.egg-info/PKG-INFO
+[10.695s] writing dependency_links to custom_msgs.egg-info/dependency_links.txt
+[10.696s] writing top-level names to custom_msgs.egg-info/top_level.txt
+[10.697s] writing manifest file 'custom_msgs.egg-info/SOURCES.txt'
+[11.296s] reading manifest file 'custom_msgs.egg-info/SOURCES.txt'
+[11.300s] writing manifest file 'custom_msgs.egg-info/SOURCES.txt'
+[11.498s] [  1%] Built target ament_cmake_python_build_custom_msgs_egg
+[18.780s] [  1%] Built target custom_msgs__rs
+[26.533s] [  1%] Built target custom_msgs__cpp
+[28.440s] [  2%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_generator_c.dir/rosidl_generator_c/custom_msgs/msg/detail/analog_input__functions.c.o[0m
+[28.679s] [  3%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_generator_c.dir/rosidl_generator_c/custom_msgs/msg/detail/motor_alerts__functions.c.o[0m
+[28.930s] [  3%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_generator_c.dir/rosidl_generator_c/custom_msgs/msg/detail/system_feedback__functions.c.o[0m
+[29.136s] [  4%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_generator_c.dir/rosidl_generator_c/custom_msgs/msg/detail/pid_params__functions.c.o[0m
+[29.293s] [  4%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_generator_c.dir/rosidl_generator_c/custom_msgs/msg/detail/updated_pid_params__functions.c.o[0m
+[29.435s] [  5%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_generator_c.dir/rosidl_generator_c/custom_msgs/msg/detail/tuning_status__functions.c.o[0m
+[29.594s] [  6%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_generator_c.dir/rosidl_generator_c/custom_msgs/msg/detail/servo_feedback__functions.c.o[0m
+[29.738s] [  6%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_generator_c.dir/rosidl_generator_c/custom_msgs/msg/detail/servo_setpoint__functions.c.o[0m
+[29.874s] [  7%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_generator_c.dir/rosidl_generator_c/custom_msgs/msg/detail/servo_status__functions.c.o[0m
+[30.014s] [  8%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_generator_c.dir/rosidl_generator_c/custom_msgs/msg/detail/battery_status__functions.c.o[0m
+[30.159s] [  8%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_generator_c.dir/rosidl_generator_c/custom_msgs/msg/detail/servo_speed__functions.c.o[0m
+[30.309s] [  9%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_generator_c.dir/rosidl_generator_c/custom_msgs/msg/detail/target_position__functions.c.o[0m
+[30.440s] [  9%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_generator_c.dir/rosidl_generator_c/custom_msgs/msg/detail/system_logs__functions.c.o[0m
+[30.616s] [ 10%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_generator_c.dir/rosidl_generator_c/custom_msgs/msg/detail/voltage_reading__functions.c.o[0m
+[30.763s] [ 11%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_generator_c.dir/rosidl_generator_c/custom_msgs/msg/detail/motor_feedback__functions.c.o[0m
+[30.928s] [ 11%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_generator_c.dir/rosidl_generator_c/custom_msgs/msg/detail/motor_status__functions.c.o[0m
+[31.080s] [ 12%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_generator_c.dir/rosidl_generator_c/custom_msgs/msg/detail/pwm_command__functions.c.o[0m
+[31.222s] [ 13%] [32m[1mLinking C shared library libcustom_msgs__rosidl_generator_c.so[0m
+[31.361s] [ 13%] Built target custom_msgs__rosidl_generator_c
+[31.373s] [ 14%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[35.173s] [ 14%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_msgs/msg/analog_input__type_support.cpp.o[0m
+[36.146s] [ 15%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_msgs/msg/motor_status__type_support.cpp.o[0m
+[37.095s] [ 15%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_msgs/msg/motor_feedback__type_support.cpp.o[0m
+[37.842s] [ 16%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_msgs/msg/motor_alerts__type_support.cpp.o[0m
+[38.648s] [ 16%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_msgs/msg/system_feedback__type_support.cpp.o[0m
+[39.431s] [ 17%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_msgs/msg/pid_params__type_support.cpp.o[0m
+[40.332s] [ 18%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_msgs/msg/updated_pid_params__type_support.cpp.o[0m
+[41.259s] [ 18%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_msgs/msg/tuning_status__type_support.cpp.o[0m
+[42.195s] [ 19%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_msgs/msg/servo_feedback__type_support.cpp.o[0m
+[43.061s] [ 20%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_msgs/msg/servo_setpoint__type_support.cpp.o[0m
+[44.117s] [ 20%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_msgs/msg/servo_status__type_support.cpp.o[0m
+[45.008s] [ 21%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_msgs/msg/battery_status__type_support.cpp.o[0m
+[45.911s] [ 21%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_msgs/msg/servo_speed__type_support.cpp.o[0m
+[46.871s] [ 22%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_msgs/msg/target_position__type_support.cpp.o[0m
+[47.776s] [ 23%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_msgs/msg/system_logs__type_support.cpp.o[0m
+[48.632s] [ 23%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_msgs/msg/voltage_reading__type_support.cpp.o[0m
+[49.536s] [ 24%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_msgs/msg/pwm_command__type_support.cpp.o[0m
+[50.447s] [ 25%] [32m[1mLinking CXX shared library libcustom_msgs__rosidl_typesupport_cpp.so[0m
+[50.566s] [ 25%] Built target custom_msgs__rosidl_typesupport_cpp
+[50.576s] [ 26%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[54.389s] [ 26%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_msgs/msg/analog_input__type_support.cpp.o[0m
+[54.475s] [ 27%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_msgs/msg/motor_feedback__type_support.cpp.o[0m
+[54.589s] [ 28%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_msgs/msg/motor_alerts__type_support.cpp.o[0m
+[54.696s] [ 28%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_msgs/msg/system_feedback__type_support.cpp.o[0m
+[54.819s] [ 29%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_msgs/msg/pid_params__type_support.cpp.o[0m
+[54.922s] [ 30%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_msgs/msg/updated_pid_params__type_support.cpp.o[0m
+[55.036s] [ 30%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_msgs/msg/tuning_status__type_support.cpp.o[0m
+[55.139s] [ 31%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_msgs/msg/servo_feedback__type_support.cpp.o[0m
+[55.251s] [ 31%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_msgs/msg/servo_setpoint__type_support.cpp.o[0m
+[55.403s] [ 32%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_msgs/msg/servo_status__type_support.cpp.o[0m
+[55.506s] [ 33%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_msgs/msg/battery_status__type_support.cpp.o[0m
+[55.592s] [ 33%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_msgs/msg/servo_speed__type_support.cpp.o[0m
+[55.678s] [ 34%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_msgs/msg/target_position__type_support.cpp.o[0m
+[55.762s] [ 35%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_msgs/msg/system_logs__type_support.cpp.o[0m
+[55.847s] [ 35%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_msgs/msg/voltage_reading__type_support.cpp.o[0m
+[55.934s] [ 35%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_msgs/msg/motor_status__type_support.cpp.o[0m
+[56.017s] [ 36%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_msgs/msg/pwm_command__type_support.cpp.o[0m
+[56.105s] [ 37%] [32m[1mLinking CXX shared library libcustom_msgs__rosidl_typesupport_c.so[0m
+[56.236s] [ 37%] Built target custom_msgs__rosidl_typesupport_c
+[56.248s] [ 38%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[60.935s] [ 38%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_msgs/msg/detail/analog_input__type_support.c.o[0m
+[61.041s] [ 39%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_msgs/msg/detail/motor_alerts__type_support.c.o[0m
+[61.156s] [ 39%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_msgs/msg/detail/system_feedback__type_support.c.o[0m
+[61.262s] [ 40%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_msgs/msg/detail/pid_params__type_support.c.o[0m
+[61.359s] [ 41%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_msgs/msg/detail/updated_pid_params__type_support.c.o[0m
+[61.469s] [ 41%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_msgs/msg/detail/tuning_status__type_support.c.o[0m
+[61.582s] [ 42%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_msgs/msg/detail/servo_feedback__type_support.c.o[0m
+[61.702s] [ 42%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_msgs/msg/detail/servo_setpoint__type_support.c.o[0m
+[61.817s] [ 43%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_msgs/msg/detail/servo_status__type_support.c.o[0m
+[61.921s] [ 44%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_msgs/msg/detail/battery_status__type_support.c.o[0m
+[62.038s] [ 44%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_msgs/msg/detail/servo_speed__type_support.c.o[0m
+[62.147s] [ 45%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_msgs/msg/detail/target_position__type_support.c.o[0m
+[62.254s] [ 46%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_msgs/msg/detail/system_logs__type_support.c.o[0m
+[62.350s] [ 46%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_msgs/msg/detail/voltage_reading__type_support.c.o[0m
+[62.456s] [ 47%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_msgs/msg/detail/motor_feedback__type_support.c.o[0m
+[62.552s] [ 47%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_msgs/msg/detail/motor_status__type_support.c.o[0m
+[62.650s] [ 48%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_msgs/msg/detail/pwm_command__type_support.c.o[0m
+[62.750s] [ 49%] [32m[1mLinking C shared library libcustom_msgs__rosidl_typesupport_introspection_c.so[0m
+[62.846s] [ 49%] Built target custom_msgs__rosidl_typesupport_introspection_c
+[62.858s] [ 50%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[68.172s] [ 50%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_msgs/msg/detail/analog_input__type_support_c.cpp.o[0m
+[68.208s] [ 51%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_msgs/msg/detail/pwm_command__type_support_c.cpp.o[0m
+[69.270s] [ 51%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_msgs/msg/detail/system_feedback__type_support_c.cpp.o[0m
+[70.332s] [ 52%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_msgs/msg/detail/motor_alerts__type_support_c.cpp.o[0m
+[70.386s] [ 53%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_msgs/msg/detail/motor_feedback__type_support_c.cpp.o[0m
+[70.468s] [ 53%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_msgs/msg/detail/motor_status__type_support_c.cpp.o[0m
+[70.909s] [ 54%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_msgs/msg/detail/pid_params__type_support_c.cpp.o[0m
+[73.224s] [ 55%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_msgs/msg/detail/servo_status__type_support_c.cpp.o[0m
+[74.370s] [ 56%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_msgs/msg/detail/battery_status__type_support_c.cpp.o[0m
+[75.518s] [ 56%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_msgs/msg/detail/servo_speed__type_support_c.cpp.o[0m
+[76.653s] [ 57%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_msgs/msg/detail/target_position__type_support_c.cpp.o[0m
+[77.723s] [ 58%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_msgs/msg/detail/system_logs__type_support_c.cpp.o[0m
+[78.900s] [ 58%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_msgs/msg/detail/voltage_reading__type_support_c.cpp.o[0m
+[80.013s] [ 58%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_msgs/msg/detail/servo_setpoint__type_support_c.cpp.o[0m
+[81.040s] [ 59%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_msgs/msg/detail/servo_feedback__type_support_c.cpp.o[0m
+[82.052s] [ 59%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_msgs/msg/detail/tuning_status__type_support_c.cpp.o[0m
+[83.081s] [ 60%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_msgs/msg/detail/updated_pid_params__type_support_c.cpp.o[0m
+[84.100s] [ 61%] [32m[1mLinking CXX shared library libcustom_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[84.349s] [ 61%] Built target custom_msgs__rosidl_typesupport_fastrtps_c
+[84.361s] [ 62%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[88.268s] [ 62%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_msgs/msg/detail/analog_input__type_support.cpp.o[0m
+[89.430s] [ 63%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_msgs/msg/detail/pid_params__type_support.cpp.o[0m
+[90.628s] [ 64%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_msgs/msg/detail/updated_pid_params__type_support.cpp.o[0m
+[92.262s] [ 64%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_msgs/msg/detail/tuning_status__type_support.cpp.o[0m
+[94.263s] [ 65%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_msgs/msg/detail/servo_feedback__type_support.cpp.o[0m
+[95.793s] [ 66%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_msgs/msg/detail/servo_setpoint__type_support.cpp.o[0m
+[97.160s] [ 66%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_msgs/msg/detail/servo_status__type_support.cpp.o[0m
+[98.740s] [ 67%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_msgs/msg/detail/battery_status__type_support.cpp.o[0m
+[100.344s] [ 67%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_msgs/msg/detail/servo_speed__type_support.cpp.o[0m
+[101.375s] [ 68%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_msgs/msg/detail/target_position__type_support.cpp.o[0m
+[102.247s] [ 68%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_msgs/msg/detail/system_feedback__type_support.cpp.o[0m
+[103.914s] [ 68%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_msgs/msg/detail/voltage_reading__type_support.cpp.o[0m
+[105.920s] [ 69%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_msgs/msg/detail/motor_alerts__type_support.cpp.o[0m
+[105.923s] [ 70%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_msgs/msg/detail/system_logs__type_support.cpp.o[0m
+[107.382s] [ 70%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_msgs/msg/detail/motor_feedback__type_support.cpp.o[0m
+[108.569s] [ 71%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_msgs/msg/detail/motor_status__type_support.cpp.o[0m
+[109.704s] [ 72%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_msgs/msg/detail/pwm_command__type_support.cpp.o[0m
+[110.938s] [ 73%] [32m[1mLinking CXX shared library libcustom_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[111.124s] [ 73%] Built target custom_msgs__rosidl_typesupport_introspection_cpp
+[111.137s] [ 74%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[117.523s] [ 74%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_msgs/msg/detail/dds_fastrtps/analog_input__type_support.cpp.o[0m
+[118.742s] [ 75%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_msgs/msg/detail/dds_fastrtps/updated_pid_params__type_support.cpp.o[0m
+[119.885s] [ 75%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_msgs/msg/detail/dds_fastrtps/tuning_status__type_support.cpp.o[0m
+[120.917s] [ 76%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_msgs/msg/detail/dds_fastrtps/servo_feedback__type_support.cpp.o[0m
+[121.906s] [ 77%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_msgs/msg/detail/dds_fastrtps/servo_setpoint__type_support.cpp.o[0m
+[123.008s] [ 77%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_msgs/msg/detail/dds_fastrtps/servo_status__type_support.cpp.o[0m
+[124.252s] [ 78%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_msgs/msg/detail/dds_fastrtps/battery_status__type_support.cpp.o[0m
+[125.423s] [ 78%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_msgs/msg/detail/dds_fastrtps/servo_speed__type_support.cpp.o[0m
+[126.441s] [ 79%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_msgs/msg/detail/dds_fastrtps/target_position__type_support.cpp.o[0m
+[126.765s] [ 80%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_msgs/msg/detail/dds_fastrtps/pid_params__type_support.cpp.o[0m
+[127.799s] [ 81%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_msgs/msg/detail/dds_fastrtps/system_logs__type_support.cpp.o[0m
+[128.298s] [ 81%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_msgs/msg/detail/dds_fastrtps/system_feedback__type_support.cpp.o[0m
+[128.484s] [ 81%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_msgs/msg/detail/dds_fastrtps/voltage_reading__type_support.cpp.o[0m
+[129.603s] [ 82%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_msgs/msg/detail/dds_fastrtps/motor_alerts__type_support.cpp.o[0m
+[130.328s] [ 82%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_msgs/msg/detail/dds_fastrtps/motor_feedback__type_support.cpp.o[0m
+[130.600s] [ 83%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_msgs/msg/detail/dds_fastrtps/motor_status__type_support.cpp.o[0m
+[131.586s] [ 84%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_msgs/msg/detail/dds_fastrtps/pwm_command__type_support.cpp.o[0m
+[133.428s] [ 85%] [32m[1mLinking CXX shared library libcustom_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[133.686s] [ 85%] Built target custom_msgs__rosidl_typesupport_fastrtps_cpp
+[133.710s] [ 85%] Built target custom_msgs
+[133.733s] [ 86%] [34m[1mGenerating Python code for ROS interfaces[0m
+[144.337s] [ 86%] Built target custom_msgs__py
+[144.357s] [ 86%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_generator_py.dir/rosidl_generator_py/custom_msgs/msg/_analog_input_s.c.o[0m
+[144.784s] [ 87%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_generator_py.dir/rosidl_generator_py/custom_msgs/msg/_updated_pid_params_s.c.o[0m
+[145.208s] [ 87%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_generator_py.dir/rosidl_generator_py/custom_msgs/msg/_tuning_status_s.c.o[0m
+[145.588s] [ 88%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_generator_py.dir/rosidl_generator_py/custom_msgs/msg/_servo_feedback_s.c.o[0m
+[145.922s] [ 89%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_generator_py.dir/rosidl_generator_py/custom_msgs/msg/_servo_setpoint_s.c.o[0m
+[146.252s] [ 89%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_generator_py.dir/rosidl_generator_py/custom_msgs/msg/_servo_status_s.c.o[0m
+[146.666s] [ 90%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_generator_py.dir/rosidl_generator_py/custom_msgs/msg/_battery_status_s.c.o[0m
+[146.671s] [ 91%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_generator_py.dir/rosidl_generator_py/custom_msgs/msg/_pid_params_s.c.o[0m
+[147.144s] [ 91%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_generator_py.dir/rosidl_generator_py/custom_msgs/msg/_servo_speed_s.c.o[0m
+[147.218s] [ 92%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_generator_py.dir/rosidl_generator_py/custom_msgs/msg/_target_position_s.c.o[0m
+[147.820s] [ 93%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_generator_py.dir/rosidl_generator_py/custom_msgs/msg/_system_logs_s.c.o[0m
+[147.940s] [ 93%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_generator_py.dir/rosidl_generator_py/custom_msgs/msg/_voltage_reading_s.c.o[0m
+[148.688s] [ 93%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_generator_py.dir/rosidl_generator_py/custom_msgs/msg/_system_feedback_s.c.o[0m
+[148.878s] [ 94%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_generator_py.dir/rosidl_generator_py/custom_msgs/msg/_motor_alerts_s.c.o[0m
+[149.777s] [ 94%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_generator_py.dir/rosidl_generator_py/custom_msgs/msg/_motor_feedback_s.c.o[0m
+[149.809s] [ 95%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_generator_py.dir/rosidl_generator_py/custom_msgs/msg/_motor_status_s.c.o[0m
+[150.832s] [ 96%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_generator_py.dir/rosidl_generator_py/custom_msgs/msg/_pwm_command_s.c.o[0m
+[152.411s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/custom_msgs/libcustom_msgs__rosidl_generator_py.so[0m
+[152.627s] [ 97%] Built target custom_msgs__rosidl_generator_py
+[152.645s] [ 97%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/custom_msgs/_custom_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[153.161s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/custom_msgs/custom_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[153.257s] [ 98%] Built target custom_msgs__rosidl_typesupport_fastrtps_c__pyext
+[153.273s] [ 98%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/custom_msgs/_custom_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[153.738s] [ 99%] [32m[1mLinking C shared library rosidl_generator_py/custom_msgs/custom_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[153.828s] [ 99%] Built target custom_msgs__rosidl_typesupport_c__pyext
+[153.845s] [ 99%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/custom_msgs/_custom_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[154.288s] [100%] [32m[1mLinking C shared library rosidl_generator_py/custom_msgs/custom_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[154.381s] [100%] Built target custom_msgs__rosidl_typesupport_introspection_c__pyext
+[154.451s] Invoked command in '/home/hikari/ROScribe/ros_ws/src/build/custom_msgs' returned '0': AMENT_PREFIX_PATH=/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_generators:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs:/home/hikari/ROScribe/ros_ws/src/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_generators:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs:/opt/ros/humble PYTHONPATH=/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --build /home/hikari/ROScribe/ros_ws/src/build/custom_msgs -- -j8 -l8
+[155.099s] Invoking command in '/home/hikari/ROScribe/ros_ws/src/build/custom_msgs': AMENT_PREFIX_PATH=/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_generators:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs:/home/hikari/ROScribe/ros_ws/src/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_generators:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs:/opt/ros/humble PYTHONPATH=/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --install /home/hikari/ROScribe/ros_ws/src/build/custom_msgs
+[155.170s] -- Install configuration: ""
+[155.172s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/share/ament_index/resource_index/rosidl_interfaces/custom_msgs
+[155.172s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs
+[155.173s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg
+[155.174s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/servo_status.h
+[155.175s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/servo_setpoint.h
+[155.175s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/motor_status.h
+[155.175s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/updated_pid_params.h
+[155.176s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/motor_alerts.h
+[155.176s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/analog_input.h
+[155.177s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/system_feedback.h
+[155.177s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/pwm_command.h
+[155.178s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/system_logs.h
+[155.178s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/target_position.h
+[155.178s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/servo_feedback.h
+[155.179s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/servo_speed.h
+[155.179s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/motor_feedback.h
+[155.179s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/tuning_status.h
+[155.180s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/voltage_reading.h
+[155.180s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/rosidl_generator_c__visibility_control.h
+[155.180s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/battery_status.h
+[155.181s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail
+[155.181s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/voltage_reading__functions.c
+[155.181s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/voltage_reading__functions.h
+[155.182s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/target_position__functions.c
+[155.182s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/servo_setpoint__functions.h
+[155.182s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/system_feedback__functions.c
+[155.183s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/pid_params__functions.h
+[155.183s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/system_logs__functions.h
+[155.183s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/target_position__type_support.h
+[155.184s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/motor_alerts__functions.h
+[155.184s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/system_feedback__type_support.h
+[155.185s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/battery_status__struct.h
+[155.185s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/system_logs__type_support.h
+[155.185s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/servo_status__struct.h
+[155.187s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/pid_params__functions.c
+[155.188s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/servo_status__type_support.h
+[155.189s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/servo_feedback__type_support.h
+[155.189s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/servo_setpoint__functions.c
+[155.190s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/servo_feedback__functions.h
+[155.190s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/tuning_status__functions.c
+[155.190s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/pwm_command__functions.c
+[155.191s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/pid_params__struct.h
+[155.191s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/tuning_status__functions.h
+[155.191s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/battery_status__functions.c
+[155.191s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/motor_alerts__functions.c
+[155.192s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/updated_pid_params__functions.c
+[155.192s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/system_logs__struct.h
+[155.192s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/servo_speed__struct.h
+[155.192s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/motor_feedback__type_support.h
+[155.193s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/motor_feedback__functions.h
+[155.193s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/motor_feedback__functions.c
+[155.194s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/updated_pid_params__type_support.h
+[155.194s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/servo_feedback__functions.c
+[155.194s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/motor_alerts__struct.h
+[155.195s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/pid_params__type_support.h
+[155.195s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/tuning_status__struct.h
+[155.196s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/pwm_command__struct.h
+[155.196s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/motor_status__functions.c
+[155.196s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/system_feedback__functions.h
+[155.196s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/battery_status__type_support.h
+[155.196s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/battery_status__functions.h
+[155.196s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/system_logs__functions.c
+[155.197s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/updated_pid_params__struct.h
+[155.197s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/pwm_command__type_support.h
+[155.197s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/servo_setpoint__struct.h
+[155.198s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/analog_input__functions.h
+[155.198s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/servo_speed__functions.c
+[155.199s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/system_feedback__struct.h
+[155.199s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/servo_speed__functions.h
+[155.200s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/motor_status__type_support.h
+[155.200s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/voltage_reading__type_support.h
+[155.200s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/updated_pid_params__functions.h
+[155.200s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/analog_input__functions.c
+[155.201s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/motor_status__functions.h
+[155.201s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/analog_input__type_support.h
+[155.201s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/tuning_status__type_support.h
+[155.202s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/servo_feedback__struct.h
+[155.203s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/motor_feedback__struct.h
+[155.203s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/servo_status__functions.h
+[155.203s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/servo_speed__type_support.h
+[155.203s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/motor_status__struct.h
+[155.204s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/servo_setpoint__type_support.h
+[155.205s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/pwm_command__functions.h
+[155.206s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/voltage_reading__struct.h
+[155.206s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/servo_status__functions.c
+[155.207s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/target_position__struct.h
+[155.207s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/motor_alerts__type_support.h
+[155.208s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/analog_input__struct.h
+[155.208s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/target_position__functions.h
+[155.209s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/pid_params.h
+[155.209s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/share/custom_msgs/environment/library_path.sh
+[155.210s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/share/custom_msgs/environment/library_path.dsv
+[155.210s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/lib/libcustom_msgs__rosidl_generator_c.so
+[155.210s] -- Set runtime path of "/home/hikari/ROScribe/ros_ws/src/install/custom_msgs/lib/libcustom_msgs__rosidl_generator_c.so" to ""
+[155.211s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs
+[155.211s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg
+[155.211s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[155.211s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail
+[155.212s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/analog_input__rosidl_typesupport_fastrtps_c.h
+[155.212s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/motor_alerts__rosidl_typesupport_fastrtps_c.h
+[155.212s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/servo_speed__rosidl_typesupport_fastrtps_c.h
+[155.213s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/system_logs__rosidl_typesupport_fastrtps_c.h
+[155.213s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/pwm_command__rosidl_typesupport_fastrtps_c.h
+[155.213s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/motor_feedback__rosidl_typesupport_fastrtps_c.h
+[155.214s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/servo_setpoint__rosidl_typesupport_fastrtps_c.h
+[155.214s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/target_position__rosidl_typesupport_fastrtps_c.h
+[155.215s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/voltage_reading__rosidl_typesupport_fastrtps_c.h
+[155.215s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/pid_params__rosidl_typesupport_fastrtps_c.h
+[155.215s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/servo_feedback__rosidl_typesupport_fastrtps_c.h
+[155.216s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/servo_status__rosidl_typesupport_fastrtps_c.h
+[155.216s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/updated_pid_params__rosidl_typesupport_fastrtps_c.h
+[155.216s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/tuning_status__rosidl_typesupport_fastrtps_c.h
+[155.217s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/system_feedback__rosidl_typesupport_fastrtps_c.h
+[155.217s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/motor_status__rosidl_typesupport_fastrtps_c.h
+[155.218s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/battery_status__rosidl_typesupport_fastrtps_c.h
+[155.218s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_fastrtps_c.so
+[155.218s] -- Set runtime path of "/home/hikari/ROScribe/ros_ws/src/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[155.218s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs
+[155.219s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg
+[155.219s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[155.219s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail
+[155.220s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/servo_speed__rosidl_typesupport_introspection_c.h
+[155.220s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/servo_setpoint__type_support.c
+[155.220s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/motor_alerts__rosidl_typesupport_introspection_c.h
+[155.220s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/servo_status__type_support.c
+[155.220s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/motor_status__rosidl_typesupport_introspection_c.h
+[155.221s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/system_feedback__rosidl_typesupport_introspection_c.h
+[155.221s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/servo_feedback__type_support.c
+[155.221s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/target_position__rosidl_typesupport_introspection_c.h
+[155.222s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/pid_params__type_support.c
+[155.222s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/pwm_command__type_support.c
+[155.222s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/tuning_status__rosidl_typesupport_introspection_c.h
+[155.223s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/voltage_reading__type_support.c
+[155.223s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/pwm_command__rosidl_typesupport_introspection_c.h
+[155.223s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/battery_status__type_support.c
+[155.223s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/updated_pid_params__type_support.c
+[155.224s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/motor_feedback__rosidl_typesupport_introspection_c.h
+[155.224s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/battery_status__rosidl_typesupport_introspection_c.h
+[155.224s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/tuning_status__type_support.c
+[155.224s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/motor_status__type_support.c
+[155.225s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/system_logs__type_support.c
+[155.225s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/pid_params__rosidl_typesupport_introspection_c.h
+[155.225s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/system_logs__rosidl_typesupport_introspection_c.h
+[155.226s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/system_feedback__type_support.c
+[155.226s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/voltage_reading__rosidl_typesupport_introspection_c.h
+[155.226s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/motor_alerts__type_support.c
+[155.227s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/analog_input__rosidl_typesupport_introspection_c.h
+[155.227s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/servo_feedback__rosidl_typesupport_introspection_c.h
+[155.228s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/servo_setpoint__rosidl_typesupport_introspection_c.h
+[155.228s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/servo_speed__type_support.c
+[155.229s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/updated_pid_params__rosidl_typesupport_introspection_c.h
+[155.229s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/servo_status__rosidl_typesupport_introspection_c.h
+[155.229s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/motor_feedback__type_support.c
+[155.230s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/target_position__type_support.c
+[155.230s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/analog_input__type_support.c
+[155.230s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_introspection_c.so
+[155.230s] -- Set runtime path of "/home/hikari/ROScribe/ros_ws/src/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_introspection_c.so" to ""
+[155.230s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_c.so
+[155.231s] -- Set runtime path of "/home/hikari/ROScribe/ros_ws/src/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_c.so" to ""
+[155.232s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs
+[155.232s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg
+[155.232s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/updated_pid_params.hpp
+[155.233s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/system_logs.hpp
+[155.233s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/voltage_reading.hpp
+[155.234s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/servo_speed.hpp
+[155.234s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/motor_feedback.hpp
+[155.234s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/analog_input.hpp
+[155.235s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/servo_setpoint.hpp
+[155.236s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/tuning_status.hpp
+[155.236s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/pid_params.hpp
+[155.237s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/battery_status.hpp
+[155.237s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/motor_status.hpp
+[155.237s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/motor_alerts.hpp
+[155.238s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/target_position.hpp
+[155.238s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/pwm_command.hpp
+[155.239s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/servo_status.hpp
+[155.239s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/servo_feedback.hpp
+[155.239s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail
+[155.239s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/battery_status__traits.hpp
+[155.239s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/target_position__builder.hpp
+[155.240s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/target_position__struct.hpp
+[155.240s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/system_logs__builder.hpp
+[155.241s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/pid_params__builder.hpp
+[155.241s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/target_position__traits.hpp
+[155.242s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/updated_pid_params__builder.hpp
+[155.242s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/motor_status__builder.hpp
+[155.242s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/servo_status__builder.hpp
+[155.243s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/servo_speed__builder.hpp
+[155.244s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/voltage_reading__struct.hpp
+[155.244s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/pid_params__struct.hpp
+[155.244s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/servo_feedback__traits.hpp
+[155.245s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/battery_status__builder.hpp
+[155.245s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/pwm_command__builder.hpp
+[155.246s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/updated_pid_params__struct.hpp
+[155.246s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/servo_speed__traits.hpp
+[155.246s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/pwm_command__struct.hpp
+[155.247s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/motor_status__traits.hpp
+[155.247s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/servo_status__struct.hpp
+[155.248s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/motor_alerts__builder.hpp
+[155.248s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/servo_feedback__struct.hpp
+[155.248s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/tuning_status__traits.hpp
+[155.249s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/motor_feedback__builder.hpp
+[155.249s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/system_feedback__traits.hpp
+[155.249s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/servo_status__traits.hpp
+[155.250s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/updated_pid_params__traits.hpp
+[155.250s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/system_logs__struct.hpp
+[155.250s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/servo_setpoint__builder.hpp
+[155.251s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/tuning_status__struct.hpp
+[155.251s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/servo_setpoint__struct.hpp
+[155.252s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/motor_feedback__struct.hpp
+[155.252s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/analog_input__builder.hpp
+[155.252s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/analog_input__struct.hpp
+[155.253s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/battery_status__struct.hpp
+[155.253s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/motor_status__struct.hpp
+[155.253s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/system_feedback__struct.hpp
+[155.254s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/pid_params__traits.hpp
+[155.254s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/system_logs__traits.hpp
+[155.255s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/motor_alerts__struct.hpp
+[155.255s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/system_feedback__builder.hpp
+[155.255s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/motor_feedback__traits.hpp
+[155.256s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/pwm_command__traits.hpp
+[155.256s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/motor_alerts__traits.hpp
+[155.256s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/analog_input__traits.hpp
+[155.256s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/servo_speed__struct.hpp
+[155.257s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/voltage_reading__traits.hpp
+[155.258s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/servo_feedback__builder.hpp
+[155.258s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/servo_setpoint__traits.hpp
+[155.259s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/tuning_status__builder.hpp
+[155.259s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/voltage_reading__builder.hpp
+[155.260s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/system_feedback.hpp
+[155.261s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs
+[155.261s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg
+[155.262s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[155.262s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail
+[155.263s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/motor_status__rosidl_typesupport_fastrtps_cpp.hpp
+[155.263s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/voltage_reading__rosidl_typesupport_fastrtps_cpp.hpp
+[155.264s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/motor_feedback__rosidl_typesupport_fastrtps_cpp.hpp
+[155.264s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/target_position__rosidl_typesupport_fastrtps_cpp.hpp
+[155.264s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/analog_input__rosidl_typesupport_fastrtps_cpp.hpp
+[155.264s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/servo_speed__rosidl_typesupport_fastrtps_cpp.hpp
+[155.265s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/system_feedback__rosidl_typesupport_fastrtps_cpp.hpp
+[155.265s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/motor_alerts__rosidl_typesupport_fastrtps_cpp.hpp
+[155.266s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/tuning_status__rosidl_typesupport_fastrtps_cpp.hpp
+[155.266s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/dds_fastrtps
+[155.266s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/servo_status__rosidl_typesupport_fastrtps_cpp.hpp
+[155.267s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/servo_setpoint__rosidl_typesupport_fastrtps_cpp.hpp
+[155.267s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/servo_feedback__rosidl_typesupport_fastrtps_cpp.hpp
+[155.267s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/updated_pid_params__rosidl_typesupport_fastrtps_cpp.hpp
+[155.268s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/battery_status__rosidl_typesupport_fastrtps_cpp.hpp
+[155.269s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/pid_params__rosidl_typesupport_fastrtps_cpp.hpp
+[155.269s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/system_logs__rosidl_typesupport_fastrtps_cpp.hpp
+[155.269s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/pwm_command__rosidl_typesupport_fastrtps_cpp.hpp
+[155.270s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_fastrtps_cpp.so
+[155.270s] -- Set runtime path of "/home/hikari/ROScribe/ros_ws/src/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[155.271s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs
+[155.271s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg
+[155.272s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail
+[155.272s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/battery_status__type_support.cpp
+[155.272s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/system_logs__type_support.cpp
+[155.272s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/system_feedback__rosidl_typesupport_introspection_cpp.hpp
+[155.272s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/motor_feedback__type_support.cpp
+[155.272s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/voltage_reading__type_support.cpp
+[155.272s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/motor_alerts__rosidl_typesupport_introspection_cpp.hpp
+[155.273s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/analog_input__rosidl_typesupport_introspection_cpp.hpp
+[155.273s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/tuning_status__type_support.cpp
+[155.273s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/motor_feedback__rosidl_typesupport_introspection_cpp.hpp
+[155.274s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/updated_pid_params__rosidl_typesupport_introspection_cpp.hpp
+[155.274s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/battery_status__rosidl_typesupport_introspection_cpp.hpp
+[155.275s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/voltage_reading__rosidl_typesupport_introspection_cpp.hpp
+[155.275s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/tuning_status__rosidl_typesupport_introspection_cpp.hpp
+[155.276s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/servo_setpoint__type_support.cpp
+[155.276s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/servo_feedback__type_support.cpp
+[155.276s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/system_feedback__type_support.cpp
+[155.277s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/target_position__type_support.cpp
+[155.277s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/pwm_command__rosidl_typesupport_introspection_cpp.hpp
+[155.278s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/updated_pid_params__type_support.cpp
+[155.278s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/analog_input__type_support.cpp
+[155.278s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/pid_params__rosidl_typesupport_introspection_cpp.hpp
+[155.279s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/pwm_command__type_support.cpp
+[155.280s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/servo_status__rosidl_typesupport_introspection_cpp.hpp
+[155.280s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/system_logs__rosidl_typesupport_introspection_cpp.hpp
+[155.281s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/servo_speed__type_support.cpp
+[155.281s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/target_position__rosidl_typesupport_introspection_cpp.hpp
+[155.281s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/servo_status__type_support.cpp
+[155.282s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/pid_params__type_support.cpp
+[155.282s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/servo_feedback__rosidl_typesupport_introspection_cpp.hpp
+[155.282s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/motor_status__rosidl_typesupport_introspection_cpp.hpp
+[155.283s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/motor_alerts__type_support.cpp
+[155.283s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/servo_speed__rosidl_typesupport_introspection_cpp.hpp
+[155.283s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/motor_status__type_support.cpp
+[155.284s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/servo_setpoint__rosidl_typesupport_introspection_cpp.hpp
+[155.284s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_introspection_cpp.so
+[155.285s] -- Set runtime path of "/home/hikari/ROScribe/ros_ws/src/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[155.285s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_cpp.so
+[155.285s] -- Set runtime path of "/home/hikari/ROScribe/ros_ws/src/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_cpp.so" to ""
+[155.286s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/share/ament_index/resource_index/rust_packages/custom_msgs
+[155.286s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/share/custom_msgs/rust
+[155.287s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/share/custom_msgs/rust/src
+[155.287s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/share/custom_msgs/rust/src/msg.rs
+[155.288s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/share/custom_msgs/rust/src/lib.rs
+[155.288s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/share/custom_msgs/rust/Cargo.toml
+[155.289s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/share/custom_msgs/rust/build.rs
+[155.289s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/share/custom_msgs/rust
+[155.289s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/share/custom_msgs/rust/src
+[155.290s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/share/custom_msgs/rust/src/msg.rs
+[155.290s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/share/custom_msgs/rust/src/lib.rs
+[155.290s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/share/custom_msgs/rust/Cargo.toml
+[155.290s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/share/custom_msgs/rust/build.rs
+[155.290s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/share/custom_msgs/rust
+[155.290s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/share/custom_msgs/rust/src
+[155.291s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/share/custom_msgs/rust/src/msg.rs
+[155.291s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/share/custom_msgs/rust/src/lib.rs
+[155.291s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/share/custom_msgs/rust/Cargo.toml
+[155.291s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/share/custom_msgs/rust/build.rs
+[155.292s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/share/custom_msgs/environment/pythonpath.sh
+[155.292s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/share/custom_msgs/environment/pythonpath.dsv
+[155.292s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs-0.1.0-py3.10.egg-info
+[155.293s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs-0.1.0-py3.10.egg-info/top_level.txt
+[155.294s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs-0.1.0-py3.10.egg-info/dependency_links.txt
+[155.294s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs-0.1.0-py3.10.egg-info/SOURCES.txt
+[155.295s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs-0.1.0-py3.10.egg-info/PKG-INFO
+[155.295s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs
+[155.295s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[155.296s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/_custom_msgs_s.ep.rosidl_typesupport_c.c
+[155.296s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/_custom_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[155.297s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[155.298s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/libcustom_msgs__rosidl_generator_py.so
+[155.298s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg
+[155.298s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/_system_feedback_s.c
+[155.299s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/_battery_status_s.c
+[155.299s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/_pwm_command.py
+[155.300s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/_target_position.py
+[155.300s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/_motor_status_s.c
+[155.300s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/_servo_speed_s.c
+[155.301s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/_analog_input.py
+[155.301s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/_motor_status.py
+[155.301s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/_analog_input_s.c
+[155.302s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/_tuning_status.py
+[155.302s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/_motor_alerts.py
+[155.302s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/_updated_pid_params_s.c
+[155.303s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/_servo_setpoint.py
+[155.303s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/_servo_speed.py
+[155.303s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/_pid_params_s.c
+[155.303s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/_voltage_reading.py
+[155.304s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/_pid_params.py
+[155.304s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/_pwm_command_s.c
+[155.304s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/_target_position_s.c
+[155.305s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/_servo_feedback_s.c
+[155.306s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/_system_logs.py
+[155.307s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/_tuning_status_s.c
+[155.307s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/_motor_alerts_s.c
+[155.308s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/_motor_feedback_s.c
+[155.308s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/_updated_pid_params.py
+[155.308s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/_servo_setpoint_s.c
+[155.309s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/_system_logs_s.c
+[155.310s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/_voltage_reading_s.c
+[155.310s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/_servo_feedback.py
+[155.310s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/_battery_status.py
+[155.310s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/_system_feedback.py
+[155.311s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/_servo_status.py
+[155.311s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/__init__.py
+[155.312s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/_motor_feedback.py
+[155.312s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/_servo_status_s.c
+[155.312s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[155.313s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/_custom_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[155.314s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/__init__.py
+[155.442s] Listing '/home/hikari/ROScribe/ros_ws/src/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs'...
+[155.442s] Compiling '/home/hikari/ROScribe/ros_ws/src/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/__init__.py'...
+[155.442s] Listing '/home/hikari/ROScribe/ros_ws/src/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg'...
+[155.443s] Compiling '/home/hikari/ROScribe/ros_ws/src/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/__init__.py'...
+[155.443s] Compiling '/home/hikari/ROScribe/ros_ws/src/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/_analog_input.py'...
+[155.443s] Compiling '/home/hikari/ROScribe/ros_ws/src/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/_battery_status.py'...
+[155.443s] Compiling '/home/hikari/ROScribe/ros_ws/src/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/_motor_alerts.py'...
+[155.443s] Compiling '/home/hikari/ROScribe/ros_ws/src/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/_motor_feedback.py'...
+[155.443s] Compiling '/home/hikari/ROScribe/ros_ws/src/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/_motor_status.py'...
+[155.444s] Compiling '/home/hikari/ROScribe/ros_ws/src/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/_pid_params.py'...
+[155.444s] Compiling '/home/hikari/ROScribe/ros_ws/src/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/_pwm_command.py'...
+[155.444s] Compiling '/home/hikari/ROScribe/ros_ws/src/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/_servo_feedback.py'...
+[155.444s] Compiling '/home/hikari/ROScribe/ros_ws/src/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/_servo_setpoint.py'...
+[155.444s] Compiling '/home/hikari/ROScribe/ros_ws/src/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/_servo_speed.py'...
+[155.445s] Compiling '/home/hikari/ROScribe/ros_ws/src/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/_servo_status.py'...
+[155.445s] Compiling '/home/hikari/ROScribe/ros_ws/src/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/_system_feedback.py'...
+[155.445s] Compiling '/home/hikari/ROScribe/ros_ws/src/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/_system_logs.py'...
+[155.445s] Compiling '/home/hikari/ROScribe/ros_ws/src/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/_target_position.py'...
+[155.445s] Compiling '/home/hikari/ROScribe/ros_ws/src/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/_tuning_status.py'...
+[155.445s] Compiling '/home/hikari/ROScribe/ros_ws/src/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/_updated_pid_params.py'...
+[155.446s] Compiling '/home/hikari/ROScribe/ros_ws/src/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/_voltage_reading.py'...
+[155.454s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[155.455s] -- Set runtime path of "/home/hikari/ROScribe/ros_ws/src/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[155.455s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[155.456s] -- Set runtime path of "/home/hikari/ROScribe/ros_ws/src/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[155.456s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[155.457s] -- Set runtime path of "/home/hikari/ROScribe/ros_ws/src/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[155.457s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/lib/libcustom_msgs__rosidl_generator_py.so
+[155.458s] -- Set runtime path of "/home/hikari/ROScribe/ros_ws/src/install/custom_msgs/lib/libcustom_msgs__rosidl_generator_py.so" to ""
+[155.458s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/share/custom_msgs/msg/AnalogInput.idl
+[155.459s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/share/custom_msgs/msg/PWMCommand.idl
+[155.459s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/share/custom_msgs/msg/MotorStatus.idl
+[155.459s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/share/custom_msgs/msg/MotorFeedback.idl
+[155.460s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/share/custom_msgs/msg/MotorAlerts.idl
+[155.460s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/share/custom_msgs/msg/SystemFeedback.idl
+[155.460s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/share/custom_msgs/msg/PIDParams.idl
+[155.461s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/share/custom_msgs/msg/UpdatedPIDParams.idl
+[155.461s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/share/custom_msgs/msg/TuningStatus.idl
+[155.462s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/share/custom_msgs/msg/ServoFeedback.idl
+[155.462s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/share/custom_msgs/msg/ServoSetpoint.idl
+[155.463s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/share/custom_msgs/msg/ServoStatus.idl
+[155.463s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/share/custom_msgs/msg/BatteryStatus.idl
+[155.464s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/share/custom_msgs/msg/ServoSpeed.idl
+[155.464s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/share/custom_msgs/msg/TargetPosition.idl
+[155.465s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/share/custom_msgs/msg/SystemLogs.idl
+[155.465s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/share/custom_msgs/msg/VoltageReading.idl
+[155.465s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/share/custom_msgs/msg/AnalogInput.msg
+[155.466s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/share/custom_msgs/msg/PWMCommand.msg
+[155.466s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/share/custom_msgs/msg/MotorStatus.msg
+[155.467s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/share/custom_msgs/msg/MotorFeedback.msg
+[155.468s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/share/custom_msgs/msg/MotorAlerts.msg
+[155.469s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/share/custom_msgs/msg/SystemFeedback.msg
+[155.469s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/share/custom_msgs/msg/PIDParams.msg
+[155.470s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/share/custom_msgs/msg/UpdatedPIDParams.msg
+[155.470s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/share/custom_msgs/msg/TuningStatus.msg
+[155.471s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/share/custom_msgs/msg/ServoFeedback.msg
+[155.471s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/share/custom_msgs/msg/ServoSetpoint.msg
+[155.472s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/share/custom_msgs/msg/ServoStatus.msg
+[155.472s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/share/custom_msgs/msg/BatteryStatus.msg
+[155.472s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/share/custom_msgs/msg/ServoSpeed.msg
+[155.473s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/share/custom_msgs/msg/TargetPosition.msg
+[155.473s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/share/custom_msgs/msg/SystemLogs.msg
+[155.474s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/share/custom_msgs/msg/VoltageReading.msg
+[155.475s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/share/ament_index/resource_index/package_run_dependencies/custom_msgs
+[155.476s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/share/ament_index/resource_index/parent_prefix_path/custom_msgs
+[155.476s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/share/custom_msgs/environment/ament_prefix_path.sh
+[155.477s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/share/custom_msgs/environment/ament_prefix_path.dsv
+[155.477s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/share/custom_msgs/environment/path.sh
+[155.477s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/share/custom_msgs/environment/path.dsv
+[155.478s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/share/custom_msgs/local_setup.bash
+[155.478s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/share/custom_msgs/local_setup.sh
+[155.479s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/share/custom_msgs/local_setup.zsh
+[155.479s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/share/custom_msgs/local_setup.dsv
+[155.479s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/share/custom_msgs/package.dsv
+[155.480s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/share/ament_index/resource_index/packages/custom_msgs
+[155.481s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_generator_cExport.cmake
+[155.482s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_generator_cExport-noconfig.cmake
+[155.482s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[155.483s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[155.483s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_introspection_cExport.cmake
+[155.484s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[155.484s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_cExport.cmake
+[155.484s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[155.485s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_generator_cppExport.cmake
+[155.485s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[155.486s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[155.486s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[155.487s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[155.487s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_cppExport.cmake
+[155.487s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[155.488s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_generator_pyExport.cmake
+[155.489s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_generator_pyExport-noconfig.cmake
+[155.489s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/share/custom_msgs/cmake/rosidl_cmake-extras.cmake
+[155.490s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/share/custom_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[155.490s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/share/custom_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[155.491s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/share/custom_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[155.491s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/share/custom_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[155.492s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/share/custom_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[155.492s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/share/custom_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[155.493s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/share/custom_msgs/cmake/custom_msgsConfig.cmake
+[155.493s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/share/custom_msgs/cmake/custom_msgsConfig-version.cmake
+[155.494s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/custom_msgs/share/custom_msgs/package.xml
+[155.508s] Invoked command in '/home/hikari/ROScribe/ros_ws/src/build/custom_msgs' returned '0': AMENT_PREFIX_PATH=/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_generators:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs:/home/hikari/ROScribe/ros_ws/src/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_generators:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs:/opt/ros/humble PYTHONPATH=/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --install /home/hikari/ROScribe/ros_ws/src/build/custom_msgs

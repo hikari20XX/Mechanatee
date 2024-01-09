@@ -1,0 +1,507 @@
+[0.356s] Invoking command in '/home/hikari/ROScribe/ros_ws/src/build/nav_msgs': AMENT_PREFIX_PATH=/home/hikari/ROScribe/ros_ws/src/install/geometry_msgs:/home/hikari/ROScribe/ros_ws/src/install/std_msgs:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_runtime:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_generators:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs:/home/hikari/ROScribe/ros_ws/src/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hikari/ROScribe/ros_ws/src/install/geometry_msgs:/home/hikari/ROScribe/ros_ws/src/install/std_msgs:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_runtime:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_generators:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs:/opt/ros/humble LD_LIBRARY_PATH=/home/hikari/ROScribe/ros_ws/src/install/geometry_msgs/lib:/home/hikari/ROScribe/ros_ws/src/install/std_msgs/lib:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hikari/ROScribe/ros_ws/src/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/hikari/ROScribe/ros_ws/src/install/std_msgs/local/lib/python3.10/dist-packages:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces/local/lib/python3.10/dist-packages:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake /home/hikari/ROScribe/ros_ws/src/ros2/common_interfaces/nav_msgs -DCMAKE_INSTALL_PREFIX=/home/hikari/ROScribe/ros_ws/src/install/nav_msgs
+[0.543s] -- The C compiler identification is GNU 11.4.0
+[0.767s] -- The CXX compiler identification is GNU 11.4.0
+[0.891s] -- Detecting C compiler ABI info
+[1.034s] -- Detecting C compiler ABI info - done
+[1.066s] -- Check for working C compiler: /usr/lib/ccache/cc - skipped
+[1.067s] -- Detecting C compile features
+[1.068s] -- Detecting C compile features - done
+[1.079s] -- Detecting CXX compiler ABI info
+[1.206s] -- Detecting CXX compiler ABI info - done
+[1.235s] -- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped
+[1.235s] -- Detecting CXX compile features
+[1.237s] -- Detecting CXX compile features - done
+[1.255s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.996s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[4.337s] -- Found builtin_interfaces: 1.2.1 (/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces/share/builtin_interfaces/cmake)
+[4.557s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.569s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.592s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.661s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.717s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.771s] -- Found geometry_msgs: 4.2.3 (/home/hikari/ROScribe/ros_ws/src/install/geometry_msgs/share/geometry_msgs/cmake)
+[5.092s] -- Found rosidl_default_generators: 1.2.0 (/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_generators/share/rosidl_default_generators/cmake)
+[5.921s] -- Found ament_cmake_cppcheck: 0.12.8 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[5.925s] -- Found ament_cmake_cpplint: 0.12.8 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[5.931s] -- Found ament_cmake_uncrustify: 0.12.8 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[5.937s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[6.881s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.281s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.291s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[8.086s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[8.803s] -- Found FastRTPS: /opt/ros/humble/include  
+[10.400s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[10.404s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[10.660s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[10.661s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[10.661s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[10.661s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[10.749s] -- Found PythonExtra: .so  
+[11.108s] -- Found ament_cmake_flake8: 0.12.8 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[11.118s] -- Found ament_cmake_pep257: 0.12.8 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[11.156s] -- Configuring done
+[11.394s] -- Generating done
+[11.406s] -- Build files have been written to: /home/hikari/ROScribe/ros_ws/src/build/nav_msgs
+[11.485s] Invoked command in '/home/hikari/ROScribe/ros_ws/src/build/nav_msgs' returned '0': AMENT_PREFIX_PATH=/home/hikari/ROScribe/ros_ws/src/install/geometry_msgs:/home/hikari/ROScribe/ros_ws/src/install/std_msgs:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_runtime:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_generators:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs:/home/hikari/ROScribe/ros_ws/src/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hikari/ROScribe/ros_ws/src/install/geometry_msgs:/home/hikari/ROScribe/ros_ws/src/install/std_msgs:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_runtime:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_generators:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs:/opt/ros/humble LD_LIBRARY_PATH=/home/hikari/ROScribe/ros_ws/src/install/geometry_msgs/lib:/home/hikari/ROScribe/ros_ws/src/install/std_msgs/lib:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hikari/ROScribe/ros_ws/src/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/hikari/ROScribe/ros_ws/src/install/std_msgs/local/lib/python3.10/dist-packages:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces/local/lib/python3.10/dist-packages:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake /home/hikari/ROScribe/ros_ws/src/ros2/common_interfaces/nav_msgs -DCMAKE_INSTALL_PREFIX=/home/hikari/ROScribe/ros_ws/src/install/nav_msgs
+[11.486s] Invoking command in '/home/hikari/ROScribe/ros_ws/src/build/nav_msgs': AMENT_PREFIX_PATH=/home/hikari/ROScribe/ros_ws/src/install/geometry_msgs:/home/hikari/ROScribe/ros_ws/src/install/std_msgs:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_runtime:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_generators:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs:/home/hikari/ROScribe/ros_ws/src/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hikari/ROScribe/ros_ws/src/install/geometry_msgs:/home/hikari/ROScribe/ros_ws/src/install/std_msgs:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_runtime:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_generators:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs:/opt/ros/humble LD_LIBRARY_PATH=/home/hikari/ROScribe/ros_ws/src/install/geometry_msgs/lib:/home/hikari/ROScribe/ros_ws/src/install/std_msgs/lib:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hikari/ROScribe/ros_ws/src/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/hikari/ROScribe/ros_ws/src/install/std_msgs/local/lib/python3.10/dist-packages:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces/local/lib/python3.10/dist-packages:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --build /home/hikari/ROScribe/ros_ws/src/build/nav_msgs -- -j8 -l8
+[11.829s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[11.908s] [  2%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[11.908s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[11.958s] [  3%] Built target ament_cmake_python_copy_nav_msgs
+[13.680s] running egg_info
+[13.700s] creating nav_msgs.egg-info
+[13.956s] writing nav_msgs.egg-info/PKG-INFO
+[13.957s] writing dependency_links to nav_msgs.egg-info/dependency_links.txt
+[13.957s] writing top-level names to nav_msgs.egg-info/top_level.txt
+[13.975s] writing manifest file 'nav_msgs.egg-info/SOURCES.txt'
+[14.681s] reading manifest file 'nav_msgs.egg-info/SOURCES.txt'
+[14.682s] writing manifest file 'nav_msgs.egg-info/SOURCES.txt'
+[14.906s] [  3%] Built target ament_cmake_python_build_nav_msgs_egg
+[17.142s] [  3%] Built target nav_msgs__rs
+[20.278s] [  3%] Built target nav_msgs__cpp
+[20.772s] [  4%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/msg/detail/grid_cells__functions.c.o[0m
+[21.198s] [  5%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/msg/detail/path__functions.c.o[0m
+[21.513s] [  6%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/srv/detail/get_map__functions.c.o[0m
+[21.970s] [  7%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/srv/detail/get_plan__functions.c.o[0m
+[22.539s] [  8%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/srv/detail/load_map__functions.c.o[0m
+[23.005s] [  9%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/srv/detail/set_map__functions.c.o[0m
+[23.438s] [ 10%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/msg/detail/odometry__functions.c.o[0m
+[23.888s] [ 11%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/msg/detail/occupancy_grid__functions.c.o[0m
+[24.311s] [ 12%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/msg/detail/map_meta_data__functions.c.o[0m
+[24.794s] [ 13%] [32m[1mLinking C shared library libnav_msgs__rosidl_generator_c.so[0m
+[24.986s] [ 13%] Built target nav_msgs__rosidl_generator_c
+[25.020s] [ 14%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[28.146s] [ 15%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_msgs/msg/grid_cells__type_support.cpp.o[0m
+[29.414s] [ 16%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_msgs/msg/occupancy_grid__type_support.cpp.o[0m
+[30.340s] [ 17%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_msgs/msg/odometry__type_support.cpp.o[0m
+[31.261s] [ 18%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_msgs/msg/path__type_support.cpp.o[0m
+[32.188s] [ 19%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_msgs/srv/get_map__type_support.cpp.o[0m
+[33.001s] [ 20%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_msgs/srv/get_plan__type_support.cpp.o[0m
+[33.731s] [ 21%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_msgs/srv/load_map__type_support.cpp.o[0m
+[34.453s] [ 22%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_msgs/srv/set_map__type_support.cpp.o[0m
+[35.159s] [ 23%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_msgs/msg/map_meta_data__type_support.cpp.o[0m
+[35.882s] [ 25%] [32m[1mLinking CXX shared library libnav_msgs__rosidl_typesupport_cpp.so[0m
+[35.992s] [ 25%] Built target nav_msgs__rosidl_typesupport_cpp
+[36.001s] [ 26%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[37.661s] [ 27%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_msgs/msg/grid_cells__type_support.cpp.o[0m
+[37.720s] [ 28%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_msgs/msg/odometry__type_support.cpp.o[0m
+[37.787s] [ 29%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_msgs/msg/path__type_support.cpp.o[0m
+[37.869s] [ 30%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_msgs/srv/get_map__type_support.cpp.o[0m
+[37.949s] [ 31%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_msgs/srv/get_plan__type_support.cpp.o[0m
+[38.046s] [ 32%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_msgs/srv/load_map__type_support.cpp.o[0m
+[38.134s] [ 33%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_msgs/srv/set_map__type_support.cpp.o[0m
+[38.214s] [ 34%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_msgs/msg/occupancy_grid__type_support.cpp.o[0m
+[38.289s] [ 35%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_msgs/msg/map_meta_data__type_support.cpp.o[0m
+[38.355s] [ 36%] [32m[1mLinking CXX shared library libnav_msgs__rosidl_typesupport_c.so[0m
+[38.461s] [ 36%] Built target nav_msgs__rosidl_typesupport_c
+[38.471s] [ 37%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[40.644s] [ 38%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_msgs/msg/detail/grid_cells__type_support.c.o[0m
+[40.793s] [ 39%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_msgs/msg/detail/path__type_support.c.o[0m
+[40.893s] [ 40%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_msgs/srv/detail/get_map__type_support.c.o[0m
+[40.970s] [ 41%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_msgs/srv/detail/get_plan__type_support.c.o[0m
+[41.080s] [ 42%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_msgs/srv/detail/load_map__type_support.c.o[0m
+[41.181s] [ 43%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_msgs/srv/detail/set_map__type_support.c.o[0m
+[41.288s] [ 44%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_msgs/msg/detail/odometry__type_support.c.o[0m
+[41.384s] [ 45%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_msgs/msg/detail/occupancy_grid__type_support.c.o[0m
+[41.491s] [ 46%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_msgs/msg/detail/map_meta_data__type_support.c.o[0m
+[41.597s] [ 47%] [32m[1mLinking C shared library libnav_msgs__rosidl_typesupport_introspection_c.so[0m
+[41.680s] [ 47%] Built target nav_msgs__rosidl_typesupport_introspection_c
+[41.687s] [ 48%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[43.630s] [ 50%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_msgs/msg/detail/grid_cells__type_support_c.cpp.o[0m
+[44.410s] [ 51%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_msgs/srv/detail/get_map__type_support_c.cpp.o[0m
+[45.248s] [ 52%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_msgs/srv/detail/get_plan__type_support_c.cpp.o[0m
+[46.193s] [ 54%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_msgs/msg/detail/path__type_support_c.cpp.o[0m
+[46.193s] [ 54%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_msgs/srv/detail/load_map__type_support_c.cpp.o[0m
+[47.338s] [ 55%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_msgs/srv/detail/set_map__type_support_c.cpp.o[0m
+[47.377s] [ 56%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_msgs/msg/detail/odometry__type_support_c.cpp.o[0m
+[48.298s] [ 57%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_msgs/msg/detail/occupancy_grid__type_support_c.cpp.o[0m
+[48.311s] [ 58%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_msgs/msg/detail/map_meta_data__type_support_c.cpp.o[0m
+[49.244s] [ 59%] [32m[1mLinking CXX shared library libnav_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[49.415s] [ 59%] Built target nav_msgs__rosidl_typesupport_fastrtps_c
+[49.423s] [ 60%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[49.424s] [ 61%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[51.782s] [ 62%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_msgs/msg/detail/grid_cells__type_support.cpp.o[0m
+[51.790s] [ 63%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_msgs/msg/detail/map_meta_data__type_support.cpp.o[0m
+[51.802s] [ 64%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_msgs/msg/detail/occupancy_grid__type_support.cpp.o[0m
+[52.222s] [ 65%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_msgs/msg/detail/dds_fastrtps/grid_cells__type_support.cpp.o[0m
+[52.868s] [ 66%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_msgs/srv/detail/get_plan__type_support.cpp.o[0m
+[52.878s] [ 67%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_msgs/srv/detail/get_map__type_support.cpp.o[0m
+[53.440s] [ 68%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_msgs/msg/detail/path__type_support.cpp.o[0m
+[53.440s] [ 69%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_msgs/msg/detail/dds_fastrtps/map_meta_data__type_support.cpp.o[0m
+[53.493s] [ 70%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_msgs/msg/detail/dds_fastrtps/occupancy_grid__type_support.cpp.o[0m
+[53.519s] [ 71%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_msgs/msg/detail/odometry__type_support.cpp.o[0m
+[53.598s] [ 72%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_msgs/srv/detail/load_map__type_support.cpp.o[0m
+[53.881s] [ 73%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_msgs/msg/detail/dds_fastrtps/odometry__type_support.cpp.o[0m
+[54.551s] [ 75%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_msgs/srv/detail/set_map__type_support.cpp.o[0m
+[54.666s] [ 76%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_msgs/msg/detail/dds_fastrtps/path__type_support.cpp.o[0m
+[55.017s] [ 77%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_msgs/srv/detail/dds_fastrtps/get_map__type_support.cpp.o[0m
+[55.801s] [ 78%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_msgs/srv/detail/dds_fastrtps/set_map__type_support.cpp.o[0m
+[55.807s] [ 79%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_msgs/srv/detail/dds_fastrtps/load_map__type_support.cpp.o[0m
+[56.206s] [ 80%] [32m[1mLinking CXX shared library libnav_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[56.412s] [ 81%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_msgs/srv/detail/dds_fastrtps/get_plan__type_support.cpp.o[0m
+[56.463s] [ 81%] Built target nav_msgs__rosidl_typesupport_introspection_cpp
+[57.575s] [ 82%] [32m[1mLinking CXX shared library libnav_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[57.743s] [ 82%] Built target nav_msgs__rosidl_typesupport_fastrtps_cpp
+[57.755s] [ 82%] Built target nav_msgs
+[57.771s] [ 83%] [34m[1mGenerating Python code for ROS interfaces[0m
+[61.728s] [ 83%] Built target nav_msgs__py
+[61.745s] [ 85%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav_msgs/msg/_occupancy_grid_s.c.o[0m
+[61.745s] [ 86%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav_msgs/msg/_map_meta_data_s.c.o[0m
+[61.745s] [ 86%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav_msgs/msg/_grid_cells_s.c.o[0m
+[62.218s] [ 87%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav_msgs/srv/_load_map_s.c.o[0m
+[62.220s] [ 88%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav_msgs/srv/_set_map_s.c.o[0m
+[62.221s] [ 89%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav_msgs/srv/_get_plan_s.c.o[0m
+[62.700s] [ 91%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav_msgs/srv/_get_map_s.c.o[0m
+[62.701s] [ 91%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav_msgs/msg/_path_s.c.o[0m
+[62.701s] [ 92%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav_msgs/msg/_odometry_s.c.o[0m
+[63.176s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/nav_msgs/libnav_msgs__rosidl_generator_py.so[0m
+[63.318s] [ 93%] Built target nav_msgs__rosidl_generator_py
+[63.340s] [ 94%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/nav_msgs/_nav_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[63.353s] [ 95%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/nav_msgs/_nav_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[63.369s] [ 96%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/nav_msgs/_nav_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[63.998s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/nav_msgs/nav_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[64.039s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/nav_msgs/nav_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[64.223s] [100%] [32m[1mLinking C shared library rosidl_generator_py/nav_msgs/nav_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[64.235s] [100%] Built target nav_msgs__rosidl_typesupport_fastrtps_c__pyext
+[64.257s] [100%] Built target nav_msgs__rosidl_typesupport_introspection_c__pyext
+[64.374s] [100%] Built target nav_msgs__rosidl_typesupport_c__pyext
+[64.408s] Invoked command in '/home/hikari/ROScribe/ros_ws/src/build/nav_msgs' returned '0': AMENT_PREFIX_PATH=/home/hikari/ROScribe/ros_ws/src/install/geometry_msgs:/home/hikari/ROScribe/ros_ws/src/install/std_msgs:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_runtime:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_generators:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs:/home/hikari/ROScribe/ros_ws/src/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hikari/ROScribe/ros_ws/src/install/geometry_msgs:/home/hikari/ROScribe/ros_ws/src/install/std_msgs:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_runtime:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_generators:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs:/opt/ros/humble LD_LIBRARY_PATH=/home/hikari/ROScribe/ros_ws/src/install/geometry_msgs/lib:/home/hikari/ROScribe/ros_ws/src/install/std_msgs/lib:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hikari/ROScribe/ros_ws/src/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/hikari/ROScribe/ros_ws/src/install/std_msgs/local/lib/python3.10/dist-packages:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces/local/lib/python3.10/dist-packages:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --build /home/hikari/ROScribe/ros_ws/src/build/nav_msgs -- -j8 -l8
+[64.880s] Invoking command in '/home/hikari/ROScribe/ros_ws/src/build/nav_msgs': AMENT_PREFIX_PATH=/home/hikari/ROScribe/ros_ws/src/install/geometry_msgs:/home/hikari/ROScribe/ros_ws/src/install/std_msgs:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_runtime:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_generators:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs:/home/hikari/ROScribe/ros_ws/src/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hikari/ROScribe/ros_ws/src/install/geometry_msgs:/home/hikari/ROScribe/ros_ws/src/install/std_msgs:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_runtime:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_generators:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs:/opt/ros/humble LD_LIBRARY_PATH=/home/hikari/ROScribe/ros_ws/src/install/geometry_msgs/lib:/home/hikari/ROScribe/ros_ws/src/install/std_msgs/lib:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hikari/ROScribe/ros_ws/src/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/hikari/ROScribe/ros_ws/src/install/std_msgs/local/lib/python3.10/dist-packages:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces/local/lib/python3.10/dist-packages:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --install /home/hikari/ROScribe/ros_ws/src/build/nav_msgs
+[64.991s] -- Install configuration: ""
+[64.992s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/share/ament_index/resource_index/rosidl_interfaces/nav_msgs
+[64.992s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs
+[64.993s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/srv
+[64.993s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/srv/get_map.h
+[64.993s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/srv/get_plan.h
+[64.993s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/srv/load_map.h
+[64.994s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/srv/set_map.h
+[64.994s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail
+[64.994s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/load_map__functions.c
+[64.995s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_plan__struct.h
+[64.995s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/load_map__struct.h
+[64.995s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_map__functions.h
+[64.997s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_plan__functions.c
+[64.997s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_map__functions.c
+[64.997s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/load_map__functions.h
+[64.999s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_plan__type_support.h
+[64.999s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/load_map__type_support.h
+[64.999s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_map__struct.h
+[65.000s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/set_map__functions.c
+[65.000s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/set_map__functions.h
+[65.000s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_map__type_support.h
+[65.000s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/set_map__struct.h
+[65.001s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/set_map__type_support.h
+[65.001s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_plan__functions.h
+[65.001s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/msg
+[65.002s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/msg/occupancy_grid.h
+[65.002s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/msg/odometry.h
+[65.002s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/msg/map_meta_data.h
+[65.002s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/msg/path.h
+[65.003s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/msg/rosidl_generator_c__visibility_control.h
+[65.003s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail
+[65.003s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__functions.c
+[65.004s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/path__struct.h
+[65.004s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__functions.h
+[65.004s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__type_support.h
+[65.005s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/odometry__functions.c
+[65.005s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__functions.c
+[65.006s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__struct.h
+[65.006s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/grid_cells__type_support.h
+[65.006s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/odometry__struct.h
+[65.007s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__functions.h
+[65.007s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/grid_cells__struct.h
+[65.007s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/path__functions.c
+[65.007s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/grid_cells__functions.c
+[65.008s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__type_support.h
+[65.008s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/odometry__type_support.h
+[65.009s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/path__type_support.h
+[65.010s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/grid_cells__functions.h
+[65.010s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/odometry__functions.h
+[65.011s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/path__functions.h
+[65.012s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__struct.h
+[65.013s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/msg/grid_cells.h
+[65.016s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/share/nav_msgs/environment/library_path.sh
+[65.017s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/share/nav_msgs/environment/library_path.dsv
+[65.017s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/lib/libnav_msgs__rosidl_generator_c.so
+[65.017s] -- Set runtime path of "/home/hikari/ROScribe/ros_ws/src/install/nav_msgs/lib/libnav_msgs__rosidl_generator_c.so" to ""
+[65.017s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs
+[65.017s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/srv
+[65.017s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail
+[65.018s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/load_map__rosidl_typesupport_fastrtps_c.h
+[65.018s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_plan__rosidl_typesupport_fastrtps_c.h
+[65.018s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/set_map__rosidl_typesupport_fastrtps_c.h
+[65.018s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_map__rosidl_typesupport_fastrtps_c.h
+[65.035s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/msg
+[65.035s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[65.035s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail
+[65.035s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__rosidl_typesupport_fastrtps_c.h
+[65.036s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/odometry__rosidl_typesupport_fastrtps_c.h
+[65.036s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__rosidl_typesupport_fastrtps_c.h
+[65.036s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/grid_cells__rosidl_typesupport_fastrtps_c.h
+[65.037s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/path__rosidl_typesupport_fastrtps_c.h
+[65.037s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/lib/libnav_msgs__rosidl_typesupport_fastrtps_c.so
+[65.037s] -- Set runtime path of "/home/hikari/ROScribe/ros_ws/src/install/nav_msgs/lib/libnav_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[65.038s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs
+[65.038s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/srv
+[65.038s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/srv/get_map.hpp
+[65.039s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/srv/set_map.hpp
+[65.039s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/srv/load_map.hpp
+[65.039s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/srv/get_plan.hpp
+[65.040s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail
+[65.040s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/set_map__traits.hpp
+[65.040s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_plan__traits.hpp
+[65.041s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_plan__struct.hpp
+[65.041s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/set_map__builder.hpp
+[65.041s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_map__builder.hpp
+[65.041s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_map__struct.hpp
+[65.042s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/load_map__builder.hpp
+[65.042s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/load_map__struct.hpp
+[65.042s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_map__traits.hpp
+[65.043s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/load_map__traits.hpp
+[65.043s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_plan__builder.hpp
+[65.043s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/set_map__struct.hpp
+[65.043s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/msg
+[65.044s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/msg/occupancy_grid.hpp
+[65.044s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/msg/map_meta_data.hpp
+[65.044s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/msg/grid_cells.hpp
+[65.044s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/msg/odometry.hpp
+[65.054s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail
+[65.055s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/path__struct.hpp
+[65.055s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/odometry__struct.hpp
+[65.055s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__builder.hpp
+[65.055s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/path__builder.hpp
+[65.056s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/odometry__traits.hpp
+[65.056s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/path__traits.hpp
+[65.056s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__struct.hpp
+[65.056s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__builder.hpp
+[65.057s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/grid_cells__traits.hpp
+[65.057s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__traits.hpp
+[65.057s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/grid_cells__builder.hpp
+[65.057s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/grid_cells__struct.hpp
+[65.057s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__struct.hpp
+[65.058s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/odometry__builder.hpp
+[65.058s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__traits.hpp
+[65.058s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/msg/path.hpp
+[65.058s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs
+[65.059s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/srv
+[65.059s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail
+[65.059s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_plan__rosidl_typesupport_fastrtps_cpp.hpp
+[65.059s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_map__rosidl_typesupport_fastrtps_cpp.hpp
+[65.060s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/dds_fastrtps
+[65.060s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/load_map__rosidl_typesupport_fastrtps_cpp.hpp
+[65.060s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/set_map__rosidl_typesupport_fastrtps_cpp.hpp
+[65.060s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/msg
+[65.061s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[65.061s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail
+[65.061s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/odometry__rosidl_typesupport_fastrtps_cpp.hpp
+[65.061s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/path__rosidl_typesupport_fastrtps_cpp.hpp
+[65.061s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__rosidl_typesupport_fastrtps_cpp.hpp
+[65.062s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/dds_fastrtps
+[65.062s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/grid_cells__rosidl_typesupport_fastrtps_cpp.hpp
+[65.063s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__rosidl_typesupport_fastrtps_cpp.hpp
+[65.063s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/lib/libnav_msgs__rosidl_typesupport_fastrtps_cpp.so
+[65.064s] -- Set runtime path of "/home/hikari/ROScribe/ros_ws/src/install/nav_msgs/lib/libnav_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[65.064s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs
+[65.064s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/srv
+[65.065s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail
+[65.065s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/set_map__rosidl_typesupport_introspection_c.h
+[65.065s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_plan__rosidl_typesupport_introspection_c.h
+[65.065s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_map__type_support.c
+[65.065s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_map__rosidl_typesupport_introspection_c.h
+[65.084s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_plan__type_support.c
+[65.085s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/set_map__type_support.c
+[65.085s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/load_map__type_support.c
+[65.085s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/load_map__rosidl_typesupport_introspection_c.h
+[65.085s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/msg
+[65.085s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[65.086s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail
+[65.086s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/odometry__type_support.c
+[65.086s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__type_support.c
+[65.086s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__rosidl_typesupport_introspection_c.h
+[65.086s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/grid_cells__type_support.c
+[65.087s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/grid_cells__rosidl_typesupport_introspection_c.h
+[65.087s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__type_support.c
+[65.087s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/path__type_support.c
+[65.087s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__rosidl_typesupport_introspection_c.h
+[65.087s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/path__rosidl_typesupport_introspection_c.h
+[65.088s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/odometry__rosidl_typesupport_introspection_c.h
+[65.088s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/lib/libnav_msgs__rosidl_typesupport_introspection_c.so
+[65.088s] -- Set runtime path of "/home/hikari/ROScribe/ros_ws/src/install/nav_msgs/lib/libnav_msgs__rosidl_typesupport_introspection_c.so" to ""
+[65.088s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/lib/libnav_msgs__rosidl_typesupport_c.so
+[65.088s] -- Set runtime path of "/home/hikari/ROScribe/ros_ws/src/install/nav_msgs/lib/libnav_msgs__rosidl_typesupport_c.so" to ""
+[65.089s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs
+[65.089s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/srv
+[65.089s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail
+[65.089s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_plan__rosidl_typesupport_introspection_cpp.hpp
+[65.089s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_map__type_support.cpp
+[65.089s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_plan__type_support.cpp
+[65.090s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/set_map__type_support.cpp
+[65.090s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/load_map__rosidl_typesupport_introspection_cpp.hpp
+[65.090s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/set_map__rosidl_typesupport_introspection_cpp.hpp
+[65.090s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_map__rosidl_typesupport_introspection_cpp.hpp
+[65.091s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/load_map__type_support.cpp
+[65.091s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/msg
+[65.091s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail
+[65.091s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__rosidl_typesupport_introspection_cpp.hpp
+[65.091s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__type_support.cpp
+[65.091s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__rosidl_typesupport_introspection_cpp.hpp
+[65.092s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/grid_cells__rosidl_typesupport_introspection_cpp.hpp
+[65.092s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/path__rosidl_typesupport_introspection_cpp.hpp
+[65.092s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/grid_cells__type_support.cpp
+[65.092s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/odometry__rosidl_typesupport_introspection_cpp.hpp
+[65.092s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/path__type_support.cpp
+[65.092s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__type_support.cpp
+[65.093s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/odometry__type_support.cpp
+[65.093s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/lib/libnav_msgs__rosidl_typesupport_introspection_cpp.so
+[65.093s] -- Set runtime path of "/home/hikari/ROScribe/ros_ws/src/install/nav_msgs/lib/libnav_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[65.093s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/lib/libnav_msgs__rosidl_typesupport_cpp.so
+[65.094s] -- Set runtime path of "/home/hikari/ROScribe/ros_ws/src/install/nav_msgs/lib/libnav_msgs__rosidl_typesupport_cpp.so" to ""
+[65.094s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/share/ament_index/resource_index/rust_packages/nav_msgs
+[65.095s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/share/nav_msgs/rust
+[65.095s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/share/nav_msgs/rust/src
+[65.095s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/share/nav_msgs/rust/src/msg.rs
+[65.095s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/share/nav_msgs/rust/src/srv.rs
+[65.096s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/share/nav_msgs/rust/src/lib.rs
+[65.096s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/share/nav_msgs/rust/Cargo.toml
+[65.096s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/share/nav_msgs/rust/build.rs
+[65.096s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/share/nav_msgs/rust
+[65.096s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/share/nav_msgs/rust/src
+[65.096s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/share/nav_msgs/rust/src/msg.rs
+[65.097s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/share/nav_msgs/rust/src/srv.rs
+[65.097s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/share/nav_msgs/rust/src/lib.rs
+[65.097s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/share/nav_msgs/rust/Cargo.toml
+[65.097s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/share/nav_msgs/rust/build.rs
+[65.098s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/share/nav_msgs/rust
+[65.098s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/share/nav_msgs/rust/src
+[65.098s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/share/nav_msgs/rust/src/msg.rs
+[65.098s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/share/nav_msgs/rust/src/srv.rs
+[65.099s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/share/nav_msgs/rust/src/lib.rs
+[65.099s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/share/nav_msgs/rust/Cargo.toml
+[65.099s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/share/nav_msgs/rust/build.rs
+[65.099s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/share/nav_msgs/environment/pythonpath.sh
+[65.099s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/share/nav_msgs/environment/pythonpath.dsv
+[65.099s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs-4.2.3-py3.10.egg-info
+[65.100s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs-4.2.3-py3.10.egg-info/top_level.txt
+[65.100s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs-4.2.3-py3.10.egg-info/dependency_links.txt
+[65.100s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs-4.2.3-py3.10.egg-info/SOURCES.txt
+[65.100s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs-4.2.3-py3.10.egg-info/PKG-INFO
+[65.101s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs
+[65.101s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/srv
+[65.101s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/srv/_get_map_s.c
+[65.101s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/srv/_load_map_s.c
+[65.101s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/srv/_get_plan.py
+[65.101s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/srv/_load_map.py
+[65.102s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/srv/_set_map_s.c
+[65.102s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/srv/_get_map.py
+[65.102s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/srv/_get_plan_s.c
+[65.102s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/srv/__init__.py
+[65.102s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/srv/_set_map.py
+[65.102s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/libnav_msgs__rosidl_generator_py.so
+[65.103s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/msg
+[65.103s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/msg/_occupancy_grid.py
+[65.103s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/msg/_path.py
+[65.103s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/msg/_path_s.c
+[65.103s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/msg/_occupancy_grid_s.c
+[65.104s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/msg/_map_meta_data.py
+[65.104s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/msg/_odometry.py
+[65.104s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/msg/_grid_cells_s.c
+[65.104s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/msg/_map_meta_data_s.c
+[65.104s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/msg/_odometry_s.c
+[65.105s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/msg/__init__.py
+[65.105s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/msg/_grid_cells.py
+[65.106s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/nav_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[65.106s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/nav_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[65.106s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/nav_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[65.106s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/_nav_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[65.106s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/_nav_msgs_s.ep.rosidl_typesupport_c.c
+[65.106s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/__init__.py
+[65.107s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/_nav_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[65.243s] Listing '/home/hikari/ROScribe/ros_ws/src/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs'...
+[65.243s] Compiling '/home/hikari/ROScribe/ros_ws/src/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/__init__.py'...
+[65.244s] Listing '/home/hikari/ROScribe/ros_ws/src/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/msg'...
+[65.244s] Compiling '/home/hikari/ROScribe/ros_ws/src/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/msg/__init__.py'...
+[65.244s] Compiling '/home/hikari/ROScribe/ros_ws/src/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/msg/_grid_cells.py'...
+[65.244s] Compiling '/home/hikari/ROScribe/ros_ws/src/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/msg/_map_meta_data.py'...
+[65.244s] Compiling '/home/hikari/ROScribe/ros_ws/src/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/msg/_occupancy_grid.py'...
+[65.245s] Compiling '/home/hikari/ROScribe/ros_ws/src/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/msg/_odometry.py'...
+[65.245s] Compiling '/home/hikari/ROScribe/ros_ws/src/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/msg/_path.py'...
+[65.245s] Listing '/home/hikari/ROScribe/ros_ws/src/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/srv'...
+[65.245s] Compiling '/home/hikari/ROScribe/ros_ws/src/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/srv/__init__.py'...
+[65.245s] Compiling '/home/hikari/ROScribe/ros_ws/src/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/srv/_get_map.py'...
+[65.245s] Compiling '/home/hikari/ROScribe/ros_ws/src/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/srv/_get_plan.py'...
+[65.246s] Compiling '/home/hikari/ROScribe/ros_ws/src/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/srv/_load_map.py'...
+[65.246s] Compiling '/home/hikari/ROScribe/ros_ws/src/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/srv/_set_map.py'...
+[65.273s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/nav_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[65.273s] -- Set runtime path of "/home/hikari/ROScribe/ros_ws/src/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/nav_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[65.273s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/nav_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[65.273s] -- Set runtime path of "/home/hikari/ROScribe/ros_ws/src/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/nav_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[65.274s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/nav_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[65.274s] -- Set runtime path of "/home/hikari/ROScribe/ros_ws/src/install/nav_msgs/local/lib/python3.10/dist-packages/nav_msgs/nav_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[65.274s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/lib/libnav_msgs__rosidl_generator_py.so
+[65.274s] -- Set runtime path of "/home/hikari/ROScribe/ros_ws/src/install/nav_msgs/lib/libnav_msgs__rosidl_generator_py.so" to ""
+[65.275s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/share/nav_msgs/msg/GridCells.idl
+[65.275s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/share/nav_msgs/msg/MapMetaData.idl
+[65.275s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/share/nav_msgs/msg/OccupancyGrid.idl
+[65.275s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/share/nav_msgs/msg/Odometry.idl
+[65.276s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/share/nav_msgs/msg/Path.idl
+[65.276s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/share/nav_msgs/srv/GetMap.idl
+[65.276s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/share/nav_msgs/srv/GetPlan.idl
+[65.276s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/share/nav_msgs/srv/LoadMap.idl
+[65.276s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/share/nav_msgs/srv/SetMap.idl
+[65.277s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/share/nav_msgs/msg/GridCells.msg
+[65.277s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/share/nav_msgs/msg/MapMetaData.msg
+[65.277s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/share/nav_msgs/msg/OccupancyGrid.msg
+[65.277s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/share/nav_msgs/msg/Odometry.msg
+[65.278s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/share/nav_msgs/msg/Path.msg
+[65.278s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/share/nav_msgs/srv/GetMap.srv
+[65.278s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/share/nav_msgs/srv/GetMap_Request.msg
+[65.279s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/share/nav_msgs/srv/GetMap_Response.msg
+[65.279s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/share/nav_msgs/srv/GetPlan.srv
+[65.279s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/share/nav_msgs/srv/GetPlan_Request.msg
+[65.279s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/share/nav_msgs/srv/GetPlan_Response.msg
+[65.279s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/share/nav_msgs/srv/LoadMap.srv
+[65.280s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/share/nav_msgs/srv/LoadMap_Request.msg
+[65.280s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/share/nav_msgs/srv/LoadMap_Response.msg
+[65.280s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/share/nav_msgs/srv/SetMap.srv
+[65.280s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/share/nav_msgs/srv/SetMap_Request.msg
+[65.280s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/share/nav_msgs/srv/SetMap_Response.msg
+[65.281s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/share/ament_index/resource_index/package_run_dependencies/nav_msgs
+[65.281s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/share/ament_index/resource_index/parent_prefix_path/nav_msgs
+[65.281s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/share/nav_msgs/environment/ament_prefix_path.sh
+[65.281s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/share/nav_msgs/environment/ament_prefix_path.dsv
+[65.281s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/share/nav_msgs/environment/path.sh
+[65.282s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/share/nav_msgs/environment/path.dsv
+[65.282s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/share/nav_msgs/local_setup.bash
+[65.282s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/share/nav_msgs/local_setup.sh
+[65.283s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/share/nav_msgs/local_setup.zsh
+[65.284s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/share/nav_msgs/local_setup.dsv
+[65.286s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/share/nav_msgs/package.dsv
+[65.287s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/share/ament_index/resource_index/packages/nav_msgs
+[65.288s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/share/nav_msgs/cmake/export_nav_msgs__rosidl_generator_cExport.cmake
+[65.289s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/share/nav_msgs/cmake/export_nav_msgs__rosidl_generator_cExport-noconfig.cmake
+[65.290s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/share/nav_msgs/cmake/export_nav_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[65.291s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/share/nav_msgs/cmake/export_nav_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[65.291s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/share/nav_msgs/cmake/export_nav_msgs__rosidl_generator_cppExport.cmake
+[65.293s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/share/nav_msgs/cmake/export_nav_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[65.294s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/share/nav_msgs/cmake/export_nav_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[65.295s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/share/nav_msgs/cmake/nav_msgs__rosidl_typesupport_introspection_cExport.cmake
+[65.296s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/share/nav_msgs/cmake/nav_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[65.297s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/share/nav_msgs/cmake/nav_msgs__rosidl_typesupport_cExport.cmake
+[65.298s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/share/nav_msgs/cmake/nav_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[65.299s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/share/nav_msgs/cmake/nav_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[65.300s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/share/nav_msgs/cmake/nav_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[65.301s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/share/nav_msgs/cmake/nav_msgs__rosidl_typesupport_cppExport.cmake
+[65.302s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/share/nav_msgs/cmake/nav_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[65.303s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/share/nav_msgs/cmake/export_nav_msgs__rosidl_generator_pyExport.cmake
+[65.304s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/share/nav_msgs/cmake/export_nav_msgs__rosidl_generator_pyExport-noconfig.cmake
+[65.306s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/share/nav_msgs/cmake/rosidl_cmake-extras.cmake
+[65.307s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/share/nav_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[65.308s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/share/nav_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[65.309s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/share/nav_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[65.309s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/share/nav_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[65.310s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/share/nav_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[65.311s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/share/nav_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[65.311s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/share/nav_msgs/cmake/nav_msgsConfig.cmake
+[65.312s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/share/nav_msgs/cmake/nav_msgsConfig-version.cmake
+[65.313s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/nav_msgs/share/nav_msgs/package.xml
+[65.336s] Invoked command in '/home/hikari/ROScribe/ros_ws/src/build/nav_msgs' returned '0': AMENT_PREFIX_PATH=/home/hikari/ROScribe/ros_ws/src/install/geometry_msgs:/home/hikari/ROScribe/ros_ws/src/install/std_msgs:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_runtime:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_generators:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs:/home/hikari/ROScribe/ros_ws/src/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hikari/ROScribe/ros_ws/src/install/geometry_msgs:/home/hikari/ROScribe/ros_ws/src/install/std_msgs:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_runtime:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_generators:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs:/opt/ros/humble LD_LIBRARY_PATH=/home/hikari/ROScribe/ros_ws/src/install/geometry_msgs/lib:/home/hikari/ROScribe/ros_ws/src/install/std_msgs/lib:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hikari/ROScribe/ros_ws/src/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/hikari/ROScribe/ros_ws/src/install/std_msgs/local/lib/python3.10/dist-packages:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces/local/lib/python3.10/dist-packages:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --install /home/hikari/ROScribe/ros_ws/src/build/nav_msgs

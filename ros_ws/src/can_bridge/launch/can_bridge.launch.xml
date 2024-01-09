@@ -1,0 +1,29 @@
+<launch>
+    <!-- Launch ros2can_bridge node -->
+    <node name="ros2can_bridge" pkg="can_bridge" type="ros2can_bridge.py" output="screen">
+        <remap from="ros2can_bridge_topic" to="/ros2can_bridge_topic"/>
+    </node>
+
+    <!-- Launch motor_control_topic node -->
+    <node name="motor_control_topic" pkg="can_bridge" type="motor_control_topic.py" output="screen">
+        <remap from="ros2can_bridge_topic" to="/ros2can_bridge_topic"/>
+        <remap from="motor_control_topic" to="/motor_control_topic"/>
+    </node>
+
+    <!-- Launch pid_controller node -->
+    <node name="pid_controller" pkg="can_bridge" type="pid_controller.py" output="screen">
+        <remap from="motor_control_topic" to="/motor_control_topic"/>
+        <remap from="analog_input_topic" to="/analog_input_topic"/>
+        <remap from="pid_parameters_topic" to="/pid_parameters_topic"/>
+    </node>
+
+    <!-- Launch analog_input_topic node -->
+    <node name="analog_input_topic" pkg="can_bridge" type="analog_input_topic.py" output="screen">
+        <remap from="analog_input_topic" to="/analog_input_topic"/>
+    </node>
+
+    <!-- Launch parameter_tuner node -->
+    <node name="parameter_tuner" pkg="can_bridge" type="parameter_tuner.py" output="screen">
+        <remap from="pid_parameters_topic" to="/pid_parameters_topic"/>
+    </node>
+</launch>

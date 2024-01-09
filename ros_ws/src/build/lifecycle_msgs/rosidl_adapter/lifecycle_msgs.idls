@@ -1,0 +1,8 @@
+/home/hikari/ROScribe/ros_ws/src/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs:msg/State.idl
+/home/hikari/ROScribe/ros_ws/src/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs:msg/Transition.idl
+/home/hikari/ROScribe/ros_ws/src/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs:msg/TransitionDescription.idl
+/home/hikari/ROScribe/ros_ws/src/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs:msg/TransitionEvent.idl
+/home/hikari/ROScribe/ros_ws/src/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs:srv/ChangeState.idl
+/home/hikari/ROScribe/ros_ws/src/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs:srv/GetAvailableStates.idl
+/home/hikari/ROScribe/ros_ws/src/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs:srv/GetAvailableTransitions.idl
+/home/hikari/ROScribe/ros_ws/src/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs:srv/GetState.idl

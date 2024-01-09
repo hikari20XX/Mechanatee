@@ -1,0 +1,57 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from custom_msgs/msg/MotorFeedback.msg
+// generated code does not contain a copyright notice
+
+
+module custom_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "MotorFeedback.msg")
+    struct MotorFeedback {
+      @verbatim (language="comment", text=
+        "Timestamp for when the feedback was generated" "\n"
+        "seconds since epoch")
+      int32 sec;
+
+      @verbatim (language="comment", text=
+        "nanoseconds since the last second")
+      uint32 nanosec;
+
+      @verbatim (language="comment", text=
+        "Motor ID or name, to identify which motor this feedback is about")
+      string motor_id;
+
+      @verbatim (language="comment", text=
+        "Current position of the motor (could be in angles for rotational motors or in distance units for linear actuators)")
+      double position;
+
+      @verbatim (language="comment", text=
+        "Current speed or velocity of the motor")
+      double speed;
+
+      @verbatim (language="comment", text=
+        "Current torque or force being applied by the motor")
+      double torque;
+
+      @verbatim (language="comment", text=
+        "Current temperature of the motor (useful for monitoring overheating)")
+      double temperature;
+
+      @verbatim (language="comment", text=
+        "Current drawn by the motor (in amperes)")
+      double current;
+
+      @verbatim (language="comment", text=
+        "Voltage being supplied to the motor")
+      double voltage;
+
+      @verbatim (language="comment", text=
+        "Encoder feedback (if you have an encoder and want to track the counts or any specific encoder data)")
+      int64 encoder_counts;
+
+      @verbatim (language="comment", text=
+        "Optional: Additional diagnostic or status information")
+      string additional_info;
+    };
+  };
+};

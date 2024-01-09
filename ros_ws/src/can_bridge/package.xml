@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>can_bridge</name>
+  <version>0.1.0</version>
+  <description>ROS2 package for bridging ROS2 and the CAN bus</description>
+  <maintainer email="your_email@example.com">Your Name</maintainer>
+  <license>MIT License</license>
+
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <depend>rclpy</depend>
+  <depend>std_msgs</depend>
+  <depend>custom_msgs</depend>
+  <depend>ros2can_bridge</depend>
+  <depend>motor_control_topic</depend>
+  <depend>pid_controller</depend>
+  <depend>analog_input_topic</depend>
+  <depend>parameter_tuner</depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

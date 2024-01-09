@@ -1,0 +1,31 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from custom_msgs/msg/MotorStatus.msg
+// generated code does not contain a copyright notice
+
+
+module custom_msgs {
+  module msg {
+    module MotorStatus_Constants {
+      const int8 RUNNING = 1;
+      const int8 STOPPED = 2;
+      const int8 ERROR = 3;
+    };
+    @verbatim (language="comment", text=
+      "MotorStatus.msg")
+    struct MotorStatus {
+      int32 sec;
+
+      uint32 nanosec;
+
+      int8 state;
+
+      int32 speed_rpm;
+
+      float load_percentage;
+
+      int32 error_code;
+
+      string description;
+    };
+  };
+};

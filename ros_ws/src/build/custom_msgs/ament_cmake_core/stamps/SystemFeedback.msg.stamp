@@ -1,0 +1,11 @@
+#SystemFeedback.msg
+
+int32 sec
+uint32 nanosec
+
+float32 current_position
+float32 current_velocity
+float64 current_state
+float64 desired_state
+float64 error
+

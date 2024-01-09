@@ -1,0 +1,13 @@
+#PIDParams.msg
+
+int32 sec
+uint32 nanosec
+
+float64 p_value
+
+float64 i_value
+
+float64 d_value
+
+float64 integral_limit_upper
+float64 integral_limit_lower

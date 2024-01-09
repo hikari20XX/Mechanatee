@@ -1,0 +1,8 @@
+/home/hikari/ROScribe/ros_ws/src/build/rosidl_default_runtime/CMakeFiles/uninstall.dir
+/home/hikari/ROScribe/ros_ws/src/build/rosidl_default_runtime/CMakeFiles/rosidl_default_runtime_uninstall.dir
+/home/hikari/ROScribe/ros_ws/src/build/rosidl_default_runtime/CMakeFiles/test.dir
+/home/hikari/ROScribe/ros_ws/src/build/rosidl_default_runtime/CMakeFiles/edit_cache.dir
+/home/hikari/ROScribe/ros_ws/src/build/rosidl_default_runtime/CMakeFiles/rebuild_cache.dir
+/home/hikari/ROScribe/ros_ws/src/build/rosidl_default_runtime/CMakeFiles/list_install_components.dir
+/home/hikari/ROScribe/ros_ws/src/build/rosidl_default_runtime/CMakeFiles/install.dir
+/home/hikari/ROScribe/ros_ws/src/build/rosidl_default_runtime/CMakeFiles/install/local.dir

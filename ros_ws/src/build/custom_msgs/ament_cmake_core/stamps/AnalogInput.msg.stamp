@@ -1,0 +1,6 @@
+#AnalogInput.msg
+
+int32 sec
+uint32 nanosec
+float64 value
+

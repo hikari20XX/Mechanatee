@@ -1,0 +1,32 @@
+# MotorFeedback.msg
+
+# Timestamp for when the feedback was generated
+int32 sec      # seconds since epoch
+uint32 nanosec # nanoseconds since the last second
+
+# Motor ID or name, to identify which motor this feedback is about
+string motor_id
+
+# Current position of the motor (could be in angles for rotational motors or in distance units for linear actuators)
+float64 position
+
+# Current speed or velocity of the motor
+float64 speed
+
+# Current torque or force being applied by the motor
+float64 torque
+
+# Current temperature of the motor (useful for monitoring overheating)
+float64 temperature
+
+# Current drawn by the motor (in amperes)
+float64 current
+
+# Voltage being supplied to the motor
+float64 voltage
+
+# Encoder feedback (if you have an encoder and want to track the counts or any specific encoder data)
+int64 encoder_counts
+
+# Optional: Additional diagnostic or status information
+string additional_info

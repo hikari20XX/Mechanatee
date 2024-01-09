@@ -1,0 +1,7 @@
+#ServoSetpoint.msg
+
+int32 sec
+uint32 nanosec
+
+float32 position
+

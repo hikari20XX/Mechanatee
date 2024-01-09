@@ -1,0 +1,58 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from custom_msgs/msg/MotorAlerts.msg
+// generated code does not contain a copyright notice
+
+
+module custom_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "MotorAlerts.msg")
+    struct MotorAlerts {
+      @verbatim (language="comment", text=
+        "Timestamp for when the alert was generated" "\n"
+        "seconds since epoch")
+      int32 sec;
+
+      @verbatim (language="comment", text=
+        "nanoseconds since the last second")
+      uint32 nanosec;
+
+      @verbatim (language="comment", text=
+        "Motor ID or name, to identify which motor this alert is about")
+      string motor_id;
+
+      @verbatim (language="comment", text=
+        "Boolean flags indicating various alerts or errors" "\n"
+        "Flag to indicate if the motor is overheating")
+      boolean overheating;
+
+      @verbatim (language="comment", text=
+        "Flag to indicate if there's an electrical fault")
+      boolean electrical_fault;
+
+      @verbatim (language="comment", text=
+        "Flag to indicate if the motor has stalled or isn't moving when it should be")
+      boolean stall;
+
+      @verbatim (language="comment", text=
+        "Flag to indicate if the motor is drawing too much current")
+      boolean overcurrent;
+
+      @verbatim (language="comment", text=
+        "Flag to indicate if there's a mechanical obstruction or blockage")
+      boolean obstruction;
+
+      @verbatim (language="comment", text=
+        "Flag to indicate if the encoder or feedback mechanism is malfunctioning")
+      boolean encoder_fault;
+
+      @verbatim (language="comment", text=
+        "Flag to indicate if the motor has been running for too long continuously")
+      boolean runtime_exceeded;
+
+      @verbatim (language="comment", text=
+        "Optional: Additional information or details about the alert")
+      string additional_info;
+    };
+  };
+};

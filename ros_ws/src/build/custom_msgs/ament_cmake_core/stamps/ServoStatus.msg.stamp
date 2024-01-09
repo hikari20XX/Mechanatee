@@ -1,0 +1,34 @@
+# ServoStatus.msg
+
+# Timestamp for when the status was retrieved or reported
+int32 sec      # seconds since epoch
+uint32 nanosec # nanoseconds since the last second
+
+# Servo ID or name, to identify which servo this status relates to
+string servo_id
+
+# Current position of the servo. 
+# This could be in degrees, or another unit if relevant for your servo.
+float64 position
+
+# Current speed of the servo. 
+# This could be in terms of degrees/sec for rotational servos.
+float64 speed
+
+# Current load or torque being exerted by or on the servo. 
+# This could be in terms of percentage or actual force value.
+float64 load
+
+# Temperature of the servo in Celsius
+float64 temperature
+
+# Voltage being supplied to the servo, if relevant
+float64 voltage
+
+# Error status or health of the servo
+# 0 means OK, other numbers can represent specific error codes or conditions
+int32 error_status
+
+# Optional: Additional textual information or status about the servo
+string additional_info
+

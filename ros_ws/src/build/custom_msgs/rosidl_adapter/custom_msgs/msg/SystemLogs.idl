@@ -1,0 +1,52 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from custom_msgs/msg/SystemLogs.msg
+// generated code does not contain a copyright notice
+
+
+module custom_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "SystemLogs.msg")
+    struct SystemLogs {
+      @verbatim (language="comment", text=
+        "Timestamp for when the log entry was created" "\n"
+        "seconds since epoch")
+      int32 sec;
+
+      @verbatim (language="comment", text=
+        "nanoseconds since the last second")
+      uint32 nanosec;
+
+      @verbatim (language="comment", text=
+        "The ID or name of the component that's logging the message (e.g., a specific motor, sensor, etc.)")
+      string component_id;
+
+      @verbatim (language="comment", text=
+        "The severity level of the log" "\n"
+        "Predefined levels:" "\n"
+        "1 - DEBUG" "\n"
+        "2 - INFO" "\n"
+        "3 - WARN" "\n"
+        "4 - ERROR" "\n"
+        "5 - FATAL")
+      int32 log_level;
+
+      @verbatim (language="comment", text=
+        "The main content of the log message")
+      string message;
+
+      @verbatim (language="comment", text=
+        "Optional: Any additional information or data related to the log entry")
+      string details;
+
+      @verbatim (language="comment", text=
+        "Throttling-related fields:" "\n"
+        "The time (in seconds) since this type of message was last logged")
+      float time_since_last_log;
+
+      @verbatim (language="comment", text=
+        "The maximum frequency (in Hz) at which this type of message should be logged")
+      float max_log_frequency;
+    };
+  };
+};

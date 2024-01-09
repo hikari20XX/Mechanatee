@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from custom_msgs/msg/SystemFeedback.msg
+// generated code does not contain a copyright notice
+
+
+module custom_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "SystemFeedback.msg")
+    struct SystemFeedback {
+      int32 sec;
+
+      uint32 nanosec;
+
+      float current_position;
+
+      float current_velocity;
+
+      double current_state;
+
+      double desired_state;
+
+      double error;
+    };
+  };
+};

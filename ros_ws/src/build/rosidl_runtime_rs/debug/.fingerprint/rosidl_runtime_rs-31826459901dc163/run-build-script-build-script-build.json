@@ -1,0 +1,1 @@
+{"rustc":16895609601713598366,"features":"","target":0,"profile":0,"path":0,"deps":[[5962198627966810433,"build_script_build",false,1041635842944498166]],"local":[{"RerunIfChanged":{"output":"debug/build/rosidl_runtime_rs-31826459901dc163/output","paths":["build.rs"]}}],"rustflags":[],"metadata":0,"config":0,"compile_kind":0}

@@ -1,0 +1,4 @@
+# generated from rosidl_cmake/cmake/rosidl_cmake-extras.cmake.in
+
+set(custom_msgs_IDL_FILES "msg/AnalogInput.idl;msg/PWMCommand.idl;msg/MotorStatus.idl;msg/MotorFeedback.idl;msg/MotorAlerts.idl;msg/SystemFeedback.idl;msg/PIDParams.idl;msg/UpdatedPIDParams.idl;msg/TuningStatus.idl;msg/ServoFeedback.idl;msg/ServoSetpoint.idl;msg/ServoStatus.idl;msg/BatteryStatus.idl;msg/ServoSpeed.idl;msg/TargetPosition.idl;msg/SystemLogs.idl;msg/VoltageReading.idl")
+set(custom_msgs_INTERFACE_FILES "msg/AnalogInput.msg;msg/PWMCommand.msg;msg/MotorStatus.msg;msg/MotorFeedback.msg;msg/MotorAlerts.msg;msg/SystemFeedback.msg;msg/PIDParams.msg;msg/UpdatedPIDParams.msg;msg/TuningStatus.msg;msg/ServoFeedback.msg;msg/ServoSetpoint.msg;msg/ServoStatus.msg;msg/BatteryStatus.msg;msg/ServoSpeed.msg;msg/TargetPosition.msg;msg/SystemLogs.msg;msg/VoltageReading.msg")

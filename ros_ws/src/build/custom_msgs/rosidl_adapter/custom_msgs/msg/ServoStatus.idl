@@ -1,0 +1,57 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from custom_msgs/msg/ServoStatus.msg
+// generated code does not contain a copyright notice
+
+
+module custom_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "ServoStatus.msg")
+    struct ServoStatus {
+      @verbatim (language="comment", text=
+        "Timestamp for when the status was retrieved or reported" "\n"
+        "seconds since epoch")
+      int32 sec;
+
+      @verbatim (language="comment", text=
+        "nanoseconds since the last second")
+      uint32 nanosec;
+
+      @verbatim (language="comment", text=
+        "Servo ID or name, to identify which servo this status relates to")
+      string servo_id;
+
+      @verbatim (language="comment", text=
+        "Current position of the servo." "\n"
+        "This could be in degrees, or another unit if relevant for your servo.")
+      double position;
+
+      @verbatim (language="comment", text=
+        "Current speed of the servo." "\n"
+        "This could be in terms of degrees/sec for rotational servos.")
+      double speed;
+
+      @verbatim (language="comment", text=
+        "Current load or torque being exerted by or on the servo." "\n"
+        "This could be in terms of percentage or actual force value.")
+      double load;
+
+      @verbatim (language="comment", text=
+        "Temperature of the servo in Celsius")
+      double temperature;
+
+      @verbatim (language="comment", text=
+        "Voltage being supplied to the servo, if relevant")
+      double voltage;
+
+      @verbatim (language="comment", text=
+        "Error status or health of the servo" "\n"
+        "0 means OK, other numbers can represent specific error codes or conditions")
+      int32 error_status;
+
+      @verbatim (language="comment", text=
+        "Optional: Additional textual information or status about the servo")
+      string additional_info;
+    };
+  };
+};

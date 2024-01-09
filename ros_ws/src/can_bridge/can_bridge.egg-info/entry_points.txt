@@ -1,0 +1,6 @@
+[console_scripts]
+analog_input_topic = can_bridge.analog_input_topic:main
+motor_control_topic = can_bridge.motor_control_topic:main
+parameter_tuner = can_bridge.parameter_tuner:main
+pid_controller = can_bridge.pid_controller:main
+ros2can_bridge = can_bridge.ros2can_bridge:main

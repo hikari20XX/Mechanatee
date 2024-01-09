@@ -1,0 +1,8 @@
+{
+  "package_name": "statistics_msgs",
+  "non_idl_tuples": [
+    "/home/hikari/ROScribe/ros_ws/src/ros2/rcl_interfaces/statistics_msgs:msg/MetricsMessage.msg",
+    "/home/hikari/ROScribe/ros_ws/src/ros2/rcl_interfaces/statistics_msgs:msg/StatisticDataPoint.msg",
+    "/home/hikari/ROScribe/ros_ws/src/ros2/rcl_interfaces/statistics_msgs:msg/StatisticDataType.msg"
+  ]
+}

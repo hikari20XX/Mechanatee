@@ -1,0 +1,34 @@
+# MotorAlerts.msg
+
+# Timestamp for when the alert was generated
+int32 sec      # seconds since epoch
+uint32 nanosec # nanoseconds since the last second
+
+# Motor ID or name, to identify which motor this alert is about
+string motor_id
+
+# Boolean flags indicating various alerts or errors
+
+# Flag to indicate if the motor is overheating
+bool overheating
+
+# Flag to indicate if there's an electrical fault
+bool electrical_fault
+
+# Flag to indicate if the motor has stalled or isn't moving when it should be
+bool stall
+
+# Flag to indicate if the motor is drawing too much current
+bool overcurrent
+
+# Flag to indicate if there's a mechanical obstruction or blockage
+bool obstruction
+
+# Flag to indicate if the encoder or feedback mechanism is malfunctioning
+bool encoder_fault
+
+# Flag to indicate if the motor has been running for too long continuously
+bool runtime_exceeded
+
+# Optional: Additional information or details about the alert
+string additional_info

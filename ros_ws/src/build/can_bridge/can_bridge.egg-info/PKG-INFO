@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: can-bridge
+Version: 0.1.0
+Summary: ROS2 package for bridging ROS2 and the CAN bus.
+Author: Your Name
+Author-email: your_email@example.com
+Maintainer: Your Name
+Maintainer-email: your_email@example.com
+License: MIT License
+Keywords: ROS
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development
+Requires-Dist: setuptools

@@ -1,0 +1,9 @@
+# UpdatedPIDParams.msg
+
+int32 sec
+uint32 nanosec
+
+float64 updated_p_value
+float64 updated_i_value
+float64 updated_d_value
+

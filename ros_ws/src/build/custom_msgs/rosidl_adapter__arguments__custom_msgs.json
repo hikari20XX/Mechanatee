@@ -1,0 +1,22 @@
+{
+  "package_name": "custom_msgs",
+  "non_idl_tuples": [
+    "/home/hikari/ROScribe/ros_ws/src/custom_msgs:msg/AnalogInput.msg",
+    "/home/hikari/ROScribe/ros_ws/src/custom_msgs:msg/PWMCommand.msg",
+    "/home/hikari/ROScribe/ros_ws/src/custom_msgs:msg/MotorStatus.msg",
+    "/home/hikari/ROScribe/ros_ws/src/custom_msgs:msg/MotorFeedback.msg",
+    "/home/hikari/ROScribe/ros_ws/src/custom_msgs:msg/MotorAlerts.msg",
+    "/home/hikari/ROScribe/ros_ws/src/custom_msgs:msg/SystemFeedback.msg",
+    "/home/hikari/ROScribe/ros_ws/src/custom_msgs:msg/PIDParams.msg",
+    "/home/hikari/ROScribe/ros_ws/src/custom_msgs:msg/UpdatedPIDParams.msg",
+    "/home/hikari/ROScribe/ros_ws/src/custom_msgs:msg/TuningStatus.msg",
+    "/home/hikari/ROScribe/ros_ws/src/custom_msgs:msg/ServoFeedback.msg",
+    "/home/hikari/ROScribe/ros_ws/src/custom_msgs:msg/ServoSetpoint.msg",
+    "/home/hikari/ROScribe/ros_ws/src/custom_msgs:msg/ServoStatus.msg",
+    "/home/hikari/ROScribe/ros_ws/src/custom_msgs:msg/BatteryStatus.msg",
+    "/home/hikari/ROScribe/ros_ws/src/custom_msgs:msg/ServoSpeed.msg",
+    "/home/hikari/ROScribe/ros_ws/src/custom_msgs:msg/TargetPosition.msg",
+    "/home/hikari/ROScribe/ros_ws/src/custom_msgs:msg/SystemLogs.msg",
+    "/home/hikari/ROScribe/ros_ws/src/custom_msgs:msg/VoltageReading.msg"
+  ]
+}

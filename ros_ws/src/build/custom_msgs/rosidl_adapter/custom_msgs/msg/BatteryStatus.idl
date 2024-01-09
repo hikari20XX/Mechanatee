@@ -1,0 +1,33 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from custom_msgs/msg/BatteryStatus.msg
+// generated code does not contain a copyright notice
+
+
+module custom_msgs {
+  module msg {
+    module BatteryStatus_Constants {
+      const int8 OK = 1;
+      const int8 LOW = 2;
+      const int8 CRITICAL = 3;
+    };
+    @verbatim (language="comment", text=
+      "BatteryStatus.msg")
+    struct BatteryStatus {
+      int32 sec;
+
+      uint32 nanosec;
+
+      float charge_percentage;
+
+      float voltage;
+
+      float current;
+
+      float time_remaining;
+
+      int8 status;
+
+      float health_percentage;
+    };
+  };
+};

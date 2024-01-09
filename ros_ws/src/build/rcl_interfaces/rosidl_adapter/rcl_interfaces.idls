@@ -1,0 +1,17 @@
+/home/hikari/ROScribe/ros_ws/src/build/rcl_interfaces/rosidl_adapter/rcl_interfaces:msg/FloatingPointRange.idl
+/home/hikari/ROScribe/ros_ws/src/build/rcl_interfaces/rosidl_adapter/rcl_interfaces:msg/IntegerRange.idl
+/home/hikari/ROScribe/ros_ws/src/build/rcl_interfaces/rosidl_adapter/rcl_interfaces:msg/ListParametersResult.idl
+/home/hikari/ROScribe/ros_ws/src/build/rcl_interfaces/rosidl_adapter/rcl_interfaces:msg/Log.idl
+/home/hikari/ROScribe/ros_ws/src/build/rcl_interfaces/rosidl_adapter/rcl_interfaces:msg/ParameterDescriptor.idl
+/home/hikari/ROScribe/ros_ws/src/build/rcl_interfaces/rosidl_adapter/rcl_interfaces:msg/ParameterEventDescriptors.idl
+/home/hikari/ROScribe/ros_ws/src/build/rcl_interfaces/rosidl_adapter/rcl_interfaces:msg/ParameterEvent.idl
+/home/hikari/ROScribe/ros_ws/src/build/rcl_interfaces/rosidl_adapter/rcl_interfaces:msg/Parameter.idl
+/home/hikari/ROScribe/ros_ws/src/build/rcl_interfaces/rosidl_adapter/rcl_interfaces:msg/ParameterType.idl
+/home/hikari/ROScribe/ros_ws/src/build/rcl_interfaces/rosidl_adapter/rcl_interfaces:msg/ParameterValue.idl
+/home/hikari/ROScribe/ros_ws/src/build/rcl_interfaces/rosidl_adapter/rcl_interfaces:msg/SetParametersResult.idl
+/home/hikari/ROScribe/ros_ws/src/build/rcl_interfaces/rosidl_adapter/rcl_interfaces:srv/DescribeParameters.idl
+/home/hikari/ROScribe/ros_ws/src/build/rcl_interfaces/rosidl_adapter/rcl_interfaces:srv/GetParameters.idl
+/home/hikari/ROScribe/ros_ws/src/build/rcl_interfaces/rosidl_adapter/rcl_interfaces:srv/GetParameterTypes.idl
+/home/hikari/ROScribe/ros_ws/src/build/rcl_interfaces/rosidl_adapter/rcl_interfaces:srv/ListParameters.idl
+/home/hikari/ROScribe/ros_ws/src/build/rcl_interfaces/rosidl_adapter/rcl_interfaces:srv/SetParametersAtomically.idl
+/home/hikari/ROScribe/ros_ws/src/build/rcl_interfaces/rosidl_adapter/rcl_interfaces:srv/SetParameters.idl

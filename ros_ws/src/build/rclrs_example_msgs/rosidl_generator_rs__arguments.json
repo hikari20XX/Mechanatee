@@ -1,0 +1,26 @@
+{
+  "package_name": "rclrs_example_msgs",
+  "output_dir": "/home/hikari/ROScribe/ros_ws/src/build/rclrs_example_msgs/rosidl_generator_rs/rclrs_example_msgs",
+  "template_dir": "/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs/share/rosidl_generator_rs/cmake/../resource",
+  "idl_tuples": [
+    "/home/hikari/ROScribe/ros_ws/src/build/rclrs_example_msgs/rosidl_adapter/rclrs_example_msgs:msg/NestedType.idl",
+    "/home/hikari/ROScribe/ros_ws/src/build/rclrs_example_msgs/rosidl_adapter/rclrs_example_msgs:msg/VariousTypes.idl"
+  ],
+  "ros_interface_files": [
+    "/home/hikari/ROScribe/ros_ws/src/build/rclrs_example_msgs/rosidl_adapter/rclrs_example_msgs/msg/NestedType.idl",
+    "/home/hikari/ROScribe/ros_ws/src/build/rclrs_example_msgs/rosidl_adapter/rclrs_example_msgs/msg/VariousTypes.idl"
+  ],
+  "target_dependencies": [
+    "/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs/share/rosidl_generator_rs/cmake/../../../lib/rosidl_generator_rs/rosidl_generator_rs",
+    "/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs/share/rosidl_generator_rs/cmake/../../../local/lib/python3.10/dist-packages/rosidl_generator_rs/__init__.py",
+    "/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs/share/rosidl_generator_rs/cmake/../resource/msg_idiomatic.rs.em",
+    "/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs/share/rosidl_generator_rs/cmake/../resource/msg_rmw.rs.em",
+    "/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs/share/rosidl_generator_rs/cmake/../resource/msg.rs.em",
+    "/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs/share/rosidl_generator_rs/cmake/../resource/srv.rs.em",
+    "/home/hikari/ROScribe/ros_ws/src/build/rclrs_example_msgs/rosidl_adapter/rclrs_example_msgs/msg/NestedType.idl",
+    "/home/hikari/ROScribe/ros_ws/src/build/rclrs_example_msgs/rosidl_adapter/rclrs_example_msgs/msg/VariousTypes.idl",
+    "/home/hikari/ROScribe/ros_ws/src/build/rclrs_example_msgs/rosidl_adapter/rclrs_example_msgs/msg/NestedType.idl",
+    "/home/hikari/ROScribe/ros_ws/src/build/rclrs_example_msgs/rosidl_adapter/rclrs_example_msgs/msg/VariousTypes.idl"
+  ],
+  "package_version": "0.3.1"
+}

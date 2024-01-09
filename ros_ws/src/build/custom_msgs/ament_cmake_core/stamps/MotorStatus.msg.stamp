@@ -1,0 +1,15 @@
+# MotorStatus.msg
+
+int32 sec
+uint32 nanosec
+
+int8 RUNNING = 1
+int8 STOPPED = 2
+int8 ERROR = 3
+
+int8 state
+
+int32 speed_rpm
+float32 load_percentage 
+int32 error_code
+string description

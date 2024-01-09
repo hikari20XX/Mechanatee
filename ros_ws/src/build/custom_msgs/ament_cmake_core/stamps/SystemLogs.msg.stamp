@@ -1,0 +1,31 @@
+# SystemLogs.msg
+
+# Timestamp for when the log entry was created
+int32 sec      # seconds since epoch
+uint32 nanosec # nanoseconds since the last second
+
+# The ID or name of the component that's logging the message (e.g., a specific motor, sensor, etc.)
+string component_id
+
+# The severity level of the log
+# Predefined levels:
+# 1 - DEBUG
+# 2 - INFO
+# 3 - WARN
+# 4 - ERROR
+# 5 - FATAL
+int32 log_level
+
+# The main content of the log message
+string message
+
+# Optional: Any additional information or data related to the log entry
+string details
+
+# Throttling-related fields:
+
+# The time (in seconds) since this type of message was last logged
+float32 time_since_last_log
+
+# The maximum frequency (in Hz) at which this type of message should be logged
+float32 max_log_frequency

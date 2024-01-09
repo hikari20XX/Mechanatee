@@ -1,0 +1,14 @@
+[package]
+name = "geometry_msgs"
+version = "4.2.3"
+edition = "2021"
+
+[dependencies]
+rosidl_runtime_rs = "0.3"
+serde = { version = "1", optional = true, features = ["derive"] }
+serde-big-array = { version = "0.5.1", optional = true }
+std_msgs = "*"
+builtin_interfaces = "*"
+
+[features]
+serde = ['dep:serde', 'dep:serde-big-array', 'rosidl_runtime_rs/serde', 'std_msgs/serde', 'builtin_interfaces/serde']

@@ -1,0 +1,338 @@
+[0.268s] Invoking command in '/home/hikari/ROScribe/ros_ws/src/build/shape_msgs': AMENT_PREFIX_PATH=/home/hikari/ROScribe/ros_ws/src/install/geometry_msgs:/home/hikari/ROScribe/ros_ws/src/install/std_msgs:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_runtime:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_generators:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs:/home/hikari/ROScribe/ros_ws/src/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hikari/ROScribe/ros_ws/src/install/geometry_msgs:/home/hikari/ROScribe/ros_ws/src/install/std_msgs:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_runtime:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_generators:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs:/opt/ros/humble LD_LIBRARY_PATH=/home/hikari/ROScribe/ros_ws/src/install/geometry_msgs/lib:/home/hikari/ROScribe/ros_ws/src/install/std_msgs/lib:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hikari/ROScribe/ros_ws/src/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/hikari/ROScribe/ros_ws/src/install/std_msgs/local/lib/python3.10/dist-packages:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces/local/lib/python3.10/dist-packages:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake /home/hikari/ROScribe/ros_ws/src/ros2/common_interfaces/shape_msgs -DCMAKE_INSTALL_PREFIX=/home/hikari/ROScribe/ros_ws/src/install/shape_msgs
+[0.451s] -- The C compiler identification is GNU 11.4.0
+[0.657s] -- The CXX compiler identification is GNU 11.4.0
+[0.775s] -- Detecting C compiler ABI info
+[0.920s] -- Detecting C compiler ABI info - done
+[0.943s] -- Check for working C compiler: /usr/lib/ccache/cc - skipped
+[0.944s] -- Detecting C compile features
+[0.946s] -- Detecting C compile features - done
+[0.955s] -- Detecting CXX compiler ABI info
+[1.101s] -- Detecting CXX compiler ABI info - done
+[1.128s] -- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped
+[1.129s] -- Detecting CXX compile features
+[1.130s] -- Detecting CXX compile features - done
+[1.140s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.193s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[4.380s] -- Found geometry_msgs: 4.2.3 (/home/hikari/ROScribe/ros_ws/src/install/geometry_msgs/share/geometry_msgs/cmake)
+[4.570s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.581s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.602s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.636s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.693s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.023s] -- Found rosidl_default_generators: 1.2.0 (/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_generators/share/rosidl_default_generators/cmake)
+[5.698s] -- Found ament_cmake_cppcheck: 0.12.8 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[5.704s] -- Found ament_cmake_cpplint: 0.12.8 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[5.709s] -- Found ament_cmake_uncrustify: 0.12.8 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[5.716s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[6.670s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.079s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.090s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[7.894s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[8.526s] -- Found FastRTPS: /opt/ros/humble/include  
+[9.939s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[9.948s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[10.130s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[10.131s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[10.131s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[10.131s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[10.200s] -- Found PythonExtra: .so  
+[10.490s] -- Found ament_cmake_flake8: 0.12.8 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[10.496s] -- Found ament_cmake_pep257: 0.12.8 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[10.537s] -- Configuring done
+[10.753s] -- Generating done
+[10.766s] -- Build files have been written to: /home/hikari/ROScribe/ros_ws/src/build/shape_msgs
+[10.835s] Invoked command in '/home/hikari/ROScribe/ros_ws/src/build/shape_msgs' returned '0': AMENT_PREFIX_PATH=/home/hikari/ROScribe/ros_ws/src/install/geometry_msgs:/home/hikari/ROScribe/ros_ws/src/install/std_msgs:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_runtime:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_generators:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs:/home/hikari/ROScribe/ros_ws/src/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hikari/ROScribe/ros_ws/src/install/geometry_msgs:/home/hikari/ROScribe/ros_ws/src/install/std_msgs:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_runtime:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_generators:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs:/opt/ros/humble LD_LIBRARY_PATH=/home/hikari/ROScribe/ros_ws/src/install/geometry_msgs/lib:/home/hikari/ROScribe/ros_ws/src/install/std_msgs/lib:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hikari/ROScribe/ros_ws/src/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/hikari/ROScribe/ros_ws/src/install/std_msgs/local/lib/python3.10/dist-packages:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces/local/lib/python3.10/dist-packages:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake /home/hikari/ROScribe/ros_ws/src/ros2/common_interfaces/shape_msgs -DCMAKE_INSTALL_PREFIX=/home/hikari/ROScribe/ros_ws/src/install/shape_msgs
+[10.838s] Invoking command in '/home/hikari/ROScribe/ros_ws/src/build/shape_msgs': AMENT_PREFIX_PATH=/home/hikari/ROScribe/ros_ws/src/install/geometry_msgs:/home/hikari/ROScribe/ros_ws/src/install/std_msgs:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_runtime:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_generators:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs:/home/hikari/ROScribe/ros_ws/src/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hikari/ROScribe/ros_ws/src/install/geometry_msgs:/home/hikari/ROScribe/ros_ws/src/install/std_msgs:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_runtime:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_generators:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs:/opt/ros/humble LD_LIBRARY_PATH=/home/hikari/ROScribe/ros_ws/src/install/geometry_msgs/lib:/home/hikari/ROScribe/ros_ws/src/install/std_msgs/lib:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hikari/ROScribe/ros_ws/src/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/hikari/ROScribe/ros_ws/src/install/std_msgs/local/lib/python3.10/dist-packages:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces/local/lib/python3.10/dist-packages:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --build /home/hikari/ROScribe/ros_ws/src/build/shape_msgs -- -j8 -l8
+[11.002s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[11.008s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[11.064s] [  5%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[11.144s] [  5%] Built target ament_cmake_python_copy_shape_msgs
+[12.511s] running egg_info
+[12.515s] creating shape_msgs.egg-info
+[12.697s] writing shape_msgs.egg-info/PKG-INFO
+[12.730s] writing dependency_links to shape_msgs.egg-info/dependency_links.txt
+[12.731s] writing top-level names to shape_msgs.egg-info/top_level.txt
+[12.732s] writing manifest file 'shape_msgs.egg-info/SOURCES.txt'
+[13.227s] reading manifest file 'shape_msgs.egg-info/SOURCES.txt'
+[13.241s] writing manifest file 'shape_msgs.egg-info/SOURCES.txt'
+[13.384s] [  5%] Built target ament_cmake_python_build_shape_msgs_egg
+[13.808s] [  5%] Built target shape_msgs__rs
+[13.923s] [  7%] [32mBuilding C object CMakeFiles/shape_msgs__rosidl_generator_c.dir/rosidl_generator_c/shape_msgs/msg/detail/mesh__functions.c.o[0m
+[13.944s] [  7%] Built target shape_msgs__cpp
+[13.954s] [  8%] [32mBuilding C object CMakeFiles/shape_msgs__rosidl_generator_c.dir/rosidl_generator_c/shape_msgs/msg/detail/mesh_triangle__functions.c.o[0m
+[13.957s] [ 10%] [32mBuilding C object CMakeFiles/shape_msgs__rosidl_generator_c.dir/rosidl_generator_c/shape_msgs/msg/detail/plane__functions.c.o[0m
+[13.993s] [ 12%] [32mBuilding C object CMakeFiles/shape_msgs__rosidl_generator_c.dir/rosidl_generator_c/shape_msgs/msg/detail/solid_primitive__functions.c.o[0m
+[14.018s] [ 14%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[14.027s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[14.043s] [ 17%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[14.693s] [ 19%] [32m[1mLinking C shared library libshape_msgs__rosidl_generator_c.so[0m
+[14.973s] [ 19%] Built target shape_msgs__rosidl_generator_c
+[15.089s] [ 21%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[15.112s] [ 23%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[15.132s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[18.009s] [ 26%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/shape_msgs/msg/mesh__type_support.cpp.o[0m
+[18.304s] [ 28%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/shape_msgs/msg/mesh__type_support.cpp.o[0m
+[18.515s] [ 30%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/shape_msgs/msg/mesh_triangle__type_support.cpp.o[0m
+[18.673s] [ 32%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/shape_msgs/msg/detail/mesh__type_support.cpp.o[0m
+[18.726s] [ 33%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/shape_msgs/msg/detail/dds_fastrtps/mesh__type_support.cpp.o[0m
+[18.786s] [ 35%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/shape_msgs/msg/plane__type_support.cpp.o[0m
+[19.065s] [ 37%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/shape_msgs/msg/solid_primitive__type_support.cpp.o[0m
+[19.295s] [ 39%] [32mBuilding C object CMakeFiles/shape_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/shape_msgs/msg/detail/mesh__type_support.c.o[0m
+[19.300s] [ 41%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/shape_msgs/msg/detail/mesh__type_support_c.cpp.o[0m
+[19.340s] [ 42%] [32m[1mLinking CXX shared library libshape_msgs__rosidl_typesupport_c.so[0m
+[19.611s] [ 42%] Built target shape_msgs__rosidl_typesupport_c
+[19.694s] [ 44%] [32mBuilding C object CMakeFiles/shape_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/shape_msgs/msg/detail/mesh_triangle__type_support.c.o[0m
+[19.934s] [ 46%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/shape_msgs/msg/plane__type_support.cpp.o[0m
+[20.013s] [ 48%] [32mBuilding C object CMakeFiles/shape_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/shape_msgs/msg/detail/plane__type_support.c.o[0m
+[20.334s] [ 50%] [32mBuilding C object CMakeFiles/shape_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/shape_msgs/msg/detail/solid_primitive__type_support.c.o[0m
+[20.737s] [ 51%] [32m[1mLinking C shared library libshape_msgs__rosidl_typesupport_introspection_c.so[0m
+[21.004s] [ 51%] Built target shape_msgs__rosidl_typesupport_introspection_c
+[21.407s] [ 53%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/shape_msgs/msg/solid_primitive__type_support.cpp.o[0m
+[21.414s] [ 55%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/shape_msgs/msg/detail/dds_fastrtps/mesh_triangle__type_support.cpp.o[0m
+[21.669s] [ 57%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/shape_msgs/msg/detail/solid_primitive__type_support_c.cpp.o[0m
+[21.884s] [ 58%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/shape_msgs/msg/detail/mesh_triangle__type_support.cpp.o[0m
+[22.978s] [ 60%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/shape_msgs/msg/mesh_triangle__type_support.cpp.o[0m
+[23.504s] [ 62%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/shape_msgs/msg/detail/plane__type_support_c.cpp.o[0m
+[23.533s] [ 64%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/shape_msgs/msg/detail/dds_fastrtps/solid_primitive__type_support.cpp.o[0m
+[24.130s] [ 66%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/shape_msgs/msg/detail/solid_primitive__type_support.cpp.o[0m
+[24.555s] [ 67%] [32m[1mLinking CXX shared library libshape_msgs__rosidl_typesupport_cpp.so[0m
+[24.876s] [ 67%] Built target shape_msgs__rosidl_typesupport_cpp
+[25.494s] [ 69%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/shape_msgs/msg/detail/mesh_triangle__type_support_c.cpp.o[0m
+[25.762s] [ 71%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/shape_msgs/msg/detail/dds_fastrtps/plane__type_support.cpp.o[0m
+[26.587s] [ 73%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/shape_msgs/msg/detail/plane__type_support.cpp.o[0m
+[27.103s] [ 75%] [32m[1mLinking CXX shared library libshape_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[27.435s] [ 76%] [32m[1mLinking CXX shared library libshape_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[27.454s] [ 76%] Built target shape_msgs__rosidl_typesupport_fastrtps_c
+[27.916s] [ 76%] Built target shape_msgs__rosidl_typesupport_fastrtps_cpp
+[28.475s] [ 78%] [32m[1mLinking CXX shared library libshape_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[28.959s] [ 78%] Built target shape_msgs__rosidl_typesupport_introspection_cpp
+[28.992s] [ 78%] Built target shape_msgs
+[29.021s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[31.852s] [ 80%] Built target shape_msgs__py
+[31.873s] [ 82%] [32mBuilding C object CMakeFiles/shape_msgs__rosidl_generator_py.dir/rosidl_generator_py/shape_msgs/msg/_mesh_s.c.o[0m
+[32.304s] [ 83%] [32mBuilding C object CMakeFiles/shape_msgs__rosidl_generator_py.dir/rosidl_generator_py/shape_msgs/msg/_solid_primitive_s.c.o[0m
+[32.706s] [ 85%] [32mBuilding C object CMakeFiles/shape_msgs__rosidl_generator_py.dir/rosidl_generator_py/shape_msgs/msg/_plane_s.c.o[0m
+[33.082s] [ 87%] [32mBuilding C object CMakeFiles/shape_msgs__rosidl_generator_py.dir/rosidl_generator_py/shape_msgs/msg/_mesh_triangle_s.c.o[0m
+[33.434s] [ 89%] [32m[1mLinking C shared library rosidl_generator_py/shape_msgs/libshape_msgs__rosidl_generator_py.so[0m
+[33.546s] [ 89%] Built target shape_msgs__rosidl_generator_py
+[33.562s] [ 91%] [32mBuilding C object CMakeFiles/shape_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/shape_msgs/_shape_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[33.914s] [ 92%] [32m[1mLinking C shared library rosidl_generator_py/shape_msgs/shape_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[34.019s] [ 92%] Built target shape_msgs__rosidl_typesupport_fastrtps_c__pyext
+[34.034s] [ 94%] [32mBuilding C object CMakeFiles/shape_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/shape_msgs/_shape_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[34.404s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/shape_msgs/shape_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[34.484s] [ 96%] Built target shape_msgs__rosidl_typesupport_c__pyext
+[34.500s] [ 98%] [32mBuilding C object CMakeFiles/shape_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/shape_msgs/_shape_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[34.852s] [100%] [32m[1mLinking C shared library rosidl_generator_py/shape_msgs/shape_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[34.955s] [100%] Built target shape_msgs__rosidl_typesupport_introspection_c__pyext
+[34.976s] Invoked command in '/home/hikari/ROScribe/ros_ws/src/build/shape_msgs' returned '0': AMENT_PREFIX_PATH=/home/hikari/ROScribe/ros_ws/src/install/geometry_msgs:/home/hikari/ROScribe/ros_ws/src/install/std_msgs:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_runtime:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_generators:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs:/home/hikari/ROScribe/ros_ws/src/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hikari/ROScribe/ros_ws/src/install/geometry_msgs:/home/hikari/ROScribe/ros_ws/src/install/std_msgs:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_runtime:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_generators:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs:/opt/ros/humble LD_LIBRARY_PATH=/home/hikari/ROScribe/ros_ws/src/install/geometry_msgs/lib:/home/hikari/ROScribe/ros_ws/src/install/std_msgs/lib:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hikari/ROScribe/ros_ws/src/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/hikari/ROScribe/ros_ws/src/install/std_msgs/local/lib/python3.10/dist-packages:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces/local/lib/python3.10/dist-packages:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --build /home/hikari/ROScribe/ros_ws/src/build/shape_msgs -- -j8 -l8
+[35.223s] Invoking command in '/home/hikari/ROScribe/ros_ws/src/build/shape_msgs': AMENT_PREFIX_PATH=/home/hikari/ROScribe/ros_ws/src/install/geometry_msgs:/home/hikari/ROScribe/ros_ws/src/install/std_msgs:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_runtime:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_generators:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs:/home/hikari/ROScribe/ros_ws/src/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hikari/ROScribe/ros_ws/src/install/geometry_msgs:/home/hikari/ROScribe/ros_ws/src/install/std_msgs:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_runtime:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_generators:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs:/opt/ros/humble LD_LIBRARY_PATH=/home/hikari/ROScribe/ros_ws/src/install/geometry_msgs/lib:/home/hikari/ROScribe/ros_ws/src/install/std_msgs/lib:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hikari/ROScribe/ros_ws/src/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/hikari/ROScribe/ros_ws/src/install/std_msgs/local/lib/python3.10/dist-packages:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces/local/lib/python3.10/dist-packages:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --install /home/hikari/ROScribe/ros_ws/src/build/shape_msgs
+[35.300s] -- Install configuration: ""
+[35.301s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/share/ament_index/resource_index/rosidl_interfaces/shape_msgs
+[35.301s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/include/shape_msgs/shape_msgs
+[35.302s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/include/shape_msgs/shape_msgs/msg
+[35.302s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/include/shape_msgs/shape_msgs/msg/mesh_triangle.h
+[35.303s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/include/shape_msgs/shape_msgs/msg/mesh.h
+[35.304s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/include/shape_msgs/shape_msgs/msg/plane.h
+[35.304s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/include/shape_msgs/shape_msgs/msg/solid_primitive.h
+[35.304s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/include/shape_msgs/shape_msgs/msg/rosidl_generator_c__visibility_control.h
+[35.305s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail
+[35.305s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__functions.c
+[35.306s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__struct.h
+[35.306s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__type_support.h
+[35.307s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__struct.h
+[35.307s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__functions.h
+[35.308s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__type_support.h
+[35.308s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__functions.h
+[35.308s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__functions.h
+[35.309s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__functions.c
+[35.309s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__functions.c
+[35.310s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__functions.c
+[35.310s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__type_support.h
+[35.311s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__functions.h
+[35.311s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__struct.h
+[35.311s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__type_support.h
+[35.311s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__struct.h
+[35.312s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/share/shape_msgs/environment/library_path.sh
+[35.312s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/share/shape_msgs/environment/library_path.dsv
+[35.312s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/lib/libshape_msgs__rosidl_generator_c.so
+[35.313s] -- Set runtime path of "/home/hikari/ROScribe/ros_ws/src/install/shape_msgs/lib/libshape_msgs__rosidl_generator_c.so" to ""
+[35.313s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/include/shape_msgs/shape_msgs
+[35.313s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/include/shape_msgs/shape_msgs/msg
+[35.314s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/include/shape_msgs/shape_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[35.314s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail
+[35.314s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__rosidl_typesupport_fastrtps_c.h
+[35.315s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__rosidl_typesupport_fastrtps_c.h
+[35.315s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__rosidl_typesupport_fastrtps_c.h
+[35.316s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__rosidl_typesupport_fastrtps_c.h
+[35.316s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/lib/libshape_msgs__rosidl_typesupport_fastrtps_c.so
+[35.316s] -- Set runtime path of "/home/hikari/ROScribe/ros_ws/src/install/shape_msgs/lib/libshape_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[35.317s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/include/shape_msgs/shape_msgs
+[35.318s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/include/shape_msgs/shape_msgs/msg
+[35.318s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/include/shape_msgs/shape_msgs/msg/mesh.hpp
+[35.319s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/include/shape_msgs/shape_msgs/msg/mesh_triangle.hpp
+[35.320s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/include/shape_msgs/shape_msgs/msg/plane.hpp
+[35.321s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/include/shape_msgs/shape_msgs/msg/solid_primitive.hpp
+[35.321s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail
+[35.322s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__struct.hpp
+[35.322s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__traits.hpp
+[35.323s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__struct.hpp
+[35.323s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__traits.hpp
+[35.323s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__struct.hpp
+[35.323s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__traits.hpp
+[35.323s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__traits.hpp
+[35.324s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__builder.hpp
+[35.324s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__struct.hpp
+[35.324s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__builder.hpp
+[35.325s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__builder.hpp
+[35.325s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__builder.hpp
+[35.326s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/include/shape_msgs/shape_msgs
+[35.326s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/include/shape_msgs/shape_msgs/msg
+[35.326s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/include/shape_msgs/shape_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[35.327s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail
+[35.327s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__rosidl_typesupport_fastrtps_cpp.hpp
+[35.328s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__rosidl_typesupport_fastrtps_cpp.hpp
+[35.328s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/dds_fastrtps
+[35.328s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__rosidl_typesupport_fastrtps_cpp.hpp
+[35.329s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__rosidl_typesupport_fastrtps_cpp.hpp
+[35.330s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/lib/libshape_msgs__rosidl_typesupport_fastrtps_cpp.so
+[35.330s] -- Set runtime path of "/home/hikari/ROScribe/ros_ws/src/install/shape_msgs/lib/libshape_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[35.330s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/include/shape_msgs/shape_msgs
+[35.331s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/include/shape_msgs/shape_msgs/msg
+[35.331s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/include/shape_msgs/shape_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[35.332s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail
+[35.332s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__type_support.c
+[35.333s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__rosidl_typesupport_introspection_c.h
+[35.333s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__rosidl_typesupport_introspection_c.h
+[35.333s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__type_support.c
+[35.334s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__type_support.c
+[35.334s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__rosidl_typesupport_introspection_c.h
+[35.334s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__rosidl_typesupport_introspection_c.h
+[35.334s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__type_support.c
+[35.335s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/lib/libshape_msgs__rosidl_typesupport_introspection_c.so
+[35.335s] -- Set runtime path of "/home/hikari/ROScribe/ros_ws/src/install/shape_msgs/lib/libshape_msgs__rosidl_typesupport_introspection_c.so" to ""
+[35.335s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/lib/libshape_msgs__rosidl_typesupport_c.so
+[35.336s] -- Set runtime path of "/home/hikari/ROScribe/ros_ws/src/install/shape_msgs/lib/libshape_msgs__rosidl_typesupport_c.so" to ""
+[35.336s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/include/shape_msgs/shape_msgs
+[35.336s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/include/shape_msgs/shape_msgs/msg
+[35.337s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail
+[35.337s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__rosidl_typesupport_introspection_cpp.hpp
+[35.338s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__rosidl_typesupport_introspection_cpp.hpp
+[35.338s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__type_support.cpp
+[35.339s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__rosidl_typesupport_introspection_cpp.hpp
+[35.339s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__type_support.cpp
+[35.340s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__rosidl_typesupport_introspection_cpp.hpp
+[35.340s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__type_support.cpp
+[35.340s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__type_support.cpp
+[35.341s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/lib/libshape_msgs__rosidl_typesupport_introspection_cpp.so
+[35.341s] -- Set runtime path of "/home/hikari/ROScribe/ros_ws/src/install/shape_msgs/lib/libshape_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[35.341s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/lib/libshape_msgs__rosidl_typesupport_cpp.so
+[35.342s] -- Set runtime path of "/home/hikari/ROScribe/ros_ws/src/install/shape_msgs/lib/libshape_msgs__rosidl_typesupport_cpp.so" to ""
+[35.342s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/share/ament_index/resource_index/rust_packages/shape_msgs
+[35.342s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/share/shape_msgs/rust
+[35.342s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/share/shape_msgs/rust/src
+[35.343s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/share/shape_msgs/rust/src/msg.rs
+[35.343s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/share/shape_msgs/rust/src/lib.rs
+[35.344s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/share/shape_msgs/rust/Cargo.toml
+[35.344s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/share/shape_msgs/rust/build.rs
+[35.344s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/share/shape_msgs/rust
+[35.344s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/share/shape_msgs/rust/src
+[35.345s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/share/shape_msgs/rust/src/msg.rs
+[35.345s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/share/shape_msgs/rust/src/lib.rs
+[35.345s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/share/shape_msgs/rust/Cargo.toml
+[35.346s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/share/shape_msgs/rust/build.rs
+[35.346s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/share/shape_msgs/rust
+[35.346s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/share/shape_msgs/rust/src
+[35.347s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/share/shape_msgs/rust/src/msg.rs
+[35.347s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/share/shape_msgs/rust/src/lib.rs
+[35.347s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/share/shape_msgs/rust/Cargo.toml
+[35.347s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/share/shape_msgs/rust/build.rs
+[35.348s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/share/shape_msgs/environment/pythonpath.sh
+[35.348s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/share/shape_msgs/environment/pythonpath.dsv
+[35.348s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs-4.2.3-py3.10.egg-info
+[35.348s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs-4.2.3-py3.10.egg-info/top_level.txt
+[35.348s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs-4.2.3-py3.10.egg-info/dependency_links.txt
+[35.348s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs-4.2.3-py3.10.egg-info/SOURCES.txt
+[35.349s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs-4.2.3-py3.10.egg-info/PKG-INFO
+[35.349s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs
+[35.349s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/_shape_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[35.349s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/shape_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[35.349s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/shape_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[35.351s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/shape_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[35.351s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/msg
+[35.351s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/msg/_mesh.py
+[35.351s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/msg/_solid_primitive_s.c
+[35.351s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/msg/_mesh_triangle_s.c
+[35.352s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/msg/_plane.py
+[35.352s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/msg/_solid_primitive.py
+[35.352s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/msg/_mesh_triangle.py
+[35.353s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/msg/_plane_s.c
+[35.353s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/msg/_mesh_s.c
+[35.353s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/msg/__init__.py
+[35.353s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/libshape_msgs__rosidl_generator_py.so
+[35.354s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/_shape_msgs_s.ep.rosidl_typesupport_c.c
+[35.354s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/__init__.py
+[35.354s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/_shape_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[35.442s] Listing '/home/hikari/ROScribe/ros_ws/src/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs'...
+[35.443s] Compiling '/home/hikari/ROScribe/ros_ws/src/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/__init__.py'...
+[35.443s] Listing '/home/hikari/ROScribe/ros_ws/src/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/msg'...
+[35.443s] Compiling '/home/hikari/ROScribe/ros_ws/src/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/msg/__init__.py'...
+[35.443s] Compiling '/home/hikari/ROScribe/ros_ws/src/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/msg/_mesh.py'...
+[35.443s] Compiling '/home/hikari/ROScribe/ros_ws/src/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/msg/_mesh_triangle.py'...
+[35.443s] Compiling '/home/hikari/ROScribe/ros_ws/src/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/msg/_plane.py'...
+[35.444s] Compiling '/home/hikari/ROScribe/ros_ws/src/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/msg/_solid_primitive.py'...
+[35.453s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/shape_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[35.454s] -- Set runtime path of "/home/hikari/ROScribe/ros_ws/src/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/shape_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[35.454s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/shape_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[35.454s] -- Set runtime path of "/home/hikari/ROScribe/ros_ws/src/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/shape_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[35.455s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/shape_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[35.456s] -- Set runtime path of "/home/hikari/ROScribe/ros_ws/src/install/shape_msgs/local/lib/python3.10/dist-packages/shape_msgs/shape_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[35.456s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/lib/libshape_msgs__rosidl_generator_py.so
+[35.457s] -- Set runtime path of "/home/hikari/ROScribe/ros_ws/src/install/shape_msgs/lib/libshape_msgs__rosidl_generator_py.so" to ""
+[35.457s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/share/shape_msgs/msg/Mesh.idl
+[35.457s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/share/shape_msgs/msg/MeshTriangle.idl
+[35.458s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/share/shape_msgs/msg/Plane.idl
+[35.458s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/share/shape_msgs/msg/SolidPrimitive.idl
+[35.459s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/share/shape_msgs/msg/Mesh.msg
+[35.459s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/share/shape_msgs/msg/MeshTriangle.msg
+[35.459s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/share/shape_msgs/msg/Plane.msg
+[35.459s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/share/shape_msgs/msg/SolidPrimitive.msg
+[35.460s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/share/ament_index/resource_index/package_run_dependencies/shape_msgs
+[35.460s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/share/ament_index/resource_index/parent_prefix_path/shape_msgs
+[35.461s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/share/shape_msgs/environment/ament_prefix_path.sh
+[35.461s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/share/shape_msgs/environment/ament_prefix_path.dsv
+[35.462s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/share/shape_msgs/environment/path.sh
+[35.462s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/share/shape_msgs/environment/path.dsv
+[35.462s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/share/shape_msgs/local_setup.bash
+[35.463s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/share/shape_msgs/local_setup.sh
+[35.463s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/share/shape_msgs/local_setup.zsh
+[35.463s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/share/shape_msgs/local_setup.dsv
+[35.464s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/share/shape_msgs/package.dsv
+[35.464s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/share/ament_index/resource_index/packages/shape_msgs
+[35.465s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/share/shape_msgs/cmake/export_shape_msgs__rosidl_generator_cExport.cmake
+[35.466s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/share/shape_msgs/cmake/export_shape_msgs__rosidl_generator_cExport-noconfig.cmake
+[35.467s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/share/shape_msgs/cmake/export_shape_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[35.467s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/share/shape_msgs/cmake/export_shape_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[35.468s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/share/shape_msgs/cmake/export_shape_msgs__rosidl_generator_cppExport.cmake
+[35.468s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/share/shape_msgs/cmake/export_shape_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[35.469s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/share/shape_msgs/cmake/export_shape_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[35.469s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/share/shape_msgs/cmake/shape_msgs__rosidl_typesupport_introspection_cExport.cmake
+[35.469s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/share/shape_msgs/cmake/shape_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[35.470s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/share/shape_msgs/cmake/shape_msgs__rosidl_typesupport_cExport.cmake
+[35.470s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/share/shape_msgs/cmake/shape_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[35.470s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/share/shape_msgs/cmake/shape_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[35.470s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/share/shape_msgs/cmake/shape_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[35.471s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/share/shape_msgs/cmake/shape_msgs__rosidl_typesupport_cppExport.cmake
+[35.471s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/share/shape_msgs/cmake/shape_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[35.472s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/share/shape_msgs/cmake/export_shape_msgs__rosidl_generator_pyExport.cmake
+[35.472s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/share/shape_msgs/cmake/export_shape_msgs__rosidl_generator_pyExport-noconfig.cmake
+[35.473s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/share/shape_msgs/cmake/rosidl_cmake-extras.cmake
+[35.473s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/share/shape_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[35.473s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/share/shape_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[35.474s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/share/shape_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[35.474s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/share/shape_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[35.474s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/share/shape_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[35.475s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/share/shape_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[35.475s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/share/shape_msgs/cmake/shape_msgsConfig.cmake
+[35.476s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/share/shape_msgs/cmake/shape_msgsConfig-version.cmake
+[35.476s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/shape_msgs/share/shape_msgs/package.xml
+[35.489s] Invoked command in '/home/hikari/ROScribe/ros_ws/src/build/shape_msgs' returned '0': AMENT_PREFIX_PATH=/home/hikari/ROScribe/ros_ws/src/install/geometry_msgs:/home/hikari/ROScribe/ros_ws/src/install/std_msgs:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_runtime:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_generators:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs:/home/hikari/ROScribe/ros_ws/src/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hikari/ROScribe/ros_ws/src/install/geometry_msgs:/home/hikari/ROScribe/ros_ws/src/install/std_msgs:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_runtime:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_generators:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs:/opt/ros/humble LD_LIBRARY_PATH=/home/hikari/ROScribe/ros_ws/src/install/geometry_msgs/lib:/home/hikari/ROScribe/ros_ws/src/install/std_msgs/lib:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hikari/ROScribe/ros_ws/src/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/hikari/ROScribe/ros_ws/src/install/std_msgs/local/lib/python3.10/dist-packages:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces/local/lib/python3.10/dist-packages:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --install /home/hikari/ROScribe/ros_ws/src/build/shape_msgs

@@ -1,0 +1,305 @@
+[0.697s] Invoking command in '/home/hikari/ROScribe/ros_ws/src/build/statistics_msgs': AMENT_PREFIX_PATH=/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_runtime:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_generators:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs:/home/hikari/ROScribe/ros_ws/src/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_runtime:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_generators:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs:/opt/ros/humble LD_LIBRARY_PATH=/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces/local/lib/python3.10/dist-packages:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake /home/hikari/ROScribe/ros_ws/src/ros2/rcl_interfaces/statistics_msgs -DCMAKE_INSTALL_PREFIX=/home/hikari/ROScribe/ros_ws/src/install/statistics_msgs
+[17.871s] -- The C compiler identification is GNU 11.4.0
+[17.871s] -- The CXX compiler identification is GNU 11.4.0
+[17.872s] -- Detecting C compiler ABI info
+[17.872s] -- Detecting C compiler ABI info - done
+[17.872s] -- Check for working C compiler: /usr/lib/ccache/cc - skipped
+[17.872s] -- Detecting C compile features
+[17.872s] -- Detecting C compile features - done
+[17.873s] -- Detecting CXX compiler ABI info
+[17.873s] -- Detecting CXX compiler ABI info - done
+[17.873s] -- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped
+[17.886s] -- Detecting CXX compile features
+[17.886s] -- Detecting CXX compile features - done
+[17.887s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[17.887s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[17.887s] -- Found builtin_interfaces: 1.2.1 (/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces/share/builtin_interfaces/cmake)
+[17.887s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[17.887s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[17.887s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[17.888s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[17.888s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[17.888s] -- Found rosidl_default_generators: 1.2.0 (/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_generators/share/rosidl_default_generators/cmake)
+[17.888s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[17.888s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[17.888s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[17.888s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[17.889s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[17.889s] -- Found FastRTPS: /opt/ros/humble/include  
+[17.889s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[17.889s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[17.889s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[17.889s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[17.890s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[17.890s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[17.890s] -- Found PythonExtra: .so  
+[17.890s] -- Configuring done
+[17.890s] -- Generating done
+[17.890s] -- Build files have been written to: /home/hikari/ROScribe/ros_ws/src/build/statistics_msgs
+[17.892s] Invoked command in '/home/hikari/ROScribe/ros_ws/src/build/statistics_msgs' returned '0': AMENT_PREFIX_PATH=/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_runtime:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_generators:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs:/home/hikari/ROScribe/ros_ws/src/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_runtime:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_generators:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs:/opt/ros/humble LD_LIBRARY_PATH=/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces/local/lib/python3.10/dist-packages:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake /home/hikari/ROScribe/ros_ws/src/ros2/rcl_interfaces/statistics_msgs -DCMAKE_INSTALL_PREFIX=/home/hikari/ROScribe/ros_ws/src/install/statistics_msgs
+[17.892s] Invoking command in '/home/hikari/ROScribe/ros_ws/src/build/statistics_msgs': AMENT_PREFIX_PATH=/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_runtime:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_generators:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs:/home/hikari/ROScribe/ros_ws/src/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_runtime:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_generators:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs:/opt/ros/humble LD_LIBRARY_PATH=/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces/local/lib/python3.10/dist-packages:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --build /home/hikari/ROScribe/ros_ws/src/build/statistics_msgs -- -j8 -l8
+[18.031s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[18.046s] [  4%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[19.696s] [  4%] Built target statistics_msgs__rs
+[19.787s] [  4%] Built target ament_cmake_python_copy_statistics_msgs
+[19.855s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[20.106s] [  8%] [32mBuilding C object CMakeFiles/statistics_msgs__rosidl_generator_c.dir/rosidl_generator_c/statistics_msgs/msg/detail/metrics_message__functions.c.o[0m
+[20.118s] [ 10%] [32mBuilding C object CMakeFiles/statistics_msgs__rosidl_generator_c.dir/rosidl_generator_c/statistics_msgs/msg/detail/statistic_data_point__functions.c.o[0m
+[20.587s] [ 12%] [32mBuilding C object CMakeFiles/statistics_msgs__rosidl_generator_c.dir/rosidl_generator_c/statistics_msgs/msg/detail/statistic_data_type__functions.c.o[0m
+[21.026s] [ 14%] [32m[1mLinking C shared library libstatistics_msgs__rosidl_generator_c.so[0m
+[21.348s] [ 14%] Built target statistics_msgs__rosidl_generator_c
+[22.823s] [ 14%] Built target statistics_msgs__cpp
+[22.838s] [ 16%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[23.159s] running egg_info
+[23.167s] creating statistics_msgs.egg-info
+[23.379s] writing statistics_msgs.egg-info/PKG-INFO
+[23.382s] writing dependency_links to statistics_msgs.egg-info/dependency_links.txt
+[23.383s] writing top-level names to statistics_msgs.egg-info/top_level.txt
+[23.384s] writing manifest file 'statistics_msgs.egg-info/SOURCES.txt'
+[23.998s] reading manifest file 'statistics_msgs.egg-info/SOURCES.txt'
+[24.001s] writing manifest file 'statistics_msgs.egg-info/SOURCES.txt'
+[24.185s] [ 16%] Built target ament_cmake_python_build_statistics_msgs_egg
+[25.268s] [ 18%] [32mBuilding CXX object CMakeFiles/statistics_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/statistics_msgs/msg/metrics_message__type_support.cpp.o[0m
+[25.356s] [ 20%] [32mBuilding CXX object CMakeFiles/statistics_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/statistics_msgs/msg/statistic_data_type__type_support.cpp.o[0m
+[25.462s] [ 22%] [32mBuilding CXX object CMakeFiles/statistics_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/statistics_msgs/msg/statistic_data_point__type_support.cpp.o[0m
+[25.571s] [ 25%] [32m[1mLinking CXX shared library libstatistics_msgs__rosidl_typesupport_c.so[0m
+[25.699s] [ 25%] Built target statistics_msgs__rosidl_typesupport_c
+[25.708s] [ 27%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[26.962s] [ 29%] [32mBuilding CXX object CMakeFiles/statistics_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/statistics_msgs/msg/metrics_message__type_support.cpp.o[0m
+[27.861s] [ 31%] [32mBuilding CXX object CMakeFiles/statistics_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/statistics_msgs/msg/statistic_data_type__type_support.cpp.o[0m
+[28.774s] [ 33%] [32mBuilding CXX object CMakeFiles/statistics_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/statistics_msgs/msg/statistic_data_point__type_support.cpp.o[0m
+[29.658s] [ 35%] [32m[1mLinking CXX shared library libstatistics_msgs__rosidl_typesupport_cpp.so[0m
+[29.780s] [ 35%] Built target statistics_msgs__rosidl_typesupport_cpp
+[29.788s] [ 37%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[31.184s] [ 39%] [32mBuilding CXX object CMakeFiles/statistics_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/statistics_msgs/msg/detail/metrics_message__type_support.cpp.o[0m
+[32.505s] [ 41%] [32mBuilding CXX object CMakeFiles/statistics_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/statistics_msgs/msg/detail/statistic_data_type__type_support.cpp.o[0m
+[33.676s] [ 43%] [32mBuilding CXX object CMakeFiles/statistics_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/statistics_msgs/msg/detail/statistic_data_point__type_support.cpp.o[0m
+[34.809s] [ 45%] [32m[1mLinking CXX shared library libstatistics_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[35.018s] [ 45%] Built target statistics_msgs__rosidl_typesupport_introspection_cpp
+[35.027s] [ 47%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[36.433s] [ 50%] [32mBuilding CXX object CMakeFiles/statistics_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/statistics_msgs/msg/detail/dds_fastrtps/metrics_message__type_support.cpp.o[0m
+[37.730s] [ 52%] [32mBuilding CXX object CMakeFiles/statistics_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/statistics_msgs/msg/detail/dds_fastrtps/statistic_data_type__type_support.cpp.o[0m
+[38.939s] [ 54%] [32mBuilding CXX object CMakeFiles/statistics_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/statistics_msgs/msg/detail/dds_fastrtps/statistic_data_point__type_support.cpp.o[0m
+[40.133s] [ 56%] [32m[1mLinking CXX shared library libstatistics_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[40.359s] [ 56%] Built target statistics_msgs__rosidl_typesupport_fastrtps_cpp
+[40.368s] [ 58%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[41.683s] [ 60%] [32mBuilding C object CMakeFiles/statistics_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/statistics_msgs/msg/detail/metrics_message__type_support.c.o[0m
+[41.814s] [ 62%] [32mBuilding C object CMakeFiles/statistics_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/statistics_msgs/msg/detail/statistic_data_type__type_support.c.o[0m
+[41.921s] [ 64%] [32mBuilding C object CMakeFiles/statistics_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/statistics_msgs/msg/detail/statistic_data_point__type_support.c.o[0m
+[42.019s] [ 66%] [32m[1mLinking C shared library libstatistics_msgs__rosidl_typesupport_introspection_c.so[0m
+[42.117s] [ 66%] Built target statistics_msgs__rosidl_typesupport_introspection_c
+[42.126s] [ 68%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[43.516s] [ 70%] [32mBuilding CXX object CMakeFiles/statistics_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/statistics_msgs/msg/detail/metrics_message__type_support_c.cpp.o[0m
+[45.579s] [ 72%] [32mBuilding CXX object CMakeFiles/statistics_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/statistics_msgs/msg/detail/statistic_data_type__type_support_c.cpp.o[0m
+[47.291s] [ 75%] [32mBuilding CXX object CMakeFiles/statistics_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/statistics_msgs/msg/detail/statistic_data_point__type_support_c.cpp.o[0m
+[48.575s] [ 77%] [32m[1mLinking CXX shared library libstatistics_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[48.825s] [ 77%] Built target statistics_msgs__rosidl_typesupport_fastrtps_c
+[48.839s] [ 77%] Built target statistics_msgs
+[48.857s] [ 79%] [34m[1mGenerating Python code for ROS interfaces[0m
+[51.940s] [ 79%] Built target statistics_msgs__py
+[51.966s] [ 81%] [32mBuilding C object CMakeFiles/statistics_msgs__rosidl_generator_py.dir/rosidl_generator_py/statistics_msgs/msg/_metrics_message_s.c.o[0m
+[51.973s] [ 83%] [32mBuilding C object CMakeFiles/statistics_msgs__rosidl_generator_py.dir/rosidl_generator_py/statistics_msgs/msg/_statistic_data_point_s.c.o[0m
+[52.574s] [ 85%] [32mBuilding C object CMakeFiles/statistics_msgs__rosidl_generator_py.dir/rosidl_generator_py/statistics_msgs/msg/_statistic_data_type_s.c.o[0m
+[53.099s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/statistics_msgs/libstatistics_msgs__rosidl_generator_py.so[0m
+[53.355s] [ 87%] Built target statistics_msgs__rosidl_generator_py
+[53.382s] [ 89%] [32mBuilding C object CMakeFiles/statistics_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/statistics_msgs/_statistics_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[53.445s] [ 91%] [32mBuilding C object CMakeFiles/statistics_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/statistics_msgs/_statistics_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[54.097s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/statistics_msgs/statistics_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[54.275s] [ 93%] Built target statistics_msgs__rosidl_typesupport_fastrtps_c__pyext
+[54.283s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/statistics_msgs/statistics_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[54.356s] [ 97%] [32mBuilding C object CMakeFiles/statistics_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/statistics_msgs/_statistics_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[54.522s] [ 97%] Built target statistics_msgs__rosidl_typesupport_introspection_c__pyext
+[55.056s] [100%] [32m[1mLinking C shared library rosidl_generator_py/statistics_msgs/statistics_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[55.269s] [100%] Built target statistics_msgs__rosidl_typesupport_c__pyext
+[55.322s] Invoked command in '/home/hikari/ROScribe/ros_ws/src/build/statistics_msgs' returned '0': AMENT_PREFIX_PATH=/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_runtime:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_generators:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs:/home/hikari/ROScribe/ros_ws/src/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_runtime:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_generators:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs:/opt/ros/humble LD_LIBRARY_PATH=/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces/local/lib/python3.10/dist-packages:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --build /home/hikari/ROScribe/ros_ws/src/build/statistics_msgs -- -j8 -l8
+[55.927s] Invoking command in '/home/hikari/ROScribe/ros_ws/src/build/statistics_msgs': AMENT_PREFIX_PATH=/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_runtime:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_generators:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs:/home/hikari/ROScribe/ros_ws/src/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_runtime:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_generators:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs:/opt/ros/humble LD_LIBRARY_PATH=/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces/local/lib/python3.10/dist-packages:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --install /home/hikari/ROScribe/ros_ws/src/build/statistics_msgs
+[56.776s] -- Install configuration: ""
+[56.777s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/share/ament_index/resource_index/rosidl_interfaces/statistics_msgs
+[56.777s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs
+[56.783s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg
+[56.783s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/metrics_message.h
+[56.783s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/statistic_data_point.h
+[56.784s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/statistic_data_type.h
+[56.784s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/rosidl_generator_c__visibility_control.h
+[56.784s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail
+[56.784s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_type__struct.h
+[56.785s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__functions.c
+[56.785s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__functions.h
+[56.785s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__struct.h
+[56.785s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_type__functions.h
+[56.785s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__functions.h
+[56.786s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_type__functions.c
+[56.793s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_type__type_support.h
+[56.794s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__struct.h
+[56.794s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__functions.c
+[56.794s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__type_support.h
+[56.795s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__type_support.h
+[56.795s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/share/statistics_msgs/environment/library_path.sh
+[56.795s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/share/statistics_msgs/environment/library_path.dsv
+[56.795s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/lib/libstatistics_msgs__rosidl_generator_c.so
+[56.796s] -- Set runtime path of "/home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/lib/libstatistics_msgs__rosidl_generator_c.so" to ""
+[56.796s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs
+[56.796s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg
+[56.796s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[56.797s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail
+[56.797s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__rosidl_typesupport_fastrtps_c.h
+[56.797s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__rosidl_typesupport_fastrtps_c.h
+[56.797s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_type__rosidl_typesupport_fastrtps_c.h
+[56.798s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/lib/libstatistics_msgs__rosidl_typesupport_fastrtps_c.so
+[56.798s] -- Set runtime path of "/home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/lib/libstatistics_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[56.798s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs
+[56.798s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg
+[56.799s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/metrics_message.hpp
+[56.799s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/statistic_data_type.hpp
+[56.799s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/statistic_data_point.hpp
+[56.799s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail
+[56.800s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__traits.hpp
+[56.800s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__builder.hpp
+[56.800s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__builder.hpp
+[56.800s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__struct.hpp
+[56.800s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__struct.hpp
+[56.801s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__traits.hpp
+[56.801s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_type__traits.hpp
+[56.801s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_type__builder.hpp
+[56.801s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_type__struct.hpp
+[56.823s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs
+[56.824s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg
+[56.825s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[56.826s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail
+[56.826s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__rosidl_typesupport_fastrtps_cpp.hpp
+[56.826s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/dds_fastrtps
+[56.826s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__rosidl_typesupport_fastrtps_cpp.hpp
+[56.827s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_type__rosidl_typesupport_fastrtps_cpp.hpp
+[56.829s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/lib/libstatistics_msgs__rosidl_typesupport_fastrtps_cpp.so
+[56.830s] -- Set runtime path of "/home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/lib/libstatistics_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[56.831s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs
+[56.831s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg
+[56.831s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[56.832s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail
+[56.832s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__type_support.c
+[56.832s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_type__rosidl_typesupport_introspection_c.h
+[56.832s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_type__type_support.c
+[56.833s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__type_support.c
+[56.833s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__rosidl_typesupport_introspection_c.h
+[56.833s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__rosidl_typesupport_introspection_c.h
+[56.833s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/lib/libstatistics_msgs__rosidl_typesupport_introspection_c.so
+[56.833s] -- Set runtime path of "/home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/lib/libstatistics_msgs__rosidl_typesupport_introspection_c.so" to ""
+[56.834s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/lib/libstatistics_msgs__rosidl_typesupport_c.so
+[56.834s] -- Set runtime path of "/home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/lib/libstatistics_msgs__rosidl_typesupport_c.so" to ""
+[56.834s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs
+[56.835s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg
+[56.835s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail
+[56.835s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__type_support.cpp
+[56.835s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_type__rosidl_typesupport_introspection_cpp.hpp
+[56.836s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__type_support.cpp
+[56.836s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__rosidl_typesupport_introspection_cpp.hpp
+[56.836s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__rosidl_typesupport_introspection_cpp.hpp
+[56.836s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_type__type_support.cpp
+[56.837s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/lib/libstatistics_msgs__rosidl_typesupport_introspection_cpp.so
+[56.837s] -- Set runtime path of "/home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/lib/libstatistics_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[56.837s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/lib/libstatistics_msgs__rosidl_typesupport_cpp.so
+[56.837s] -- Set runtime path of "/home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/lib/libstatistics_msgs__rosidl_typesupport_cpp.so" to ""
+[56.837s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/share/ament_index/resource_index/rust_packages/statistics_msgs
+[56.838s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/share/statistics_msgs/rust
+[56.838s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/share/statistics_msgs/rust/src
+[56.838s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/share/statistics_msgs/rust/src/msg.rs
+[56.838s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/share/statistics_msgs/rust/src/lib.rs
+[56.839s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/share/statistics_msgs/rust/Cargo.toml
+[56.839s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/share/statistics_msgs/rust/build.rs
+[56.840s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/share/statistics_msgs/rust
+[56.840s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/share/statistics_msgs/rust/src
+[56.840s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/share/statistics_msgs/rust/src/msg.rs
+[56.840s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/share/statistics_msgs/rust/src/lib.rs
+[56.841s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/share/statistics_msgs/rust/Cargo.toml
+[56.841s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/share/statistics_msgs/rust/build.rs
+[56.841s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/share/statistics_msgs/rust
+[56.842s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/share/statistics_msgs/rust/src
+[56.842s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/share/statistics_msgs/rust/src/msg.rs
+[56.842s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/share/statistics_msgs/rust/src/lib.rs
+[56.843s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/share/statistics_msgs/rust/Cargo.toml
+[56.843s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/share/statistics_msgs/rust/build.rs
+[56.843s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/share/statistics_msgs/environment/pythonpath.sh
+[56.844s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/share/statistics_msgs/environment/pythonpath.dsv
+[56.844s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs-1.2.1-py3.10.egg-info
+[56.845s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs-1.2.1-py3.10.egg-info/top_level.txt
+[56.846s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs-1.2.1-py3.10.egg-info/dependency_links.txt
+[56.846s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs-1.2.1-py3.10.egg-info/SOURCES.txt
+[56.846s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs-1.2.1-py3.10.egg-info/PKG-INFO
+[56.847s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs
+[56.847s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/_statistics_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[56.848s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/statistics_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[56.848s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/libstatistics_msgs__rosidl_generator_py.so
+[56.848s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/msg
+[56.848s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/msg/_metrics_message.py
+[56.848s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/msg/_statistic_data_point.py
+[56.849s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/msg/_statistic_data_point_s.c
+[56.849s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/msg/_metrics_message_s.c
+[56.849s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/msg/_statistic_data_type_s.c
+[56.849s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/msg/_statistic_data_type.py
+[56.849s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/msg/__init__.py
+[56.850s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/_statistics_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[56.850s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/statistics_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[56.851s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/_statistics_msgs_s.ep.rosidl_typesupport_c.c
+[56.851s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/__init__.py
+[56.851s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/statistics_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[56.949s] Listing '/home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs'...
+[56.949s] Compiling '/home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/__init__.py'...
+[56.949s] Listing '/home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/msg'...
+[56.949s] Compiling '/home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/msg/__init__.py'...
+[56.950s] Compiling '/home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/msg/_metrics_message.py'...
+[56.950s] Compiling '/home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/msg/_statistic_data_point.py'...
+[56.950s] Compiling '/home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/msg/_statistic_data_type.py'...
+[56.975s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/statistics_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[56.981s] -- Set runtime path of "/home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/statistics_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[56.982s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/statistics_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[56.984s] -- Set runtime path of "/home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/statistics_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[56.985s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/statistics_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[56.989s] -- Set runtime path of "/home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/statistics_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[56.990s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/lib/libstatistics_msgs__rosidl_generator_py.so
+[56.993s] -- Set runtime path of "/home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/lib/libstatistics_msgs__rosidl_generator_py.so" to ""
+[56.996s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/share/statistics_msgs/msg/MetricsMessage.idl
+[56.998s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/share/statistics_msgs/msg/StatisticDataPoint.idl
+[56.999s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/share/statistics_msgs/msg/StatisticDataType.idl
+[57.000s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/share/statistics_msgs/msg/MetricsMessage.msg
+[57.001s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/share/statistics_msgs/msg/StatisticDataPoint.msg
+[57.002s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/share/statistics_msgs/msg/StatisticDataType.msg
+[57.005s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/share/ament_index/resource_index/package_run_dependencies/statistics_msgs
+[57.008s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/share/ament_index/resource_index/parent_prefix_path/statistics_msgs
+[57.011s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/share/statistics_msgs/environment/ament_prefix_path.sh
+[57.014s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/share/statistics_msgs/environment/ament_prefix_path.dsv
+[57.016s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/share/statistics_msgs/environment/path.sh
+[57.017s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/share/statistics_msgs/environment/path.dsv
+[57.018s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/share/statistics_msgs/local_setup.bash
+[57.020s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/share/statistics_msgs/local_setup.sh
+[57.022s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/share/statistics_msgs/local_setup.zsh
+[57.023s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/share/statistics_msgs/local_setup.dsv
+[57.026s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/share/statistics_msgs/package.dsv
+[57.029s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/share/ament_index/resource_index/packages/statistics_msgs
+[57.031s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/share/statistics_msgs/cmake/export_statistics_msgs__rosidl_generator_cExport.cmake
+[57.032s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/share/statistics_msgs/cmake/export_statistics_msgs__rosidl_generator_cExport-noconfig.cmake
+[57.034s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/share/statistics_msgs/cmake/export_statistics_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[57.036s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/share/statistics_msgs/cmake/export_statistics_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[57.038s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/share/statistics_msgs/cmake/export_statistics_msgs__rosidl_generator_cppExport.cmake
+[57.039s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/share/statistics_msgs/cmake/export_statistics_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[57.042s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/share/statistics_msgs/cmake/export_statistics_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[57.044s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/share/statistics_msgs/cmake/statistics_msgs__rosidl_typesupport_introspection_cExport.cmake
+[57.048s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/share/statistics_msgs/cmake/statistics_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[57.048s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/share/statistics_msgs/cmake/statistics_msgs__rosidl_typesupport_cExport.cmake
+[57.050s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/share/statistics_msgs/cmake/statistics_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[57.050s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/share/statistics_msgs/cmake/statistics_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[57.051s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/share/statistics_msgs/cmake/statistics_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[57.053s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/share/statistics_msgs/cmake/statistics_msgs__rosidl_typesupport_cppExport.cmake
+[57.054s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/share/statistics_msgs/cmake/statistics_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[57.056s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/share/statistics_msgs/cmake/export_statistics_msgs__rosidl_generator_pyExport.cmake
+[57.058s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/share/statistics_msgs/cmake/export_statistics_msgs__rosidl_generator_pyExport-noconfig.cmake
+[57.066s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/share/statistics_msgs/cmake/rosidl_cmake-extras.cmake
+[57.067s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/share/statistics_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[57.068s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/share/statistics_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[57.069s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/share/statistics_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[57.070s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/share/statistics_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[57.072s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/share/statistics_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[57.074s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/share/statistics_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[57.076s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/share/statistics_msgs/cmake/statistics_msgsConfig.cmake
+[57.078s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/share/statistics_msgs/cmake/statistics_msgsConfig-version.cmake
+[57.080s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/statistics_msgs/share/statistics_msgs/package.xml
+[57.124s] Invoked command in '/home/hikari/ROScribe/ros_ws/src/build/statistics_msgs' returned '0': AMENT_PREFIX_PATH=/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_runtime:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_generators:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs:/home/hikari/ROScribe/ros_ws/src/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_runtime:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_generators:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs:/opt/ros/humble LD_LIBRARY_PATH=/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces/local/lib/python3.10/dist-packages:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --install /home/hikari/ROScribe/ros_ws/src/build/statistics_msgs

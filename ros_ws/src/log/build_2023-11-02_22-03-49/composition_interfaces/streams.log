@@ -1,0 +1,318 @@
+[0.661s] Invoking command in '/home/hikari/ROScribe/ros_ws/src/build/composition_interfaces': AMENT_PREFIX_PATH=/home/hikari/ROScribe/ros_ws/src/install/rcl_interfaces:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_runtime:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_generators:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs:/home/hikari/ROScribe/ros_ws/src/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hikari/ROScribe/ros_ws/src/install/rcl_interfaces:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_runtime:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_generators:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs:/opt/ros/humble LD_LIBRARY_PATH=/home/hikari/ROScribe/ros_ws/src/install/rcl_interfaces/lib:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hikari/ROScribe/ros_ws/src/install/rcl_interfaces/local/lib/python3.10/dist-packages:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces/local/lib/python3.10/dist-packages:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake /home/hikari/ROScribe/ros_ws/src/ros2/rcl_interfaces/composition_interfaces -DCMAKE_INSTALL_PREFIX=/home/hikari/ROScribe/ros_ws/src/install/composition_interfaces
+[0.961s] -- The C compiler identification is GNU 11.4.0
+[1.555s] -- The CXX compiler identification is GNU 11.4.0
+[1.892s] -- Detecting C compiler ABI info
+[2.071s] -- Detecting C compiler ABI info - done
+[2.105s] -- Check for working C compiler: /usr/lib/ccache/cc - skipped
+[2.106s] -- Detecting C compile features
+[2.107s] -- Detecting C compile features - done
+[2.117s] -- Detecting CXX compiler ABI info
+[2.336s] -- Detecting CXX compiler ABI info - done
+[2.375s] -- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped
+[2.376s] -- Detecting CXX compile features
+[2.378s] -- Detecting CXX compile features - done
+[2.392s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[13.256s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[14.088s] -- Found rosidl_default_generators: 1.2.0 (/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_generators/share/rosidl_default_generators/cmake)
+[14.137s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[14.199s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[14.811s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[15.422s] -- Found rcl_interfaces: 1.2.1 (/home/hikari/ROScribe/ros_ws/src/install/rcl_interfaces/share/rcl_interfaces/cmake)
+[19.669s] -- Found ament_cmake_cppcheck: 0.12.8 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[19.678s] -- Found ament_cmake_cpplint: 0.12.8 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[19.689s] -- Found ament_cmake_uncrustify: 0.12.8 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[19.699s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[20.637s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[21.712s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[21.729s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[23.837s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[25.399s] -- Found FastRTPS: /opt/ros/humble/include  
+[28.430s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[28.441s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[28.990s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[28.990s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[28.990s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[28.991s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[29.221s] -- Found PythonExtra: .so  
+[29.563s] -- Found ament_cmake_flake8: 0.12.8 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[29.570s] -- Found ament_cmake_pep257: 0.12.8 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[29.679s] -- Configuring done
+[30.028s] -- Generating done
+[30.042s] -- Build files have been written to: /home/hikari/ROScribe/ros_ws/src/build/composition_interfaces
+[30.158s] Invoked command in '/home/hikari/ROScribe/ros_ws/src/build/composition_interfaces' returned '0': AMENT_PREFIX_PATH=/home/hikari/ROScribe/ros_ws/src/install/rcl_interfaces:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_runtime:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_generators:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs:/home/hikari/ROScribe/ros_ws/src/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hikari/ROScribe/ros_ws/src/install/rcl_interfaces:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_runtime:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_generators:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs:/opt/ros/humble LD_LIBRARY_PATH=/home/hikari/ROScribe/ros_ws/src/install/rcl_interfaces/lib:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hikari/ROScribe/ros_ws/src/install/rcl_interfaces/local/lib/python3.10/dist-packages:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces/local/lib/python3.10/dist-packages:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake /home/hikari/ROScribe/ros_ws/src/ros2/rcl_interfaces/composition_interfaces -DCMAKE_INSTALL_PREFIX=/home/hikari/ROScribe/ros_ws/src/install/composition_interfaces
+[30.167s] Invoking command in '/home/hikari/ROScribe/ros_ws/src/build/composition_interfaces': AMENT_PREFIX_PATH=/home/hikari/ROScribe/ros_ws/src/install/rcl_interfaces:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_runtime:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_generators:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs:/home/hikari/ROScribe/ros_ws/src/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hikari/ROScribe/ros_ws/src/install/rcl_interfaces:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_runtime:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_generators:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs:/opt/ros/humble LD_LIBRARY_PATH=/home/hikari/ROScribe/ros_ws/src/install/rcl_interfaces/lib:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hikari/ROScribe/ros_ws/src/install/rcl_interfaces/local/lib/python3.10/dist-packages:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces/local/lib/python3.10/dist-packages:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --build /home/hikari/ROScribe/ros_ws/src/build/composition_interfaces -- -j8 -l8
+[30.637s] [  2%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[32.561s] [  2%] Built target composition_interfaces__rs
+[32.595s] [  2%] Built target ament_cmake_python_copy_composition_interfaces
+[32.614s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[34.787s] [  4%] Built target composition_interfaces__cpp
+[35.480s] running egg_info
+[35.483s] creating composition_interfaces.egg-info
+[35.551s] writing composition_interfaces.egg-info/PKG-INFO
+[35.552s] writing dependency_links to composition_interfaces.egg-info/dependency_links.txt
+[35.553s] writing top-level names to composition_interfaces.egg-info/top_level.txt
+[35.554s] writing manifest file 'composition_interfaces.egg-info/SOURCES.txt'
+[35.748s] reading manifest file 'composition_interfaces.egg-info/SOURCES.txt'
+[35.750s] writing manifest file 'composition_interfaces.egg-info/SOURCES.txt'
+[35.813s] [  4%] Built target ament_cmake_python_build_composition_interfaces_egg
+[35.824s] [  6%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[37.108s] [  8%] [32mBuilding CXX object CMakeFiles/composition_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/composition_interfaces/srv/load_node__type_support.cpp.o[0m
+[38.042s] [ 10%] [32mBuilding CXX object CMakeFiles/composition_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/composition_interfaces/srv/unload_node__type_support.cpp.o[0m
+[39.107s] [ 12%] [32mBuilding CXX object CMakeFiles/composition_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/composition_interfaces/srv/list_nodes__type_support.cpp.o[0m
+[40.361s] [ 14%] [32m[1mLinking CXX shared library libcomposition_interfaces__rosidl_typesupport_cpp.so[0m
+[40.607s] [ 14%] Built target composition_interfaces__rosidl_typesupport_cpp
+[40.665s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[42.004s] [ 18%] [32mBuilding CXX object CMakeFiles/composition_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/composition_interfaces/srv/detail/load_node__type_support.cpp.o[0m
+[43.986s] [ 20%] [32mBuilding CXX object CMakeFiles/composition_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/composition_interfaces/srv/detail/unload_node__type_support.cpp.o[0m
+[45.033s] [ 22%] [32mBuilding CXX object CMakeFiles/composition_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/composition_interfaces/srv/detail/list_nodes__type_support.cpp.o[0m
+[46.335s] [ 25%] [32m[1mLinking CXX shared library libcomposition_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[46.577s] [ 25%] Built target composition_interfaces__rosidl_typesupport_introspection_cpp
+[46.587s] [ 27%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[48.083s] [ 29%] [32mBuilding CXX object CMakeFiles/composition_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/composition_interfaces/srv/detail/dds_fastrtps/load_node__type_support.cpp.o[0m
+[49.998s] [ 31%] [32mBuilding CXX object CMakeFiles/composition_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/composition_interfaces/srv/detail/dds_fastrtps/unload_node__type_support.cpp.o[0m
+[51.650s] [ 33%] [32mBuilding CXX object CMakeFiles/composition_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/composition_interfaces/srv/detail/dds_fastrtps/list_nodes__type_support.cpp.o[0m
+[53.560s] [ 35%] [32m[1mLinking CXX shared library libcomposition_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[54.029s] [ 35%] Built target composition_interfaces__rosidl_typesupport_fastrtps_cpp
+[54.043s] [ 37%] [34m[1mGenerating C code for ROS interfaces[0m
+[55.966s] [ 39%] [32mBuilding C object CMakeFiles/composition_interfaces__rosidl_generator_c.dir/rosidl_generator_c/composition_interfaces/srv/detail/load_node__functions.c.o[0m
+[56.170s] [ 41%] [32mBuilding C object CMakeFiles/composition_interfaces__rosidl_generator_c.dir/rosidl_generator_c/composition_interfaces/srv/detail/unload_node__functions.c.o[0m
+[56.381s] [ 43%] [32mBuilding C object CMakeFiles/composition_interfaces__rosidl_generator_c.dir/rosidl_generator_c/composition_interfaces/srv/detail/list_nodes__functions.c.o[0m
+[56.569s] [ 45%] [32m[1mLinking C shared library libcomposition_interfaces__rosidl_generator_c.so[0m
+[56.683s] [ 45%] Built target composition_interfaces__rosidl_generator_c
+[56.692s] [ 47%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[58.223s] [ 50%] [32mBuilding CXX object CMakeFiles/composition_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/composition_interfaces/srv/detail/load_node__type_support_c.cpp.o[0m
+[67.245s] [ 52%] [32mBuilding CXX object CMakeFiles/composition_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/composition_interfaces/srv/detail/unload_node__type_support_c.cpp.o[0m
+[72.770s] [ 54%] [32mBuilding CXX object CMakeFiles/composition_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/composition_interfaces/srv/detail/list_nodes__type_support_c.cpp.o[0m
+[83.272s] [ 56%] [32m[1mLinking CXX shared library libcomposition_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[86.952s] [ 56%] Built target composition_interfaces__rosidl_typesupport_fastrtps_c
+[87.025s] [ 58%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[93.436s] [ 60%] [32mBuilding CXX object CMakeFiles/composition_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/composition_interfaces/srv/load_node__type_support.cpp.o[0m
+[95.246s] [ 62%] [32mBuilding CXX object CMakeFiles/composition_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/composition_interfaces/srv/unload_node__type_support.cpp.o[0m
+[97.964s] [ 64%] [32mBuilding CXX object CMakeFiles/composition_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/composition_interfaces/srv/list_nodes__type_support.cpp.o[0m
+[98.620s] [ 66%] [32m[1mLinking CXX shared library libcomposition_interfaces__rosidl_typesupport_c.so[0m
+[99.174s] [ 66%] Built target composition_interfaces__rosidl_typesupport_c
+[99.254s] [ 68%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[104.662s] [ 70%] [32mBuilding C object CMakeFiles/composition_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/composition_interfaces/srv/detail/load_node__type_support.c.o[0m
+[106.345s] [ 72%] [32mBuilding C object CMakeFiles/composition_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/composition_interfaces/srv/detail/unload_node__type_support.c.o[0m
+[107.461s] [ 75%] [32mBuilding C object CMakeFiles/composition_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/composition_interfaces/srv/detail/list_nodes__type_support.c.o[0m
+[107.976s] [ 77%] [32m[1mLinking C shared library libcomposition_interfaces__rosidl_typesupport_introspection_c.so[0m
+[108.277s] [ 77%] Built target composition_interfaces__rosidl_typesupport_introspection_c
+[109.059s] [ 77%] Built target composition_interfaces
+[109.284s] [ 79%] [34m[1mGenerating Python code for ROS interfaces[0m
+[120.516s] [ 79%] Built target composition_interfaces__py
+[120.716s] [ 81%] [32mBuilding C object CMakeFiles/composition_interfaces__rosidl_generator_py.dir/rosidl_generator_py/composition_interfaces/srv/_load_node_s.c.o[0m
+[123.097s] [ 83%] [32mBuilding C object CMakeFiles/composition_interfaces__rosidl_generator_py.dir/rosidl_generator_py/composition_interfaces/srv/_unload_node_s.c.o[0m
+[124.134s] [ 85%] [32mBuilding C object CMakeFiles/composition_interfaces__rosidl_generator_py.dir/rosidl_generator_py/composition_interfaces/srv/_list_nodes_s.c.o[0m
+[125.504s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/composition_interfaces/libcomposition_interfaces__rosidl_generator_py.so[0m
+[126.057s] [ 87%] Built target composition_interfaces__rosidl_generator_py
+[126.144s] [ 89%] [32mBuilding C object CMakeFiles/composition_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/composition_interfaces/_composition_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[127.335s] [ 91%] [32m[1mLinking C shared library rosidl_generator_py/composition_interfaces/composition_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[127.730s] [ 91%] Built target composition_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[127.888s] [ 93%] [32mBuilding C object CMakeFiles/composition_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/composition_interfaces/_composition_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[128.831s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/composition_interfaces/composition_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[129.163s] [ 95%] Built target composition_interfaces__rosidl_typesupport_c__pyext
+[129.311s] [ 97%] [32mBuilding C object CMakeFiles/composition_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/composition_interfaces/_composition_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[131.055s] [100%] [32m[1mLinking C shared library rosidl_generator_py/composition_interfaces/composition_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[131.435s] [100%] Built target composition_interfaces__rosidl_typesupport_introspection_c__pyext
+[131.995s] Invoked command in '/home/hikari/ROScribe/ros_ws/src/build/composition_interfaces' returned '0': AMENT_PREFIX_PATH=/home/hikari/ROScribe/ros_ws/src/install/rcl_interfaces:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_runtime:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_generators:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs:/home/hikari/ROScribe/ros_ws/src/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hikari/ROScribe/ros_ws/src/install/rcl_interfaces:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_runtime:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_generators:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs:/opt/ros/humble LD_LIBRARY_PATH=/home/hikari/ROScribe/ros_ws/src/install/rcl_interfaces/lib:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hikari/ROScribe/ros_ws/src/install/rcl_interfaces/local/lib/python3.10/dist-packages:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces/local/lib/python3.10/dist-packages:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --build /home/hikari/ROScribe/ros_ws/src/build/composition_interfaces -- -j8 -l8
+[134.234s] Invoking command in '/home/hikari/ROScribe/ros_ws/src/build/composition_interfaces': AMENT_PREFIX_PATH=/home/hikari/ROScribe/ros_ws/src/install/rcl_interfaces:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_runtime:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_generators:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs:/home/hikari/ROScribe/ros_ws/src/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hikari/ROScribe/ros_ws/src/install/rcl_interfaces:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_runtime:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_generators:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs:/opt/ros/humble LD_LIBRARY_PATH=/home/hikari/ROScribe/ros_ws/src/install/rcl_interfaces/lib:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hikari/ROScribe/ros_ws/src/install/rcl_interfaces/local/lib/python3.10/dist-packages:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces/local/lib/python3.10/dist-packages:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --install /home/hikari/ROScribe/ros_ws/src/build/composition_interfaces
+[169.343s] -- Install configuration: ""
+[169.343s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/share/ament_index/resource_index/rosidl_interfaces/composition_interfaces
+[169.343s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/include/composition_interfaces/composition_interfaces
+[169.344s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv
+[169.344s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/unload_node.h
+[169.345s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/list_nodes.h
+[169.345s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/load_node.h
+[169.346s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail
+[169.346s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__functions.c
+[169.346s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__type_support.h
+[169.347s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__functions.h
+[169.347s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__functions.h
+[169.347s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__functions.c
+[169.347s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__struct.h
+[169.347s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__type_support.h
+[169.347s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__functions.c
+[169.347s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__type_support.h
+[169.348s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__struct.h
+[169.348s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__functions.h
+[169.348s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__struct.h
+[169.348s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/include/composition_interfaces/composition_interfaces/msg
+[169.348s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/include/composition_interfaces/composition_interfaces/msg/rosidl_generator_c__visibility_control.h
+[169.348s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/share/composition_interfaces/environment/library_path.sh
+[169.349s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/share/composition_interfaces/environment/library_path.dsv
+[169.349s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_generator_c.so
+[169.349s] -- Set runtime path of "/home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_generator_c.so" to ""
+[169.349s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/include/composition_interfaces/composition_interfaces
+[169.349s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv
+[169.349s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail
+[169.350s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__rosidl_typesupport_fastrtps_c.h
+[169.355s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__rosidl_typesupport_fastrtps_c.h
+[169.355s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__rosidl_typesupport_fastrtps_c.h
+[169.356s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/include/composition_interfaces/composition_interfaces/msg
+[169.356s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/include/composition_interfaces/composition_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[169.357s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_typesupport_fastrtps_c.so
+[169.358s] -- Set runtime path of "/home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[169.358s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/include/composition_interfaces/composition_interfaces
+[169.359s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv
+[169.359s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail
+[169.359s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__rosidl_typesupport_introspection_c.h
+[169.360s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__rosidl_typesupport_introspection_c.h
+[169.360s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__type_support.c
+[169.360s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__type_support.c
+[169.361s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__type_support.c
+[169.361s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__rosidl_typesupport_introspection_c.h
+[169.362s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/include/composition_interfaces/composition_interfaces/msg
+[169.362s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/include/composition_interfaces/composition_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[169.364s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_typesupport_introspection_c.so
+[169.364s] -- Set runtime path of "/home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[169.365s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_typesupport_c.so
+[169.365s] -- Set runtime path of "/home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_typesupport_c.so" to ""
+[169.366s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/include/composition_interfaces/composition_interfaces
+[169.367s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv
+[169.368s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/load_node.hpp
+[169.369s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/unload_node.hpp
+[169.369s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/list_nodes.hpp
+[169.370s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail
+[169.370s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__builder.hpp
+[169.371s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__struct.hpp
+[169.371s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__traits.hpp
+[169.372s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__struct.hpp
+[169.372s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__traits.hpp
+[169.373s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__builder.hpp
+[169.374s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__struct.hpp
+[169.374s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__builder.hpp
+[169.375s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__traits.hpp
+[169.375s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/include/composition_interfaces/composition_interfaces
+[169.376s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv
+[169.376s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail
+[169.377s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__rosidl_typesupport_fastrtps_cpp.hpp
+[169.377s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__rosidl_typesupport_fastrtps_cpp.hpp
+[169.378s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/dds_fastrtps
+[169.378s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__rosidl_typesupport_fastrtps_cpp.hpp
+[169.379s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/include/composition_interfaces/composition_interfaces/msg
+[169.379s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/include/composition_interfaces/composition_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[169.379s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[169.381s] -- Set runtime path of "/home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[169.381s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/include/composition_interfaces/composition_interfaces
+[169.381s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv
+[169.382s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail
+[169.382s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__type_support.cpp
+[169.382s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__rosidl_typesupport_introspection_cpp.hpp
+[169.382s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__rosidl_typesupport_introspection_cpp.hpp
+[169.383s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__rosidl_typesupport_introspection_cpp.hpp
+[169.383s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__type_support.cpp
+[169.383s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__type_support.cpp
+[169.384s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_typesupport_introspection_cpp.so
+[169.384s] -- Set runtime path of "/home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[169.385s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_typesupport_cpp.so
+[169.385s] -- Set runtime path of "/home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_typesupport_cpp.so" to ""
+[169.385s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/share/ament_index/resource_index/rust_packages/composition_interfaces
+[169.386s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/share/composition_interfaces/rust
+[169.387s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/share/composition_interfaces/rust/src
+[169.387s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/share/composition_interfaces/rust/src/srv.rs
+[169.388s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/share/composition_interfaces/rust/src/lib.rs
+[169.388s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/share/composition_interfaces/rust/Cargo.toml
+[169.389s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/share/composition_interfaces/rust/build.rs
+[169.389s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/share/composition_interfaces/rust
+[169.390s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/share/composition_interfaces/rust/src
+[169.390s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/share/composition_interfaces/rust/src/srv.rs
+[169.391s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/share/composition_interfaces/rust/src/lib.rs
+[169.391s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/share/composition_interfaces/rust/Cargo.toml
+[169.392s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/share/composition_interfaces/rust/build.rs
+[169.392s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/share/composition_interfaces/rust
+[169.392s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/share/composition_interfaces/rust/src
+[169.393s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/share/composition_interfaces/rust/src/srv.rs
+[169.393s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/share/composition_interfaces/rust/src/lib.rs
+[169.393s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/share/composition_interfaces/rust/Cargo.toml
+[169.394s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/share/composition_interfaces/rust/build.rs
+[169.395s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/share/composition_interfaces/environment/pythonpath.sh
+[169.395s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/share/composition_interfaces/environment/pythonpath.dsv
+[169.395s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/local/lib/python3.10/dist-packages/composition_interfaces-1.2.1-py3.10.egg-info
+[169.395s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/local/lib/python3.10/dist-packages/composition_interfaces-1.2.1-py3.10.egg-info/top_level.txt
+[169.396s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/local/lib/python3.10/dist-packages/composition_interfaces-1.2.1-py3.10.egg-info/dependency_links.txt
+[169.396s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/local/lib/python3.10/dist-packages/composition_interfaces-1.2.1-py3.10.egg-info/SOURCES.txt
+[169.397s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/local/lib/python3.10/dist-packages/composition_interfaces-1.2.1-py3.10.egg-info/PKG-INFO
+[169.397s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/local/lib/python3.10/dist-packages/composition_interfaces
+[169.398s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/local/lib/python3.10/dist-packages/composition_interfaces/srv
+[169.399s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/local/lib/python3.10/dist-packages/composition_interfaces/srv/_unload_node.py
+[169.399s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/local/lib/python3.10/dist-packages/composition_interfaces/srv/_load_node.py
+[169.400s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/local/lib/python3.10/dist-packages/composition_interfaces/srv/_list_nodes.py
+[169.400s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/local/lib/python3.10/dist-packages/composition_interfaces/srv/_list_nodes_s.c
+[169.401s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/local/lib/python3.10/dist-packages/composition_interfaces/srv/_unload_node_s.c
+[169.401s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/local/lib/python3.10/dist-packages/composition_interfaces/srv/__init__.py
+[169.402s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/local/lib/python3.10/dist-packages/composition_interfaces/srv/_load_node_s.c
+[169.402s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/local/lib/python3.10/dist-packages/composition_interfaces/_composition_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[169.402s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/local/lib/python3.10/dist-packages/composition_interfaces/_composition_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[169.403s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/local/lib/python3.10/dist-packages/composition_interfaces/composition_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[169.403s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/local/lib/python3.10/dist-packages/composition_interfaces/composition_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[169.404s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/local/lib/python3.10/dist-packages/composition_interfaces/_composition_interfaces_s.ep.rosidl_typesupport_c.c
+[169.404s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/local/lib/python3.10/dist-packages/composition_interfaces/composition_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[169.405s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/local/lib/python3.10/dist-packages/composition_interfaces/libcomposition_interfaces__rosidl_generator_py.so
+[169.406s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/local/lib/python3.10/dist-packages/composition_interfaces/__init__.py
+[169.422s] Listing '/home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/local/lib/python3.10/dist-packages/composition_interfaces'...
+[169.422s] Compiling '/home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/local/lib/python3.10/dist-packages/composition_interfaces/__init__.py'...
+[169.424s] Listing '/home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/local/lib/python3.10/dist-packages/composition_interfaces/srv'...
+[169.425s] Compiling '/home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/local/lib/python3.10/dist-packages/composition_interfaces/srv/__init__.py'...
+[169.425s] Compiling '/home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/local/lib/python3.10/dist-packages/composition_interfaces/srv/_list_nodes.py'...
+[169.426s] Compiling '/home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/local/lib/python3.10/dist-packages/composition_interfaces/srv/_load_node.py'...
+[169.426s] Compiling '/home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/local/lib/python3.10/dist-packages/composition_interfaces/srv/_unload_node.py'...
+[169.442s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/local/lib/python3.10/dist-packages/composition_interfaces/composition_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[169.444s] -- Set runtime path of "/home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/local/lib/python3.10/dist-packages/composition_interfaces/composition_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[169.444s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/local/lib/python3.10/dist-packages/composition_interfaces/composition_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[169.445s] -- Set runtime path of "/home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/local/lib/python3.10/dist-packages/composition_interfaces/composition_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[169.445s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/local/lib/python3.10/dist-packages/composition_interfaces/composition_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[169.446s] -- Set runtime path of "/home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/local/lib/python3.10/dist-packages/composition_interfaces/composition_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[169.446s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_generator_py.so
+[169.447s] -- Set runtime path of "/home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_generator_py.so" to ""
+[169.449s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/share/composition_interfaces/srv/LoadNode.idl
+[169.449s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/share/composition_interfaces/srv/ListNodes.idl
+[169.450s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/share/composition_interfaces/srv/UnloadNode.idl
+[169.450s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/share/composition_interfaces/srv/LoadNode.srv
+[169.451s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/share/composition_interfaces/srv/LoadNode_Request.msg
+[169.452s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/share/composition_interfaces/srv/LoadNode_Response.msg
+[169.453s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/share/composition_interfaces/srv/ListNodes.srv
+[169.453s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/share/composition_interfaces/srv/ListNodes_Request.msg
+[169.454s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/share/composition_interfaces/srv/ListNodes_Response.msg
+[169.455s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/share/composition_interfaces/srv/UnloadNode.srv
+[169.455s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/share/composition_interfaces/srv/UnloadNode_Request.msg
+[169.456s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/share/composition_interfaces/srv/UnloadNode_Response.msg
+[169.456s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/share/ament_index/resource_index/package_run_dependencies/composition_interfaces
+[169.457s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/share/ament_index/resource_index/parent_prefix_path/composition_interfaces
+[169.458s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/share/composition_interfaces/environment/ament_prefix_path.sh
+[169.458s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/share/composition_interfaces/environment/ament_prefix_path.dsv
+[169.458s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/share/composition_interfaces/environment/path.sh
+[169.459s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/share/composition_interfaces/environment/path.dsv
+[169.460s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/share/composition_interfaces/local_setup.bash
+[169.460s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/share/composition_interfaces/local_setup.sh
+[169.461s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/share/composition_interfaces/local_setup.zsh
+[169.461s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/share/composition_interfaces/local_setup.dsv
+[169.462s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/share/composition_interfaces/package.dsv
+[169.462s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/share/ament_index/resource_index/packages/composition_interfaces
+[169.463s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/share/composition_interfaces/cmake/export_composition_interfaces__rosidl_generator_cExport.cmake
+[169.464s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/share/composition_interfaces/cmake/export_composition_interfaces__rosidl_generator_cExport-noconfig.cmake
+[169.465s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/share/composition_interfaces/cmake/export_composition_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[169.474s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/share/composition_interfaces/cmake/export_composition_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[169.480s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/share/composition_interfaces/cmake/composition_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[169.480s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/share/composition_interfaces/cmake/composition_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[169.481s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/share/composition_interfaces/cmake/composition_interfaces__rosidl_typesupport_cExport.cmake
+[169.481s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/share/composition_interfaces/cmake/composition_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[169.481s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/share/composition_interfaces/cmake/export_composition_interfaces__rosidl_generator_cppExport.cmake
+[169.481s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/share/composition_interfaces/cmake/export_composition_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[169.481s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/share/composition_interfaces/cmake/export_composition_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[169.481s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/share/composition_interfaces/cmake/composition_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[169.482s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/share/composition_interfaces/cmake/composition_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[169.482s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/share/composition_interfaces/cmake/composition_interfaces__rosidl_typesupport_cppExport.cmake
+[169.483s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/share/composition_interfaces/cmake/composition_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[169.484s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/share/composition_interfaces/cmake/export_composition_interfaces__rosidl_generator_pyExport.cmake
+[169.484s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/share/composition_interfaces/cmake/export_composition_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[169.485s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/share/composition_interfaces/cmake/rosidl_cmake-extras.cmake
+[169.485s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/share/composition_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[169.487s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/share/composition_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[169.488s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/share/composition_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[169.488s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/share/composition_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[169.488s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/share/composition_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[169.489s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/share/composition_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[169.489s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/share/composition_interfaces/cmake/composition_interfacesConfig.cmake
+[169.489s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/share/composition_interfaces/cmake/composition_interfacesConfig-version.cmake
+[169.492s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/composition_interfaces/share/composition_interfaces/package.xml
+[169.969s] Invoked command in '/home/hikari/ROScribe/ros_ws/src/build/composition_interfaces' returned '0': AMENT_PREFIX_PATH=/home/hikari/ROScribe/ros_ws/src/install/rcl_interfaces:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_runtime:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_generators:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs:/home/hikari/ROScribe/ros_ws/src/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hikari/ROScribe/ros_ws/src/install/rcl_interfaces:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_runtime:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_generators:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs:/opt/ros/humble LD_LIBRARY_PATH=/home/hikari/ROScribe/ros_ws/src/install/rcl_interfaces/lib:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hikari/ROScribe/ros_ws/src/install/rcl_interfaces/local/lib/python3.10/dist-packages:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces/local/lib/python3.10/dist-packages:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --install /home/hikari/ROScribe/ros_ws/src/build/composition_interfaces

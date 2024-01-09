@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from custom_msgs/msg/TuningStatus.msg
+// generated code does not contain a copyright notice
+
+
+module custom_msgs {
+  module msg {
+    module TuningStatus_Constants {
+      const int8 NOT_STARTED = 0;
+      const int8 ONGOING = 1;
+      const int8 COMPLETED = 2;
+      const int8 FAILED = 3;
+    };
+    @verbatim (language="comment", text=
+      "TuningStatus.msg")
+    struct TuningStatus {
+      int32 sec;
+
+      uint32 nanosec;
+
+      int8 status;
+
+      string details;
+    };
+  };
+};

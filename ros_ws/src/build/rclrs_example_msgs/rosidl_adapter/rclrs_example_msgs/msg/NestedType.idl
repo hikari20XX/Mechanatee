@@ -1,0 +1,13 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from rclrs_example_msgs/msg/NestedType.msg
+// generated code does not contain a copyright notice
+
+
+module rclrs_example_msgs {
+  module msg {
+    struct NestedType {
+      @default (value="discombobulate")
+      string effect;
+    };
+  };
+};

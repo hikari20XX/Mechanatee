@@ -1,0 +1,7 @@
+cargo:rustc-link-search=native=/home/hikari/ROScribe/ros_ws/src/install/rcl_interfaces/lib
+cargo:rustc-link-search=native=/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces/lib
+cargo:rustc-link-search=native=/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_runtime/lib
+cargo:rustc-link-search=native=/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs/lib
+cargo:rustc-link-search=native=/home/hikari/ROScribe/ros_ws/src/install/rosidl_runtime_rs/lib
+cargo:rustc-link-search=native=/opt/ros/humble/lib
+cargo:rerun-if-changed=build.rs

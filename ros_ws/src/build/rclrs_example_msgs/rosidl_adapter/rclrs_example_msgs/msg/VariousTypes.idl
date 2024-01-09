@@ -1,0 +1,101 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from rclrs_example_msgs/msg/VariousTypes.msg
+// generated code does not contain a copyright notice
+
+#include "rclrs_example_msgs/msg/NestedType.idl"
+
+module rclrs_example_msgs {
+  module msg {
+    typedef float float__3[3];
+    typedef string string__4[4];
+    typedef string<1> string__1__4[4];
+    typedef rclrs_example_msgs::msg::NestedType rclrs_example_msgs__msg__NestedType;
+    typedef rclrs_example_msgs__msg__NestedType rclrs_example_msgs__msg__NestedType__2[2];
+    module VariousTypes_Constants {
+      @verbatim (language="comment", text=
+        "binary, hexadecimal and octal constants are also possible")
+      const int8 TWO_PLUS_TWO = 5;
+      @verbatim (language="comment", text=
+        "Only unbounded strings are possible")
+      const string PASSWORD = "hunter2";
+      @verbatim (language="comment", text=
+        "As determined by Edward J. Goodwin")
+      const float PI = 3.0;
+    };
+    @verbatim (language="comment", text=
+      "Primitive types")
+    struct VariousTypes {
+      @default (value=TRUE)
+      boolean bool_member;
+
+      @default (value=1)
+      int8 int8_member;
+
+      @default (value=2)
+      uint8 uint8_member;
+
+      @default (value=3)
+      octet byte_member;
+
+      @default (value=0.01)
+      float float32_member;
+
+      @verbatim (language="comment", text=
+        "Array/sequence of primitive type")
+      @default (value="(1.0, 2.0, 3.0)")
+      float__3 float_array;
+
+      @default (value="(4.0, 5.0)")
+      sequence<float, 3> float_seq_bounded;
+
+      @default (value="(6.0,)")
+      sequence<float> float_seq_unbounded;
+
+      @verbatim (language="comment", text=
+        "String types")
+      @default (value="Χαίρετε 你好")
+      string string_member;
+
+      @default (value="αντίο σου 再见")
+      wstring wstring_member;
+
+      @default (value="äöü")
+      string<3> bounded_string_member;
+
+      @default (value="äöü")
+      wstring<3> bounded_wstring_member;
+
+      @verbatim (language="comment", text=
+        "Array/sequence of string type")
+      @default (value="('R', 'O', 'S', '2')")
+      string__4 string_array;
+
+      @default (value="('R', 'O', 'S', '2')")
+      sequence<string, 4> string_seq_bounded;
+
+      @default (value="('R', 'O', 'S', '2')")
+      sequence<string> string_seq_unbounded;
+
+      @default (value="('R', 'O', 'S', '2')")
+      string__1__4 bounded_string_array;
+
+      @default (value="('R', 'O', 'S', '2')")
+      sequence<string<1>, 4> bounded_string_seq_bounded;
+
+      @default (value="('R', 'O', 'S', '2')")
+      sequence<string<1>> bounded_string_seq_unbounded;
+
+      @verbatim (language="comment", text=
+        "Nested type")
+      rclrs_example_msgs::msg::NestedType nested_member;
+
+      @verbatim (language="comment", text=
+        "Array/sequence of nested type")
+      rclrs_example_msgs__msg__NestedType__2 nested_array;
+
+      sequence<rclrs_example_msgs::msg::NestedType> nested_seq_unbounded;
+
+      sequence<rclrs_example_msgs::msg::NestedType, 3> nested_seq_bounded;
+    };
+  };
+};

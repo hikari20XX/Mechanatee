@@ -1,0 +1,64 @@
+running egg_info
+creating ../build/can_bridge/can_bridge.egg-info
+writing ../build/can_bridge/can_bridge.egg-info/PKG-INFO
+writing dependency_links to ../build/can_bridge/can_bridge.egg-info/dependency_links.txt
+writing entry points to ../build/can_bridge/can_bridge.egg-info/entry_points.txt
+writing requirements to ../build/can_bridge/can_bridge.egg-info/requires.txt
+writing top-level names to ../build/can_bridge/can_bridge.egg-info/top_level.txt
+writing manifest file '../build/can_bridge/can_bridge.egg-info/SOURCES.txt'
+reading manifest file '../build/can_bridge/can_bridge.egg-info/SOURCES.txt'
+writing manifest file '../build/can_bridge/can_bridge.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/hikari/ROScribe/ros_ws/src/build/can_bridge/build
+creating /home/hikari/ROScribe/ros_ws/src/build/can_bridge/build/lib
+creating /home/hikari/ROScribe/ros_ws/src/build/can_bridge/build/lib/can_bridge
+copying can_bridge/parameter_tuner.py -> /home/hikari/ROScribe/ros_ws/src/build/can_bridge/build/lib/can_bridge
+copying can_bridge/ros2can_bridge.py -> /home/hikari/ROScribe/ros_ws/src/build/can_bridge/build/lib/can_bridge
+copying can_bridge/analog_input_topic.py -> /home/hikari/ROScribe/ros_ws/src/build/can_bridge/build/lib/can_bridge
+copying can_bridge/pid_controller.py -> /home/hikari/ROScribe/ros_ws/src/build/can_bridge/build/lib/can_bridge
+copying can_bridge/motor_control_topic.py -> /home/hikari/ROScribe/ros_ws/src/build/can_bridge/build/lib/can_bridge
+copying can_bridge/__init__.py -> /home/hikari/ROScribe/ros_ws/src/build/can_bridge/build/lib/can_bridge
+running install
+running install_lib
+creating /home/hikari/ROScribe/ros_ws/src/install/can_bridge/lib/python3.10/site-packages/can_bridge
+copying /home/hikari/ROScribe/ros_ws/src/build/can_bridge/build/lib/can_bridge/parameter_tuner.py -> /home/hikari/ROScribe/ros_ws/src/install/can_bridge/lib/python3.10/site-packages/can_bridge
+copying /home/hikari/ROScribe/ros_ws/src/build/can_bridge/build/lib/can_bridge/ros2can_bridge.py -> /home/hikari/ROScribe/ros_ws/src/install/can_bridge/lib/python3.10/site-packages/can_bridge
+copying /home/hikari/ROScribe/ros_ws/src/build/can_bridge/build/lib/can_bridge/analog_input_topic.py -> /home/hikari/ROScribe/ros_ws/src/install/can_bridge/lib/python3.10/site-packages/can_bridge
+copying /home/hikari/ROScribe/ros_ws/src/build/can_bridge/build/lib/can_bridge/pid_controller.py -> /home/hikari/ROScribe/ros_ws/src/install/can_bridge/lib/python3.10/site-packages/can_bridge
+copying /home/hikari/ROScribe/ros_ws/src/build/can_bridge/build/lib/can_bridge/motor_control_topic.py -> /home/hikari/ROScribe/ros_ws/src/install/can_bridge/lib/python3.10/site-packages/can_bridge
+copying /home/hikari/ROScribe/ros_ws/src/build/can_bridge/build/lib/can_bridge/__init__.py -> /home/hikari/ROScribe/ros_ws/src/install/can_bridge/lib/python3.10/site-packages/can_bridge
+byte-compiling /home/hikari/ROScribe/ros_ws/src/install/can_bridge/lib/python3.10/site-packages/can_bridge/parameter_tuner.py to parameter_tuner.cpython-310.pyc
+byte-compiling /home/hikari/ROScribe/ros_ws/src/install/can_bridge/lib/python3.10/site-packages/can_bridge/ros2can_bridge.py to ros2can_bridge.cpython-310.pyc
+byte-compiling /home/hikari/ROScribe/ros_ws/src/install/can_bridge/lib/python3.10/site-packages/can_bridge/analog_input_topic.py to analog_input_topic.cpython-310.pyc
+byte-compiling /home/hikari/ROScribe/ros_ws/src/install/can_bridge/lib/python3.10/site-packages/can_bridge/pid_controller.py to pid_controller.cpython-310.pyc
+byte-compiling /home/hikari/ROScribe/ros_ws/src/install/can_bridge/lib/python3.10/site-packages/can_bridge/motor_control_topic.py to motor_control_topic.cpython-310.pyc
+byte-compiling /home/hikari/ROScribe/ros_ws/src/install/can_bridge/lib/python3.10/site-packages/can_bridge/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/hikari/ROScribe/ros_ws/src/install/can_bridge/share/ament_index
+creating /home/hikari/ROScribe/ros_ws/src/install/can_bridge/share/ament_index/resource_index
+/home/hikari/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+!!
+
+        ********************************************************************************
+        Please avoid running ``setup.py`` directly.
+        Instead, use pypa/build, pypa/installer or other
+        standards-based tools.
+
+        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+        ********************************************************************************
+
+!!
+  self.initialize_options()
+creating /home/hikari/ROScribe/ros_ws/src/install/can_bridge/share/ament_index/resource_index/packages
+copying resource/can_bridge -> /home/hikari/ROScribe/ros_ws/src/install/can_bridge/share/ament_index/resource_index/packages
+copying package.xml -> /home/hikari/ROScribe/ros_ws/src/install/can_bridge/share/can_bridge
+running install_egg_info
+Copying ../build/can_bridge/can_bridge.egg-info to /home/hikari/ROScribe/ros_ws/src/install/can_bridge/lib/python3.10/site-packages/can_bridge-0.1.0-py3.10.egg-info
+running install_scripts
+Installing analog_input_topic script to /home/hikari/ROScribe/ros_ws/src/install/can_bridge/lib/can_bridge
+Installing motor_control_topic script to /home/hikari/ROScribe/ros_ws/src/install/can_bridge/lib/can_bridge
+Installing parameter_tuner script to /home/hikari/ROScribe/ros_ws/src/install/can_bridge/lib/can_bridge
+Installing pid_controller script to /home/hikari/ROScribe/ros_ws/src/install/can_bridge/lib/can_bridge
+Installing ros2can_bridge script to /home/hikari/ROScribe/ros_ws/src/install/can_bridge/lib/can_bridge
+writing list of installed files to '/home/hikari/ROScribe/ros_ws/src/build/can_bridge/install.log'

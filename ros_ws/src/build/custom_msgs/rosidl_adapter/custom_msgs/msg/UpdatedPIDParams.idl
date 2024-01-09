@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from custom_msgs/msg/UpdatedPIDParams.msg
+// generated code does not contain a copyright notice
+
+
+module custom_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "UpdatedPIDParams.msg")
+    struct UpdatedPIDParams {
+      int32 sec;
+
+      uint32 nanosec;
+
+      double updated_p_value;
+
+      double updated_i_value;
+
+      double updated_d_value;
+    };
+  };
+};

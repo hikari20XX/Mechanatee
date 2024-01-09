@@ -1,0 +1,66 @@
+[6.791s] Invoking command in '/home/hikari/ROScribe/ros_ws/src/can_bridge': AMENT_PREFIX_PATH=/home/hikari/ROScribe/ros_ws/src/install/std_msgs:/home/hikari/ROScribe/ros_ws/src/install/custom_msgs:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_runtime:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_generators:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs:/home/hikari/ROScribe/ros_ws/src/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hikari/ROScribe/ros_ws/src/install/std_msgs:/home/hikari/ROScribe/ros_ws/src/install/custom_msgs:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_runtime:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_generators:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs LD_LIBRARY_PATH=/home/hikari/ROScribe/ros_ws/src/install/std_msgs/lib:/home/hikari/ROScribe/ros_ws/src/install/custom_msgs/lib:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hikari/ROScribe/ros_ws/src/build/can_bridge/prefix_override:/home/hikari/ROScribe/ros_ws/src/install/can_bridge/lib/python3.10/site-packages:/home/hikari/ROScribe/ros_ws/src/install/std_msgs/local/lib/python3.10/dist-packages:/home/hikari/ROScribe/ros_ws/src/install/custom_msgs/local/lib/python3.10/dist-packages:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces/local/lib/python3.10/dist-packages:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/can_bridge build --build-base /home/hikari/ROScribe/ros_ws/src/build/can_bridge/build install --record /home/hikari/ROScribe/ros_ws/src/build/can_bridge/install.log --single-version-externally-managed
+[23.393s] running egg_info
+[23.393s] creating ../build/can_bridge/can_bridge.egg-info
+[23.393s] writing ../build/can_bridge/can_bridge.egg-info/PKG-INFO
+[23.394s] writing dependency_links to ../build/can_bridge/can_bridge.egg-info/dependency_links.txt
+[23.394s] writing entry points to ../build/can_bridge/can_bridge.egg-info/entry_points.txt
+[23.394s] writing requirements to ../build/can_bridge/can_bridge.egg-info/requires.txt
+[23.394s] writing top-level names to ../build/can_bridge/can_bridge.egg-info/top_level.txt
+[23.394s] writing manifest file '../build/can_bridge/can_bridge.egg-info/SOURCES.txt'
+[23.395s] reading manifest file '../build/can_bridge/can_bridge.egg-info/SOURCES.txt'
+[23.395s] writing manifest file '../build/can_bridge/can_bridge.egg-info/SOURCES.txt'
+[23.395s] running build
+[23.395s] running build_py
+[23.395s] creating /home/hikari/ROScribe/ros_ws/src/build/can_bridge/build
+[23.395s] creating /home/hikari/ROScribe/ros_ws/src/build/can_bridge/build/lib
+[23.396s] creating /home/hikari/ROScribe/ros_ws/src/build/can_bridge/build/lib/can_bridge
+[23.396s] copying can_bridge/parameter_tuner.py -> /home/hikari/ROScribe/ros_ws/src/build/can_bridge/build/lib/can_bridge
+[23.396s] copying can_bridge/ros2can_bridge.py -> /home/hikari/ROScribe/ros_ws/src/build/can_bridge/build/lib/can_bridge
+[23.396s] copying can_bridge/analog_input_topic.py -> /home/hikari/ROScribe/ros_ws/src/build/can_bridge/build/lib/can_bridge
+[23.396s] copying can_bridge/pid_controller.py -> /home/hikari/ROScribe/ros_ws/src/build/can_bridge/build/lib/can_bridge
+[23.396s] copying can_bridge/motor_control_topic.py -> /home/hikari/ROScribe/ros_ws/src/build/can_bridge/build/lib/can_bridge
+[23.397s] copying can_bridge/__init__.py -> /home/hikari/ROScribe/ros_ws/src/build/can_bridge/build/lib/can_bridge
+[23.397s] running install
+[23.397s] running install_lib
+[23.397s] creating /home/hikari/ROScribe/ros_ws/src/install/can_bridge/lib/python3.10/site-packages/can_bridge
+[23.397s] copying /home/hikari/ROScribe/ros_ws/src/build/can_bridge/build/lib/can_bridge/parameter_tuner.py -> /home/hikari/ROScribe/ros_ws/src/install/can_bridge/lib/python3.10/site-packages/can_bridge
+[23.397s] copying /home/hikari/ROScribe/ros_ws/src/build/can_bridge/build/lib/can_bridge/ros2can_bridge.py -> /home/hikari/ROScribe/ros_ws/src/install/can_bridge/lib/python3.10/site-packages/can_bridge
+[23.398s] copying /home/hikari/ROScribe/ros_ws/src/build/can_bridge/build/lib/can_bridge/analog_input_topic.py -> /home/hikari/ROScribe/ros_ws/src/install/can_bridge/lib/python3.10/site-packages/can_bridge
+[23.398s] copying /home/hikari/ROScribe/ros_ws/src/build/can_bridge/build/lib/can_bridge/pid_controller.py -> /home/hikari/ROScribe/ros_ws/src/install/can_bridge/lib/python3.10/site-packages/can_bridge
+[23.398s] copying /home/hikari/ROScribe/ros_ws/src/build/can_bridge/build/lib/can_bridge/motor_control_topic.py -> /home/hikari/ROScribe/ros_ws/src/install/can_bridge/lib/python3.10/site-packages/can_bridge
+[23.398s] copying /home/hikari/ROScribe/ros_ws/src/build/can_bridge/build/lib/can_bridge/__init__.py -> /home/hikari/ROScribe/ros_ws/src/install/can_bridge/lib/python3.10/site-packages/can_bridge
+[23.398s] byte-compiling /home/hikari/ROScribe/ros_ws/src/install/can_bridge/lib/python3.10/site-packages/can_bridge/parameter_tuner.py to parameter_tuner.cpython-310.pyc
+[23.398s] byte-compiling /home/hikari/ROScribe/ros_ws/src/install/can_bridge/lib/python3.10/site-packages/can_bridge/ros2can_bridge.py to ros2can_bridge.cpython-310.pyc
+[23.399s] byte-compiling /home/hikari/ROScribe/ros_ws/src/install/can_bridge/lib/python3.10/site-packages/can_bridge/analog_input_topic.py to analog_input_topic.cpython-310.pyc
+[23.399s] byte-compiling /home/hikari/ROScribe/ros_ws/src/install/can_bridge/lib/python3.10/site-packages/can_bridge/pid_controller.py to pid_controller.cpython-310.pyc
+[23.399s] byte-compiling /home/hikari/ROScribe/ros_ws/src/install/can_bridge/lib/python3.10/site-packages/can_bridge/motor_control_topic.py to motor_control_topic.cpython-310.pyc
+[23.399s] byte-compiling /home/hikari/ROScribe/ros_ws/src/install/can_bridge/lib/python3.10/site-packages/can_bridge/__init__.py to __init__.cpython-310.pyc
+[23.399s] running install_data
+[23.399s] creating /home/hikari/ROScribe/ros_ws/src/install/can_bridge/share/ament_index
+[23.400s] creating /home/hikari/ROScribe/ros_ws/src/install/can_bridge/share/ament_index/resource_index
+[23.400s] /home/hikari/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[23.401s] !!
+[23.401s] 
+[23.401s]         ********************************************************************************
+[23.401s]         Please avoid running ``setup.py`` directly.
+[23.402s]         Instead, use pypa/build, pypa/installer or other
+[23.402s]         standards-based tools.
+[23.402s] 
+[23.402s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[23.402s]         ********************************************************************************
+[23.425s] 
+[23.426s] !!
+[23.426s]   self.initialize_options()
+[23.432s] creating /home/hikari/ROScribe/ros_ws/src/install/can_bridge/share/ament_index/resource_index/packages
+[23.432s] copying resource/can_bridge -> /home/hikari/ROScribe/ros_ws/src/install/can_bridge/share/ament_index/resource_index/packages
+[23.432s] copying package.xml -> /home/hikari/ROScribe/ros_ws/src/install/can_bridge/share/can_bridge
+[23.433s] running install_egg_info
+[23.433s] Copying ../build/can_bridge/can_bridge.egg-info to /home/hikari/ROScribe/ros_ws/src/install/can_bridge/lib/python3.10/site-packages/can_bridge-0.1.0-py3.10.egg-info
+[23.433s] running install_scripts
+[23.433s] Installing analog_input_topic script to /home/hikari/ROScribe/ros_ws/src/install/can_bridge/lib/can_bridge
+[23.433s] Installing motor_control_topic script to /home/hikari/ROScribe/ros_ws/src/install/can_bridge/lib/can_bridge
+[23.434s] Installing parameter_tuner script to /home/hikari/ROScribe/ros_ws/src/install/can_bridge/lib/can_bridge
+[23.434s] Installing pid_controller script to /home/hikari/ROScribe/ros_ws/src/install/can_bridge/lib/can_bridge
+[23.434s] Installing ros2can_bridge script to /home/hikari/ROScribe/ros_ws/src/install/can_bridge/lib/can_bridge
+[23.434s] writing list of installed files to '/home/hikari/ROScribe/ros_ws/src/build/can_bridge/install.log'
+[23.453s] Invoked command in '/home/hikari/ROScribe/ros_ws/src/can_bridge' returned '0': AMENT_PREFIX_PATH=/home/hikari/ROScribe/ros_ws/src/install/std_msgs:/home/hikari/ROScribe/ros_ws/src/install/custom_msgs:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_runtime:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_generators:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs:/home/hikari/ROScribe/ros_ws/src/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hikari/ROScribe/ros_ws/src/install/std_msgs:/home/hikari/ROScribe/ros_ws/src/install/custom_msgs:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_runtime:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_generators:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs LD_LIBRARY_PATH=/home/hikari/ROScribe/ros_ws/src/install/std_msgs/lib:/home/hikari/ROScribe/ros_ws/src/install/custom_msgs/lib:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hikari/ROScribe/ros_ws/src/build/can_bridge/prefix_override:/home/hikari/ROScribe/ros_ws/src/install/can_bridge/lib/python3.10/site-packages:/home/hikari/ROScribe/ros_ws/src/install/std_msgs/local/lib/python3.10/dist-packages:/home/hikari/ROScribe/ros_ws/src/install/custom_msgs/local/lib/python3.10/dist-packages:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces/local/lib/python3.10/dist-packages:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/can_bridge build --build-base /home/hikari/ROScribe/ros_ws/src/build/can_bridge/build install --record /home/hikari/ROScribe/ros_ws/src/build/can_bridge/install.log --single-version-externally-managed

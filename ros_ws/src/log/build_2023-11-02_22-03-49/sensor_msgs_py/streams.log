@@ -1,0 +1,52 @@
+[2.923s] Invoking command in '/home/hikari/ROScribe/ros_ws/src/ros2/common_interfaces/sensor_msgs_py': AMENT_PREFIX_PATH=/home/hikari/ROScribe/ros_ws/src/install/sensor_msgs:/home/hikari/ROScribe/ros_ws/src/install/geometry_msgs:/home/hikari/ROScribe/ros_ws/src/install/std_msgs:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_runtime:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs:/home/hikari/ROScribe/ros_ws/src/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hikari/ROScribe/ros_ws/src/install/sensor_msgs:/home/hikari/ROScribe/ros_ws/src/install/geometry_msgs:/home/hikari/ROScribe/ros_ws/src/install/std_msgs:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_runtime:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs LD_LIBRARY_PATH=/home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/lib:/home/hikari/ROScribe/ros_ws/src/install/geometry_msgs/lib:/home/hikari/ROScribe/ros_ws/src/install/std_msgs/lib:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hikari/ROScribe/ros_ws/src/build/sensor_msgs_py/prefix_override:/home/hikari/ROScribe/ros_ws/src/install/sensor_msgs_py/lib/python3.10/site-packages:/home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages:/home/hikari/ROScribe/ros_ws/src/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/hikari/ROScribe/ros_ws/src/install/std_msgs/local/lib/python3.10/dist-packages:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces/local/lib/python3.10/dist-packages:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/sensor_msgs_py build --build-base /home/hikari/ROScribe/ros_ws/src/build/sensor_msgs_py/build install --record /home/hikari/ROScribe/ros_ws/src/build/sensor_msgs_py/install.log --single-version-externally-managed
+[3.378s] running egg_info
+[3.379s] creating ../../../build/sensor_msgs_py/sensor_msgs_py.egg-info
+[3.411s] writing ../../../build/sensor_msgs_py/sensor_msgs_py.egg-info/PKG-INFO
+[3.412s] writing dependency_links to ../../../build/sensor_msgs_py/sensor_msgs_py.egg-info/dependency_links.txt
+[3.412s] writing requirements to ../../../build/sensor_msgs_py/sensor_msgs_py.egg-info/requires.txt
+[3.412s] writing top-level names to ../../../build/sensor_msgs_py/sensor_msgs_py.egg-info/top_level.txt
+[3.413s] writing manifest file '../../../build/sensor_msgs_py/sensor_msgs_py.egg-info/SOURCES.txt'
+[3.494s] reading manifest file '../../../build/sensor_msgs_py/sensor_msgs_py.egg-info/SOURCES.txt'
+[3.494s] adding license file 'LICENSE'
+[3.495s] writing manifest file '../../../build/sensor_msgs_py/sensor_msgs_py.egg-info/SOURCES.txt'
+[3.495s] running build
+[3.495s] running build_py
+[3.496s] creating /home/hikari/ROScribe/ros_ws/src/build/sensor_msgs_py/build
+[3.496s] creating /home/hikari/ROScribe/ros_ws/src/build/sensor_msgs_py/build/lib
+[3.496s] creating /home/hikari/ROScribe/ros_ws/src/build/sensor_msgs_py/build/lib/sensor_msgs_py
+[3.497s] copying sensor_msgs_py/point_cloud2.py -> /home/hikari/ROScribe/ros_ws/src/build/sensor_msgs_py/build/lib/sensor_msgs_py
+[3.497s] copying sensor_msgs_py/numpy_compat.py -> /home/hikari/ROScribe/ros_ws/src/build/sensor_msgs_py/build/lib/sensor_msgs_py
+[3.498s] copying sensor_msgs_py/__init__.py -> /home/hikari/ROScribe/ros_ws/src/build/sensor_msgs_py/build/lib/sensor_msgs_py
+[3.498s] running install
+[3.499s] /home/hikari/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[3.499s] !!
+[3.499s] 
+[3.499s]         ********************************************************************************
+[3.500s]         Please avoid running ``setup.py`` directly.
+[3.500s]         Instead, use pypa/build, pypa/installer or other
+[3.500s]         standards-based tools.
+[3.500s] 
+[3.500s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[3.500s]         ********************************************************************************
+[3.500s] 
+[3.500s] !!
+[3.500s]   self.initialize_options()
+[3.506s] running install_lib
+[3.542s] creating /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs_py/lib/python3.10/site-packages/sensor_msgs_py
+[3.542s] copying /home/hikari/ROScribe/ros_ws/src/build/sensor_msgs_py/build/lib/sensor_msgs_py/point_cloud2.py -> /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs_py/lib/python3.10/site-packages/sensor_msgs_py
+[3.543s] copying /home/hikari/ROScribe/ros_ws/src/build/sensor_msgs_py/build/lib/sensor_msgs_py/numpy_compat.py -> /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs_py/lib/python3.10/site-packages/sensor_msgs_py
+[3.544s] copying /home/hikari/ROScribe/ros_ws/src/build/sensor_msgs_py/build/lib/sensor_msgs_py/__init__.py -> /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs_py/lib/python3.10/site-packages/sensor_msgs_py
+[3.545s] byte-compiling /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs_py/lib/python3.10/site-packages/sensor_msgs_py/point_cloud2.py to point_cloud2.cpython-310.pyc
+[3.548s] byte-compiling /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs_py/lib/python3.10/site-packages/sensor_msgs_py/numpy_compat.py to numpy_compat.cpython-310.pyc
+[3.550s] byte-compiling /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs_py/lib/python3.10/site-packages/sensor_msgs_py/__init__.py to __init__.cpython-310.pyc
+[3.551s] running install_data
+[3.604s] creating /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs_py/share/ament_index
+[3.605s] creating /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs_py/share/ament_index/resource_index
+[3.605s] creating /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs_py/share/ament_index/resource_index/packages
+[3.605s] copying resource/sensor_msgs_py -> /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs_py/share/ament_index/resource_index/packages
+[3.605s] copying package.xml -> /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs_py/share/sensor_msgs_py
+[3.606s] running install_egg_info
+[3.640s] Copying ../../../build/sensor_msgs_py/sensor_msgs_py.egg-info to /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs_py/lib/python3.10/site-packages/sensor_msgs_py-4.2.3-py3.10.egg-info
+[3.642s] running install_scripts
+[4.009s] writing list of installed files to '/home/hikari/ROScribe/ros_ws/src/build/sensor_msgs_py/install.log'
+[4.060s] Invoked command in '/home/hikari/ROScribe/ros_ws/src/ros2/common_interfaces/sensor_msgs_py' returned '0': AMENT_PREFIX_PATH=/home/hikari/ROScribe/ros_ws/src/install/sensor_msgs:/home/hikari/ROScribe/ros_ws/src/install/geometry_msgs:/home/hikari/ROScribe/ros_ws/src/install/std_msgs:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_runtime:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs:/home/hikari/ROScribe/ros_ws/src/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hikari/ROScribe/ros_ws/src/install/sensor_msgs:/home/hikari/ROScribe/ros_ws/src/install/geometry_msgs:/home/hikari/ROScribe/ros_ws/src/install/std_msgs:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_runtime:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs LD_LIBRARY_PATH=/home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/lib:/home/hikari/ROScribe/ros_ws/src/install/geometry_msgs/lib:/home/hikari/ROScribe/ros_ws/src/install/std_msgs/lib:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hikari/ROScribe/ros_ws/src/build/sensor_msgs_py/prefix_override:/home/hikari/ROScribe/ros_ws/src/install/sensor_msgs_py/lib/python3.10/site-packages:/home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages:/home/hikari/ROScribe/ros_ws/src/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/hikari/ROScribe/ros_ws/src/install/std_msgs/local/lib/python3.10/dist-packages:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces/local/lib/python3.10/dist-packages:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/sensor_msgs_py build --build-base /home/hikari/ROScribe/ros_ws/src/build/sensor_msgs_py/build install --record /home/hikari/ROScribe/ros_ws/src/build/sensor_msgs_py/install.log --single-version-externally-managed

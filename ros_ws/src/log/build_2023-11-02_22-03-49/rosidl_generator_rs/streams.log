@@ -1,0 +1,88 @@
+[0.123s] Invoking command in '/home/hikari/ROScribe/ros_ws/src/build/rosidl_generator_rs': AMENT_PREFIX_PATH=/home/hikari/ROScribe/ros_ws/src/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/hikari/ROScribe/ros_ws/src/ros2_rust/rosidl_generator_rs -DCMAKE_INSTALL_PREFIX=/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs
+[0.466s] -- The C compiler identification is GNU 11.4.0
+[0.910s] -- The CXX compiler identification is GNU 11.4.0
+[1.077s] -- Detecting C compiler ABI info
+[1.164s] -- Detecting C compiler ABI info - done
+[1.176s] -- Check for working C compiler: /usr/lib/ccache/cc - skipped
+[1.176s] -- Detecting C compile features
+[1.177s] -- Detecting C compile features - done
+[1.181s] -- Detecting CXX compiler ABI info
+[1.254s] -- Detecting CXX compiler ABI info - done
+[1.264s] -- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped
+[1.264s] -- Detecting CXX compile features
+[1.265s] -- Detecting CXX compile features - done
+[1.275s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.886s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.968s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.975s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.981s] -- Found rosidl_typesupport_introspection_c: 3.1.5 (/opt/ros/humble/share/rosidl_typesupport_introspection_c/cmake)
+[3.228s] -- Configuring done
+[3.235s] -- Generating done
+[3.236s] -- Build files have been written to: /home/hikari/ROScribe/ros_ws/src/build/rosidl_generator_rs
+[3.248s] Invoked command in '/home/hikari/ROScribe/ros_ws/src/build/rosidl_generator_rs' returned '0': AMENT_PREFIX_PATH=/home/hikari/ROScribe/ros_ws/src/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/hikari/ROScribe/ros_ws/src/ros2_rust/rosidl_generator_rs -DCMAKE_INSTALL_PREFIX=/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs
+[3.249s] Invoking command in '/home/hikari/ROScribe/ros_ws/src/build/rosidl_generator_rs': AMENT_PREFIX_PATH=/home/hikari/ROScribe/ros_ws/src/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/hikari/ROScribe/ros_ws/src/build/rosidl_generator_rs -- -j8 -l8
+[3.290s] Built target ament_cmake_python_copy_rosidl_generator_rs
+[3.524s] running egg_info
+[3.525s] creating rosidl_generator_rs.egg-info
+[3.545s] writing rosidl_generator_rs.egg-info/PKG-INFO
+[3.545s] writing dependency_links to rosidl_generator_rs.egg-info/dependency_links.txt
+[3.545s] writing top-level names to rosidl_generator_rs.egg-info/top_level.txt
+[3.546s] writing manifest file 'rosidl_generator_rs.egg-info/SOURCES.txt'
+[3.614s] reading manifest file 'rosidl_generator_rs.egg-info/SOURCES.txt'
+[3.615s] writing manifest file 'rosidl_generator_rs.egg-info/SOURCES.txt'
+[3.638s] Built target ament_cmake_python_build_rosidl_generator_rs_egg
+[3.647s] Invoked command in '/home/hikari/ROScribe/ros_ws/src/build/rosidl_generator_rs' returned '0': AMENT_PREFIX_PATH=/home/hikari/ROScribe/ros_ws/src/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/hikari/ROScribe/ros_ws/src/build/rosidl_generator_rs -- -j8 -l8
+[3.690s] Invoking command in '/home/hikari/ROScribe/ros_ws/src/build/rosidl_generator_rs': AMENT_PREFIX_PATH=/home/hikari/ROScribe/ros_ws/src/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/hikari/ROScribe/ros_ws/src/build/rosidl_generator_rs
+[3.718s] -- Install configuration: ""
+[3.718s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs/share/ament_index/resource_index/rosidl_generator_packages/rosidl_generator_rs
+[3.719s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs/share/ament_index/resource_index/rosidl_runtime_packages/rosidl_generator_rs
+[3.719s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs/share/rosidl_generator_rs/environment/pythonpath.sh
+[3.719s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs/share/rosidl_generator_rs/environment/pythonpath.dsv
+[3.719s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs/local/lib/python3.10/dist-packages/rosidl_generator_rs-0.3.1-py3.10.egg-info
+[3.720s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs/local/lib/python3.10/dist-packages/rosidl_generator_rs-0.3.1-py3.10.egg-info/top_level.txt
+[3.720s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs/local/lib/python3.10/dist-packages/rosidl_generator_rs-0.3.1-py3.10.egg-info/dependency_links.txt
+[3.720s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs/local/lib/python3.10/dist-packages/rosidl_generator_rs-0.3.1-py3.10.egg-info/SOURCES.txt
+[3.720s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs/local/lib/python3.10/dist-packages/rosidl_generator_rs-0.3.1-py3.10.egg-info/PKG-INFO
+[3.721s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs/local/lib/python3.10/dist-packages/rosidl_generator_rs
+[3.721s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs/local/lib/python3.10/dist-packages/rosidl_generator_rs/__init__.py
+[3.755s] Listing '/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs/local/lib/python3.10/dist-packages/rosidl_generator_rs'...
+[3.755s] Compiling '/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs/local/lib/python3.10/dist-packages/rosidl_generator_rs/__init__.py'...
+[3.763s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs/share/ament_index/resource_index/package_run_dependencies/rosidl_generator_rs
+[3.763s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs/share/ament_index/resource_index/parent_prefix_path/rosidl_generator_rs
+[3.763s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs/share/rosidl_generator_rs/environment/ament_prefix_path.sh
+[3.763s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs/share/rosidl_generator_rs/environment/ament_prefix_path.dsv
+[3.764s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs/share/rosidl_generator_rs/environment/path.sh
+[3.764s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs/share/rosidl_generator_rs/environment/path.dsv
+[3.764s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs/share/rosidl_generator_rs/local_setup.bash
+[3.765s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs/share/rosidl_generator_rs/local_setup.sh
+[3.765s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs/share/rosidl_generator_rs/local_setup.zsh
+[3.765s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs/share/rosidl_generator_rs/local_setup.dsv
+[3.766s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs/share/rosidl_generator_rs/package.dsv
+[3.766s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs/share/ament_index/resource_index/packages/rosidl_generator_rs
+[3.767s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs/share/rosidl_generator_rs/cmake/rosidl_generator_rs-extras.cmake
+[3.767s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs/share/rosidl_generator_rs/cmake/rosidl_generator_rs_get_typesupports.cmake
+[3.768s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs/share/rosidl_generator_rs/cmake/register_rs.cmake
+[3.768s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs/share/rosidl_generator_rs/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.768s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs/share/rosidl_generator_rs/cmake/rosidl_generator_rsConfig.cmake
+[3.769s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs/share/rosidl_generator_rs/cmake/rosidl_generator_rsConfig-version.cmake
+[3.769s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs/share/rosidl_generator_rs/package.xml
+[3.769s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs/share/rosidl_generator_rs/cmake
+[3.770s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs/share/rosidl_generator_rs/cmake/rosidl_generator_rs_get_typesupports.cmake
+[3.770s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs/share/rosidl_generator_rs/cmake/rosidl_generator_rs_generate_interfaces.cmake
+[3.770s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs/share/rosidl_generator_rs/cmake/custom_command.cmake
+[3.771s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs/share/rosidl_generator_rs/cmake/register_rs.cmake
+[3.771s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs/lib/rosidl_generator_rs/rosidl_generator_rs
+[3.771s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs/share/rosidl_generator_rs/cmake
+[3.771s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs/share/rosidl_generator_rs/cmake/rosidl_generator_rs_get_typesupports.cmake
+[3.771s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs/share/rosidl_generator_rs/cmake/rosidl_generator_rs_generate_interfaces.cmake
+[3.771s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs/share/rosidl_generator_rs/cmake/custom_command.cmake
+[3.772s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs/share/rosidl_generator_rs/cmake/register_rs.cmake
+[3.772s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs/share/rosidl_generator_rs/resource
+[3.772s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs/share/rosidl_generator_rs/resource/msg.rs.em
+[3.772s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs/share/rosidl_generator_rs/resource/build.rs.em
+[3.772s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs/share/rosidl_generator_rs/resource/Cargo.toml.em
+[3.772s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs/share/rosidl_generator_rs/resource/lib.rs.em
+[3.772s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs/share/rosidl_generator_rs/resource/msg_idiomatic.rs.em
+[3.772s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs/share/rosidl_generator_rs/resource/srv.rs.em
+[3.772s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs/share/rosidl_generator_rs/resource/msg_rmw.rs.em
+[3.779s] Invoked command in '/home/hikari/ROScribe/ros_ws/src/build/rosidl_generator_rs' returned '0': AMENT_PREFIX_PATH=/home/hikari/ROScribe/ros_ws/src/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/hikari/ROScribe/ros_ws/src/build/rosidl_generator_rs

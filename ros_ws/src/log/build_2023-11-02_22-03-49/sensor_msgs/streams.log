@@ -1,0 +1,1070 @@
+[0.557s] Invoking command in '/home/hikari/ROScribe/ros_ws/src/build/sensor_msgs': AMENT_PREFIX_PATH=/home/hikari/ROScribe/ros_ws/src/install/geometry_msgs:/home/hikari/ROScribe/ros_ws/src/install/std_msgs:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_runtime:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_generators:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs:/home/hikari/ROScribe/ros_ws/src/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hikari/ROScribe/ros_ws/src/install/geometry_msgs:/home/hikari/ROScribe/ros_ws/src/install/std_msgs:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_runtime:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_generators:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs:/opt/ros/humble LD_LIBRARY_PATH=/home/hikari/ROScribe/ros_ws/src/install/geometry_msgs/lib:/home/hikari/ROScribe/ros_ws/src/install/std_msgs/lib:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hikari/ROScribe/ros_ws/src/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/hikari/ROScribe/ros_ws/src/install/std_msgs/local/lib/python3.10/dist-packages:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces/local/lib/python3.10/dist-packages:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake /home/hikari/ROScribe/ros_ws/src/ros2/common_interfaces/sensor_msgs -DCMAKE_INSTALL_PREFIX=/home/hikari/ROScribe/ros_ws/src/install/sensor_msgs
+[0.751s] -- The C compiler identification is GNU 11.4.0
+[1.012s] -- The CXX compiler identification is GNU 11.4.0
+[1.149s] -- Detecting C compiler ABI info
+[1.258s] -- Detecting C compiler ABI info - done
+[1.282s] -- Check for working C compiler: /usr/lib/ccache/cc - skipped
+[1.283s] -- Detecting C compile features
+[1.284s] -- Detecting C compile features - done
+[1.292s] -- Detecting CXX compiler ABI info
+[1.426s] -- Detecting CXX compiler ABI info - done
+[1.453s] -- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped
+[1.454s] -- Detecting CXX compile features
+[1.455s] -- Detecting CXX compile features - done
+[1.463s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.353s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[4.551s] -- Found builtin_interfaces: 1.2.1 (/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces/share/builtin_interfaces/cmake)
+[4.762s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.774s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.800s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.865s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.910s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.973s] -- Found geometry_msgs: 4.2.3 (/home/hikari/ROScribe/ros_ws/src/install/geometry_msgs/share/geometry_msgs/cmake)
+[5.304s] -- Found rosidl_default_generators: 1.2.0 (/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_generators/share/rosidl_default_generators/cmake)
+[6.478s] -- Found ament_cmake_cppcheck: 0.12.8 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[6.482s] -- Found ament_cmake_cpplint: 0.12.8 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[6.488s] -- Found ament_cmake_uncrustify: 0.12.8 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[6.494s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[7.483s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.896s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.905s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[8.803s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[9.414s] -- Found FastRTPS: /opt/ros/humble/include  
+[10.747s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[10.750s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[11.042s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[11.043s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[11.043s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[11.043s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[11.147s] -- Found PythonExtra: .so  
+[11.751s] -- Found ament_cmake_flake8: 0.12.8 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[11.759s] -- Found ament_cmake_pep257: 0.12.8 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[11.784s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[11.874s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[11.894s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[12.432s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[12.432s] -- Found Threads: TRUE  
+[12.476s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[12.480s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/hikari/ROScribe/ros_ws/src/ros2/common_interfaces/sensor_msgs/include>
+[12.480s] -- Configured cppcheck exclude dirs and/or files: 
+[12.488s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[12.488s] -- Configured cpplint exclude dirs and/or files: 
+[12.505s] -- Added test 'uncrustify' to check C / C++ code style
+[12.506s] -- Configured uncrustify additional arguments: 
+[12.515s] -- Added test 'copyright' to check source files copyright and LICENSE
+[12.518s] -- Added test 'lint_cmake' to check CMake code style
+[12.532s] -- Added test 'xmllint' to check XML markup files
+[12.541s] -- Configuring done
+[13.372s] -- Generating done
+[13.398s] -- Build files have been written to: /home/hikari/ROScribe/ros_ws/src/build/sensor_msgs
+[13.512s] Invoked command in '/home/hikari/ROScribe/ros_ws/src/build/sensor_msgs' returned '0': AMENT_PREFIX_PATH=/home/hikari/ROScribe/ros_ws/src/install/geometry_msgs:/home/hikari/ROScribe/ros_ws/src/install/std_msgs:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_runtime:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_generators:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs:/home/hikari/ROScribe/ros_ws/src/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hikari/ROScribe/ros_ws/src/install/geometry_msgs:/home/hikari/ROScribe/ros_ws/src/install/std_msgs:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_runtime:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_generators:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs:/opt/ros/humble LD_LIBRARY_PATH=/home/hikari/ROScribe/ros_ws/src/install/geometry_msgs/lib:/home/hikari/ROScribe/ros_ws/src/install/std_msgs/lib:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hikari/ROScribe/ros_ws/src/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/hikari/ROScribe/ros_ws/src/install/std_msgs/local/lib/python3.10/dist-packages:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces/local/lib/python3.10/dist-packages:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake /home/hikari/ROScribe/ros_ws/src/ros2/common_interfaces/sensor_msgs -DCMAKE_INSTALL_PREFIX=/home/hikari/ROScribe/ros_ws/src/install/sensor_msgs
+[13.514s] Invoking command in '/home/hikari/ROScribe/ros_ws/src/build/sensor_msgs': AMENT_PREFIX_PATH=/home/hikari/ROScribe/ros_ws/src/install/geometry_msgs:/home/hikari/ROScribe/ros_ws/src/install/std_msgs:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_runtime:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_generators:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs:/home/hikari/ROScribe/ros_ws/src/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hikari/ROScribe/ros_ws/src/install/geometry_msgs:/home/hikari/ROScribe/ros_ws/src/install/std_msgs:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_runtime:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_generators:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs:/opt/ros/humble LD_LIBRARY_PATH=/home/hikari/ROScribe/ros_ws/src/install/geometry_msgs/lib:/home/hikari/ROScribe/ros_ws/src/install/std_msgs/lib:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hikari/ROScribe/ros_ws/src/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/hikari/ROScribe/ros_ws/src/install/std_msgs/local/lib/python3.10/dist-packages:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces/local/lib/python3.10/dist-packages:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --build /home/hikari/ROScribe/ros_ws/src/build/sensor_msgs -- -j8 -l8
+[13.867s] [  0%] [34m[1mGenerating C code for ROS interfaces[0m
+[13.926s] [  0%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[13.937s] [  0%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[13.996s] [  1%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[13.996s] [  1%] Built target ament_cmake_python_copy_sensor_msgs
+[14.046s] [  1%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[14.557s] [  1%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[14.960s] [  1%] Built target gtest_main
+[15.616s] [  1%] [32m[1mLinking CXX static library libgtest.a[0m
+[16.168s] [  1%] Built target gtest
+[16.262s] running egg_info
+[16.275s] creating sensor_msgs.egg-info
+[16.488s] writing sensor_msgs.egg-info/PKG-INFO
+[16.513s] writing dependency_links to sensor_msgs.egg-info/dependency_links.txt
+[16.514s] writing top-level names to sensor_msgs.egg-info/top_level.txt
+[16.515s] writing manifest file 'sensor_msgs.egg-info/SOURCES.txt'
+[17.074s] reading manifest file 'sensor_msgs.egg-info/SOURCES.txt'
+[17.076s] writing manifest file 'sensor_msgs.egg-info/SOURCES.txt'
+[17.217s] [  1%] Built target ament_cmake_python_build_sensor_msgs_egg
+[29.410s] [  1%] Built target sensor_msgs__rs
+[32.581s] [  1%] Built target sensor_msgs__cpp
+[32.881s] [  2%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/battery_state__functions.c.o[0m
+[33.020s] [  2%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/fluid_pressure__functions.c.o[0m
+[33.146s] [  3%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/illuminance__functions.c.o[0m
+[33.279s] [  3%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/image__functions.c.o[0m
+[33.412s] [  3%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/imu__functions.c.o[0m
+[33.554s] [  4%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/joint_state__functions.c.o[0m
+[33.686s] [  4%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/joy__functions.c.o[0m
+[33.821s] [  5%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/joy_feedback__functions.c.o[0m
+[33.944s] [  5%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/joy_feedback_array__functions.c.o[0m
+[34.063s] [  5%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/laser_echo__functions.c.o[0m
+[34.182s] [  6%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/laser_scan__functions.c.o[0m
+[34.315s] [  6%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/magnetic_field__functions.c.o[0m
+[34.451s] [  6%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/multi_dof_joint_state__functions.c.o[0m
+[34.594s] [  7%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/multi_echo_laser_scan__functions.c.o[0m
+[34.720s] [  7%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/nav_sat_fix__functions.c.o[0m
+[34.848s] [  8%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/nav_sat_status__functions.c.o[0m
+[34.957s] [  8%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/point_cloud__functions.c.o[0m
+[35.074s] [  8%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/point_cloud2__functions.c.o[0m
+[35.207s] [  9%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/point_field__functions.c.o[0m
+[35.329s] [  9%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/range__functions.c.o[0m
+[35.462s] [ 10%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/region_of_interest__functions.c.o[0m
+[35.581s] [ 10%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/relative_humidity__functions.c.o[0m
+[35.714s] [ 10%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/temperature__functions.c.o[0m
+[35.838s] [ 11%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/time_reference__functions.c.o[0m
+[35.954s] [ 11%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/srv/detail/set_camera_info__functions.c.o[0m
+[36.090s] [ 12%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/compressed_image__functions.c.o[0m
+[36.219s] [ 12%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/channel_float32__functions.c.o[0m
+[36.349s] [ 12%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/camera_info__functions.c.o[0m
+[36.478s] [ 13%] [32m[1mLinking C shared library libsensor_msgs__rosidl_generator_c.so[0m
+[36.582s] [ 13%] Built target sensor_msgs__rosidl_generator_c
+[36.593s] [ 14%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[42.872s] [ 14%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/battery_state__type_support.cpp.o[0m
+[43.499s] [ 14%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/channel_float32__type_support.cpp.o[0m
+[44.094s] [ 14%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/compressed_image__type_support.cpp.o[0m
+[44.727s] [ 15%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/fluid_pressure__type_support.cpp.o[0m
+[45.383s] [ 15%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/illuminance__type_support.cpp.o[0m
+[46.027s] [ 16%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/image__type_support.cpp.o[0m
+[46.028s] [ 17%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/camera_info__type_support.cpp.o[0m
+[46.928s] [ 17%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/imu__type_support.cpp.o[0m
+[46.936s] [ 17%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/joint_state__type_support.cpp.o[0m
+[47.816s] [ 18%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/joy__type_support.cpp.o[0m
+[47.821s] [ 18%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/joy_feedback__type_support.cpp.o[0m
+[48.546s] [ 18%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/joy_feedback_array__type_support.cpp.o[0m
+[48.555s] [ 19%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/laser_echo__type_support.cpp.o[0m
+[49.271s] [ 19%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/laser_scan__type_support.cpp.o[0m
+[49.283s] [ 20%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/magnetic_field__type_support.cpp.o[0m
+[49.940s] [ 20%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/multi_dof_joint_state__type_support.cpp.o[0m
+[49.975s] [ 20%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/multi_echo_laser_scan__type_support.cpp.o[0m
+[50.672s] [ 21%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/nav_sat_fix__type_support.cpp.o[0m
+[50.673s] [ 21%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/nav_sat_status__type_support.cpp.o[0m
+[50.695s] [ 22%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/point_cloud__type_support.cpp.o[0m
+[51.554s] [ 22%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/point_cloud2__type_support.cpp.o[0m
+[51.561s] [ 22%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/point_field__type_support.cpp.o[0m
+[51.614s] [ 23%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/range__type_support.cpp.o[0m
+[52.544s] [ 23%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/region_of_interest__type_support.cpp.o[0m
+[52.580s] [ 24%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/relative_humidity__type_support.cpp.o[0m
+[52.700s] [ 24%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/temperature__type_support.cpp.o[0m
+[53.559s] [ 24%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/time_reference__type_support.cpp.o[0m
+[53.617s] [ 25%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/srv/set_camera_info__type_support.cpp.o[0m
+[54.966s] [ 25%] [32m[1mLinking CXX shared library libsensor_msgs__rosidl_typesupport_cpp.so[0m
+[55.290s] [ 25%] Built target sensor_msgs__rosidl_typesupport_cpp
+[55.345s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[55.367s] [ 26%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[55.379s] [ 27%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[61.948s] [ 28%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/battery_state__type_support.cpp.o[0m
+[61.949s] [ 28%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/camera_info__type_support.cpp.o[0m
+[61.949s] [ 28%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/channel_float32__type_support.cpp.o[0m
+[62.033s] [ 29%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/compressed_image__type_support.cpp.o[0m
+[62.034s] [ 29%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/fluid_pressure__type_support.cpp.o[0m
+[62.035s] [ 30%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/illuminance__type_support.cpp.o[0m
+[62.119s] [ 30%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/image__type_support.cpp.o[0m
+[62.123s] [ 30%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/imu__type_support.cpp.o[0m
+[62.129s] [ 31%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/joint_state__type_support.cpp.o[0m
+[62.216s] [ 31%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/joy__type_support.cpp.o[0m
+[62.217s] [ 32%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/joy_feedback__type_support.cpp.o[0m
+[62.223s] [ 32%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/joy_feedback_array__type_support.cpp.o[0m
+[62.305s] [ 32%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/laser_echo__type_support.cpp.o[0m
+[62.310s] [ 33%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/laser_scan__type_support.cpp.o[0m
+[62.318s] [ 33%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/magnetic_field__type_support.cpp.o[0m
+[62.406s] [ 34%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/multi_dof_joint_state__type_support.cpp.o[0m
+[62.418s] [ 34%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/multi_echo_laser_scan__type_support.cpp.o[0m
+[62.423s] [ 34%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/nav_sat_fix__type_support.cpp.o[0m
+[62.529s] [ 35%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/nav_sat_status__type_support.cpp.o[0m
+[62.535s] [ 35%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/point_cloud__type_support.cpp.o[0m
+[62.537s] [ 35%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/point_cloud2__type_support.cpp.o[0m
+[62.616s] [ 36%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/point_field__type_support.cpp.o[0m
+[62.632s] [ 36%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/range__type_support.cpp.o[0m
+[62.634s] [ 37%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/region_of_interest__type_support.cpp.o[0m
+[62.712s] [ 37%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/relative_humidity__type_support.cpp.o[0m
+[62.732s] [ 37%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/temperature__type_support.cpp.o[0m
+[62.733s] [ 38%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/time_reference__type_support.cpp.o[0m
+[62.812s] [ 38%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/srv/set_camera_info__type_support.cpp.o[0m
+[62.905s] [ 39%] [32m[1mLinking CXX shared library libsensor_msgs__rosidl_typesupport_c.so[0m
+[63.030s] [ 39%] Built target sensor_msgs__rosidl_typesupport_c
+[63.042s] [ 39%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[63.047s] [ 39%] [32mBuilding CXX object CMakeFiles/test_sensor_msgs.dir/test/test_image_encodings.cpp.o[0m
+[63.047s] [ 40%] [32mBuilding CXX object CMakeFiles/test_sensor_msgs.dir/test/test_pointcloud_conversion.cpp.o[0m
+[63.054s] [ 40%] [32mBuilding CXX object CMakeFiles/test_sensor_msgs.dir/test/test_pointcloud_iterator.cpp.o[0m
+[63.487s] [ 41%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/battery_state__type_support.c.o[0m
+[63.488s] [ 41%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/camera_info__type_support.c.o[0m
+[63.660s] [ 41%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/channel_float32__type_support.c.o[0m
+[63.666s] [ 41%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/compressed_image__type_support.c.o[0m
+[63.854s] [ 42%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/fluid_pressure__type_support.c.o[0m
+[63.886s] [ 42%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/illuminance__type_support.c.o[0m
+[64.054s] [ 42%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/image__type_support.c.o[0m
+[64.074s] [ 43%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/imu__type_support.c.o[0m
+[64.195s] [ 43%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/battery_state__type_support_c.cpp.o[0m
+[64.229s] [ 43%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/joint_state__type_support.c.o[0m
+[64.310s] [ 44%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/joy__type_support.c.o[0m
+[64.416s] [ 44%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/joy_feedback__type_support.c.o[0m
+[64.493s] [ 44%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/joy_feedback_array__type_support.c.o[0m
+[64.558s] [ 45%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/laser_echo__type_support.c.o[0m
+[64.620s] [ 45%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/laser_scan__type_support.c.o[0m
+[64.680s] [ 46%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/magnetic_field__type_support.c.o[0m
+[64.777s] [ 46%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/multi_dof_joint_state__type_support.c.o[0m
+[64.824s] [ 46%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/multi_echo_laser_scan__type_support.c.o[0m
+[64.959s] [ 47%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/nav_sat_fix__type_support.c.o[0m
+[64.986s] [ 47%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/nav_sat_status__type_support.c.o[0m
+[65.081s] [ 48%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/point_cloud__type_support.c.o[0m
+[65.099s] [ 48%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/point_cloud2__type_support.c.o[0m
+[65.271s] [ 48%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/point_field__type_support.c.o[0m
+[65.271s] [ 49%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/range__type_support.c.o[0m
+[65.355s] [ 49%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/region_of_interest__type_support.c.o[0m
+[65.362s] [ 49%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/relative_humidity__type_support.c.o[0m
+[65.485s] [ 50%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/temperature__type_support.c.o[0m
+[65.510s] [ 50%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/time_reference__type_support.c.o[0m
+[65.561s] [ 50%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/camera_info__type_support_c.cpp.o[0m
+[65.597s] [ 51%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/srv/detail/set_camera_info__type_support.c.o[0m
+[65.645s] [ 52%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/channel_float32__type_support_c.cpp.o[0m
+[65.727s] [ 52%] [32m[1mLinking C shared library libsensor_msgs__rosidl_typesupport_introspection_c.so[0m
+[65.855s] [ 52%] Built target sensor_msgs__rosidl_typesupport_introspection_c
+[65.874s] [ 52%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[65.877s] [ 52%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/compressed_image__type_support_c.cpp.o[0m
+[66.570s] [ 53%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/illuminance__type_support_c.cpp.o[0m
+[66.819s] [ 53%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/fluid_pressure__type_support_c.cpp.o[0m
+[66.883s] [ 53%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/image__type_support_c.cpp.o[0m
+[66.899s] [ 54%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/imu__type_support_c.cpp.o[0m
+[67.107s] [ 54%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/joint_state__type_support_c.cpp.o[0m
+[67.116s] [ 55%] [32m[1mLinking CXX executable test_sensor_msgs[0m
+[67.592s] [ 55%] Built target test_sensor_msgs
+[67.599s] [ 55%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/joy__type_support_c.cpp.o[0m
+[67.776s] [ 56%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/joy_feedback__type_support_c.cpp.o[0m
+[68.006s] [ 56%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/joy_feedback_array__type_support_c.cpp.o[0m
+[68.104s] [ 57%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/laser_echo__type_support_c.cpp.o[0m
+[68.157s] [ 57%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/laser_scan__type_support_c.cpp.o[0m
+[68.357s] [ 57%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/magnetic_field__type_support_c.cpp.o[0m
+[68.829s] [ 58%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/multi_dof_joint_state__type_support_c.cpp.o[0m
+[68.937s] [ 58%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/multi_echo_laser_scan__type_support_c.cpp.o[0m
+[69.151s] [ 59%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/nav_sat_fix__type_support_c.cpp.o[0m
+[69.270s] [ 59%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/nav_sat_status__type_support_c.cpp.o[0m
+[69.408s] [ 59%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/point_cloud__type_support_c.cpp.o[0m
+[69.563s] [ 60%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/point_cloud2__type_support_c.cpp.o[0m
+[70.129s] [ 60%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/point_field__type_support_c.cpp.o[0m
+[70.160s] [ 60%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/range__type_support_c.cpp.o[0m
+[70.367s] [ 61%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/region_of_interest__type_support_c.cpp.o[0m
+[70.451s] [ 61%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/relative_humidity__type_support_c.cpp.o[0m
+[70.675s] [ 62%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/temperature__type_support_c.cpp.o[0m
+[70.862s] [ 62%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/time_reference__type_support_c.cpp.o[0m
+[71.430s] [ 62%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/srv/detail/set_camera_info__type_support_c.cpp.o[0m
+[72.288s] [ 63%] [32m[1mLinking CXX shared library libsensor_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[72.435s] [ 63%] Built target sensor_msgs__rosidl_typesupport_fastrtps_c
+[72.888s] [ 64%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/camera_info__type_support.cpp.o[0m
+[72.888s] [ 64%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/battery_state__type_support.cpp.o[0m
+[72.888s] [ 64%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/channel_float32__type_support.cpp.o[0m
+[73.658s] [ 64%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/image__type_support.cpp.o[0m
+[73.714s] [ 64%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/imu__type_support.cpp.o[0m
+[73.744s] [ 65%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/joint_state__type_support.cpp.o[0m
+[74.521s] [ 65%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/joy__type_support.cpp.o[0m
+[74.537s] [ 66%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/joy_feedback__type_support.cpp.o[0m
+[74.651s] [ 66%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/joy_feedback_array__type_support.cpp.o[0m
+[74.847s] [ 66%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/battery_state__type_support.cpp.o[0m
+[75.343s] [ 68%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/illuminance__type_support.cpp.o[0m
+[75.343s] [ 68%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/laser_echo__type_support.cpp.o[0m
+[75.343s] [ 68%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/camera_info__type_support.cpp.o[0m
+[75.424s] [ 68%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/channel_float32__type_support.cpp.o[0m
+[75.427s] [ 68%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/fluid_pressure__type_support.cpp.o[0m
+[75.555s] [ 69%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/compressed_image__type_support.cpp.o[0m
+[75.913s] [ 71%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/laser_scan__type_support.cpp.o[0m
+[75.914s] [ 71%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/compressed_image__type_support.cpp.o[0m
+[76.544s] [ 71%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/magnetic_field__type_support.cpp.o[0m
+[76.649s] [ 71%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/multi_dof_joint_state__type_support.cpp.o[0m
+[76.662s] [ 72%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/multi_echo_laser_scan__type_support.cpp.o[0m
+[76.800s] [ 72%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/fluid_pressure__type_support.cpp.o[0m
+[76.880s] [ 72%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/illuminance__type_support.cpp.o[0m
+[76.927s] [ 72%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/nav_sat_fix__type_support.cpp.o[0m
+[77.333s] [ 73%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/nav_sat_status__type_support.cpp.o[0m
+[77.454s] [ 74%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/image__type_support.cpp.o[0m
+[77.860s] [ 74%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/point_cloud__type_support.cpp.o[0m
+[78.117s] [ 74%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/imu__type_support.cpp.o[0m
+[78.214s] [ 74%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/point_cloud2__type_support.cpp.o[0m
+[78.267s] [ 75%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/point_field__type_support.cpp.o[0m
+[78.282s] [ 76%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/joint_state__type_support.cpp.o[0m
+[78.368s] [ 76%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/range__type_support.cpp.o[0m
+[78.646s] [ 77%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/region_of_interest__type_support.cpp.o[0m
+[78.956s] [ 77%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/joy__type_support.cpp.o[0m
+[79.623s] [ 77%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/temperature__type_support.cpp.o[0m
+[79.623s] [ 77%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/relative_humidity__type_support.cpp.o[0m
+[79.624s] [ 77%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/joy_feedback__type_support.cpp.o[0m
+[79.835s] [ 78%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/time_reference__type_support.cpp.o[0m
+[79.904s] [ 78%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/srv/detail/set_camera_info__type_support.cpp.o[0m
+[80.065s] [ 79%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/joy_feedback_array__type_support.cpp.o[0m
+[80.711s] [ 79%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/laser_scan__type_support.cpp.o[0m
+[80.711s] [ 79%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/laser_echo__type_support.cpp.o[0m
+[80.996s] [ 80%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/magnetic_field__type_support.cpp.o[0m
+[81.043s] [ 80%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/multi_dof_joint_state__type_support.cpp.o[0m
+[81.263s] [ 81%] [32m[1mLinking CXX shared library libsensor_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[81.441s] [ 81%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/nav_sat_fix__type_support.cpp.o[0m
+[81.544s] [ 81%] Built target sensor_msgs__rosidl_typesupport_introspection_cpp
+[81.982s] [ 82%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/nav_sat_status__type_support.cpp.o[0m
+[81.982s] [ 82%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/point_cloud__type_support.cpp.o[0m
+[81.985s] [ 82%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/point_cloud2__type_support.cpp.o[0m
+[82.105s] [ 83%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/point_field__type_support.cpp.o[0m
+[82.537s] [ 83%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/range__type_support.cpp.o[0m
+[82.538s] [ 84%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/multi_echo_laser_scan__type_support.cpp.o[0m
+[83.082s] [ 85%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/relative_humidity__type_support.cpp.o[0m
+[83.246s] [ 85%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/temperature__type_support.cpp.o[0m
+[83.316s] [ 86%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/time_reference__type_support.cpp.o[0m
+[83.345s] [ 86%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/srv/detail/dds_fastrtps/set_camera_info__type_support.cpp.o[0m
+[83.656s] [ 86%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/region_of_interest__type_support.cpp.o[0m
+[84.506s] [ 86%] [32m[1mLinking CXX shared library libsensor_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[84.650s] [ 86%] Built target sensor_msgs__rosidl_typesupport_fastrtps_cpp
+[84.659s] [ 86%] Built target sensor_msgs
+[84.670s] [ 87%] [34m[1mGenerating Python code for ROS interfaces[0m
+[92.065s] [ 87%] Built target sensor_msgs__py
+[92.075s] [ 87%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_camera_info_s.c.o[0m
+[92.075s] [ 87%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_battery_state_s.c.o[0m
+[92.076s] [ 88%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_channel_float32_s.c.o[0m
+[92.076s] [ 88%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_compressed_image_s.c.o[0m
+[92.076s] [ 89%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_fluid_pressure_s.c.o[0m
+[92.076s] [ 89%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_illuminance_s.c.o[0m
+[92.077s] [ 89%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_image_s.c.o[0m
+[92.417s] [ 90%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_imu_s.c.o[0m
+[92.419s] [ 90%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_joint_state_s.c.o[0m
+[92.431s] [ 90%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_joy_s.c.o[0m
+[92.436s] [ 91%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_joy_feedback_s.c.o[0m
+[92.446s] [ 91%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_joy_feedback_array_s.c.o[0m
+[92.466s] [ 92%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_laser_echo_s.c.o[0m
+[92.472s] [ 92%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_laser_scan_s.c.o[0m
+[92.824s] [ 92%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_magnetic_field_s.c.o[0m
+[92.839s] [ 93%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_multi_dof_joint_state_s.c.o[0m
+[92.839s] [ 93%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_multi_echo_laser_scan_s.c.o[0m
+[92.849s] [ 94%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_nav_sat_fix_s.c.o[0m
+[92.853s] [ 94%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_nav_sat_status_s.c.o[0m
+[92.854s] [ 94%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_point_cloud_s.c.o[0m
+[92.904s] [ 95%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_point_cloud2_s.c.o[0m
+[92.905s] [ 95%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_point_field_s.c.o[0m
+[93.296s] [ 96%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_range_s.c.o[0m
+[93.300s] [ 96%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_region_of_interest_s.c.o[0m
+[93.336s] [ 96%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_relative_humidity_s.c.o[0m
+[93.342s] [ 97%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_temperature_s.c.o[0m
+[93.344s] [ 97%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_time_reference_s.c.o[0m
+[93.361s] [ 98%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/srv/_set_camera_info_s.c.o[0m
+[93.769s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/sensor_msgs/libsensor_msgs__rosidl_generator_py.so[0m
+[93.859s] [ 98%] Built target sensor_msgs__rosidl_generator_py
+[93.871s] [ 98%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/sensor_msgs/_sensor_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[93.872s] [ 98%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/sensor_msgs/_sensor_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[93.872s] [ 98%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/sensor_msgs/_sensor_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[94.287s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/sensor_msgs/sensor_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[94.293s] [ 99%] [32m[1mLinking C shared library rosidl_generator_py/sensor_msgs/sensor_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[94.303s] [100%] [32m[1mLinking C shared library rosidl_generator_py/sensor_msgs/sensor_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[94.362s] [100%] Built target sensor_msgs__rosidl_typesupport_c__pyext
+[94.365s] [100%] Built target sensor_msgs__rosidl_typesupport_fastrtps_c__pyext
+[94.375s] [100%] Built target sensor_msgs__rosidl_typesupport_introspection_c__pyext
+[94.392s] Invoked command in '/home/hikari/ROScribe/ros_ws/src/build/sensor_msgs' returned '0': AMENT_PREFIX_PATH=/home/hikari/ROScribe/ros_ws/src/install/geometry_msgs:/home/hikari/ROScribe/ros_ws/src/install/std_msgs:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_runtime:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_generators:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs:/home/hikari/ROScribe/ros_ws/src/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hikari/ROScribe/ros_ws/src/install/geometry_msgs:/home/hikari/ROScribe/ros_ws/src/install/std_msgs:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_runtime:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_generators:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs:/opt/ros/humble LD_LIBRARY_PATH=/home/hikari/ROScribe/ros_ws/src/install/geometry_msgs/lib:/home/hikari/ROScribe/ros_ws/src/install/std_msgs/lib:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hikari/ROScribe/ros_ws/src/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/hikari/ROScribe/ros_ws/src/install/std_msgs/local/lib/python3.10/dist-packages:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces/local/lib/python3.10/dist-packages:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --build /home/hikari/ROScribe/ros_ws/src/build/sensor_msgs -- -j8 -l8
+[94.931s] Invoking command in '/home/hikari/ROScribe/ros_ws/src/build/sensor_msgs': AMENT_PREFIX_PATH=/home/hikari/ROScribe/ros_ws/src/install/geometry_msgs:/home/hikari/ROScribe/ros_ws/src/install/std_msgs:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_runtime:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_generators:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs:/home/hikari/ROScribe/ros_ws/src/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hikari/ROScribe/ros_ws/src/install/geometry_msgs:/home/hikari/ROScribe/ros_ws/src/install/std_msgs:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_runtime:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_generators:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs:/opt/ros/humble LD_LIBRARY_PATH=/home/hikari/ROScribe/ros_ws/src/install/geometry_msgs/lib:/home/hikari/ROScribe/ros_ws/src/install/std_msgs/lib:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hikari/ROScribe/ros_ws/src/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/hikari/ROScribe/ros_ws/src/install/std_msgs/local/lib/python3.10/dist-packages:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces/local/lib/python3.10/dist-packages:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --install /home/hikari/ROScribe/ros_ws/src/build/sensor_msgs
+[94.968s] -- Install configuration: ""
+[94.970s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/ament_index/resource_index/rosidl_interfaces/sensor_msgs
+[94.970s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs
+[94.971s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv
+[94.971s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/set_camera_info.h
+[94.971s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail
+[94.971s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__type_support.h
+[94.972s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__struct.h
+[94.972s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__functions.c
+[94.972s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__functions.h
+[94.972s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg
+[94.973s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/point_cloud.h
+[94.973s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/point_field.h
+[94.973s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/multi_echo_laser_scan.h
+[94.974s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/illuminance.h
+[94.974s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/temperature.h
+[94.974s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/laser_echo.h
+[94.974s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/fluid_pressure.h
+[94.974s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/laser_scan.h
+[94.975s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/multi_dof_joint_state.h
+[94.975s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/imu.h
+[94.975s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/magnetic_field.h
+[94.975s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/battery_state.h
+[94.976s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/camera_info.h
+[94.976s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/region_of_interest.h
+[94.976s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/image.h
+[94.976s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/time_reference.h
+[94.977s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/relative_humidity.h
+[94.977s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/point_cloud2.h
+[94.977s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/compressed_image.h
+[94.977s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/joint_state.h
+[94.977s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/nav_sat_status.h
+[94.978s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/range.h
+[94.978s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/channel_float32.h
+[94.978s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/nav_sat_fix.h
+[94.978s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/rosidl_generator_c__visibility_control.h
+[94.979s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/joy_feedback.h
+[94.979s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/joy.h
+[94.979s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail
+[94.979s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__functions.h
+[94.980s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__struct.h
+[94.980s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__functions.h
+[94.980s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__functions.c
+[94.980s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__functions.c
+[94.980s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__type_support.h
+[94.980s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__functions.c
+[94.981s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__functions.c
+[94.981s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__struct.h
+[94.981s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__struct.h
+[94.981s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__functions.c
+[94.982s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__type_support.h
+[94.982s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__struct.h
+[94.982s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__functions.h
+[94.983s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/image__functions.h
+[94.983s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_field__functions.h
+[94.983s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__functions.c
+[94.983s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__functions.h
+[94.984s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__type_support.h
+[94.984s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__functions.h
+[94.984s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__type_support.h
+[94.984s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__struct.h
+[94.984s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__type_support.h
+[94.984s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__functions.h
+[94.985s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/image__functions.c
+[94.985s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__type_support.h
+[94.985s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__struct.h
+[94.985s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__type_support.h
+[94.985s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__struct.h
+[94.986s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__functions.h
+[94.986s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__struct.h
+[94.986s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__functions.h
+[94.986s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__functions.c
+[94.986s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__functions.c
+[94.987s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__functions.h
+[94.987s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/range__functions.h
+[94.987s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/imu__type_support.h
+[94.988s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/temperature__functions.c
+[94.988s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__struct.h
+[94.988s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy__struct.h
+[94.988s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__type_support.h
+[94.989s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__functions.c
+[94.989s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__type_support.h
+[94.989s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__type_support.h
+[94.989s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__struct.h
+[94.990s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__type_support.h
+[94.990s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/range__type_support.h
+[94.990s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__type_support.h
+[94.990s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__functions.c
+[94.990s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__functions.h
+[94.990s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/temperature__struct.h
+[94.991s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__struct.h
+[94.991s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__functions.h
+[94.991s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__struct.h
+[94.991s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__struct.h
+[94.992s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__type_support.h
+[94.992s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__struct.h
+[94.992s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy__functions.c
+[94.992s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__type_support.h
+[94.993s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__functions.h
+[94.993s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__functions.c
+[94.993s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__functions.h
+[94.994s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_field__type_support.h
+[94.994s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__functions.c
+[94.994s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__functions.c
+[94.994s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__functions.c
+[94.994s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__type_support.h
+[94.995s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__type_support.h
+[94.995s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__functions.c
+[94.995s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_field__functions.c
+[94.995s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/imu__functions.h
+[94.996s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.h
+[94.996s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__functions.c
+[94.996s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__functions.h
+[94.996s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy__type_support.h
+[94.996s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/imu__struct.h
+[94.996s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__struct.h
+[94.997s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__functions.c
+[94.997s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_field__struct.h
+[94.997s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__struct.h
+[94.997s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__type_support.h
+[94.997s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__functions.h
+[94.998s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/range__struct.h
+[94.998s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/imu__functions.c
+[94.998s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__type_support.h
+[94.998s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__functions.h
+[94.999s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/image__type_support.h
+[94.999s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/temperature__type_support.h
+[94.999s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__functions.c
+[94.999s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy__functions.h
+[95.000s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__functions.h
+[95.000s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__functions.c
+[95.000s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__struct.h
+[95.000s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__functions.h
+[95.000s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__struct.h
+[95.001s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__type_support.h
+[95.001s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__functions.h
+[95.001s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/range__functions.c
+[95.001s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__struct.h
+[95.002s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__struct.h
+[95.002s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__functions.c
+[95.002s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__struct.h
+[95.002s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__functions.h
+[95.002s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__functions.h
+[95.002s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__functions.c
+[95.002s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__type_support.h
+[95.002s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/temperature__functions.h
+[95.003s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__type_support.h
+[95.003s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/joy_feedback_array.h
+[95.003s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/environment/library_path.sh
+[95.003s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/environment/library_path.dsv
+[95.003s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/lib/libsensor_msgs__rosidl_generator_c.so
+[95.003s] -- Set runtime path of "/home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/lib/libsensor_msgs__rosidl_generator_c.so" to ""
+[95.004s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs
+[95.004s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv
+[95.004s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail
+[95.004s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__rosidl_typesupport_fastrtps_c.h
+[95.005s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg
+[95.005s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[95.005s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail
+[95.005s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__rosidl_typesupport_fastrtps_c.h
+[95.005s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/imu__rosidl_typesupport_fastrtps_c.h
+[95.006s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__rosidl_typesupport_fastrtps_c.h
+[95.006s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__rosidl_typesupport_fastrtps_c.h
+[95.006s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__rosidl_typesupport_fastrtps_c.h
+[95.006s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__rosidl_typesupport_fastrtps_c.h
+[95.006s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__rosidl_typesupport_fastrtps_c.h
+[95.006s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__rosidl_typesupport_fastrtps_c.h
+[95.006s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__rosidl_typesupport_fastrtps_c.h
+[95.007s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__rosidl_typesupport_fastrtps_c.h
+[95.007s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/range__rosidl_typesupport_fastrtps_c.h
+[95.007s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__rosidl_typesupport_fastrtps_c.h
+[95.007s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__rosidl_typesupport_fastrtps_c.h
+[95.007s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__rosidl_typesupport_fastrtps_c.h
+[95.007s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy__rosidl_typesupport_fastrtps_c.h
+[95.007s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__rosidl_typesupport_fastrtps_c.h
+[95.007s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__rosidl_typesupport_fastrtps_c.h
+[95.008s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__rosidl_typesupport_fastrtps_c.h
+[95.008s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_field__rosidl_typesupport_fastrtps_c.h
+[95.008s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__rosidl_typesupport_fastrtps_c.h
+[95.008s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__rosidl_typesupport_fastrtps_c.h
+[95.008s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__rosidl_typesupport_fastrtps_c.h
+[95.009s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/image__rosidl_typesupport_fastrtps_c.h
+[95.009s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__rosidl_typesupport_fastrtps_c.h
+[95.009s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__rosidl_typesupport_fastrtps_c.h
+[95.009s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/temperature__rosidl_typesupport_fastrtps_c.h
+[95.009s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__rosidl_typesupport_fastrtps_c.h
+[95.009s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_fastrtps_c.so
+[95.010s] -- Set runtime path of "/home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[95.010s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs
+[95.010s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv
+[95.010s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/set_camera_info.hpp
+[95.011s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail
+[95.011s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__builder.hpp
+[95.011s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__struct.hpp
+[95.011s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__traits.hpp
+[95.011s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg
+[95.011s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/time_reference.hpp
+[95.012s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/compressed_image.hpp
+[95.012s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/laser_scan.hpp
+[95.012s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/joy.hpp
+[95.012s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/joy_feedback_array.hpp
+[95.012s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/fluid_pressure.hpp
+[95.013s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/joint_state.hpp
+[95.013s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/region_of_interest.hpp
+[95.013s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/nav_sat_fix.hpp
+[95.013s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/point_cloud.hpp
+[95.014s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/image.hpp
+[95.014s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/laser_echo.hpp
+[95.014s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/point_cloud2.hpp
+[95.014s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/temperature.hpp
+[95.014s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/magnetic_field.hpp
+[95.014s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/illuminance.hpp
+[95.015s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/channel_float32.hpp
+[95.015s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/joy_feedback.hpp
+[95.015s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/relative_humidity.hpp
+[95.015s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/point_field.hpp
+[95.015s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/battery_state.hpp
+[95.015s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/nav_sat_status.hpp
+[95.016s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/camera_info.hpp
+[95.016s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/multi_echo_laser_scan.hpp
+[95.016s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/range.hpp
+[95.016s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail
+[95.016s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__struct.hpp
+[95.017s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_field__traits.hpp
+[95.017s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/image__traits.hpp
+[95.017s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__traits.hpp
+[95.017s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/range__builder.hpp
+[95.017s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__traits.hpp
+[95.018s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/range__struct.hpp
+[95.018s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__builder.hpp
+[95.018s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__builder.hpp
+[95.018s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__builder.hpp
+[95.019s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__struct.hpp
+[95.019s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__traits.hpp
+[95.019s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__struct.hpp
+[95.019s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__builder.hpp
+[95.020s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__struct.hpp
+[95.020s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/temperature__traits.hpp
+[95.020s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__traits.hpp
+[95.020s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__builder.hpp
+[95.020s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__traits.hpp
+[95.020s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__traits.hpp
+[95.021s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__struct.hpp
+[95.021s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__builder.hpp
+[95.021s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__traits.hpp
+[95.021s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__traits.hpp
+[95.021s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__struct.hpp
+[95.022s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__traits.hpp
+[95.022s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__struct.hpp
+[95.022s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__struct.hpp
+[95.023s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__traits.hpp
+[95.023s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/range__traits.hpp
+[95.023s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__builder.hpp
+[95.023s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/temperature__builder.hpp
+[95.023s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_field__builder.hpp
+[95.024s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy__struct.hpp
+[95.024s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__builder.hpp
+[95.024s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__builder.hpp
+[95.024s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__traits.hpp
+[95.024s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__struct.hpp
+[95.024s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__struct.hpp
+[95.025s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__traits.hpp
+[95.025s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__traits.hpp
+[95.025s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__traits.hpp
+[95.025s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__builder.hpp
+[95.026s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__builder.hpp
+[95.026s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__traits.hpp
+[95.026s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__struct.hpp
+[95.026s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__struct.hpp
+[95.026s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/imu__struct.hpp
+[95.027s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__struct.hpp
+[95.027s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__struct.hpp
+[95.027s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__builder.hpp
+[95.027s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy__traits.hpp
+[95.027s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__builder.hpp
+[95.028s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__builder.hpp
+[95.028s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__builder.hpp
+[95.028s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__builder.hpp
+[95.028s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy__builder.hpp
+[95.028s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/imu__traits.hpp
+[95.028s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__builder.hpp
+[95.029s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp
+[95.029s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__traits.hpp
+[95.029s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__traits.hpp
+[95.029s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__struct.hpp
+[95.029s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__traits.hpp
+[95.030s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/temperature__struct.hpp
+[95.030s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__builder.hpp
+[95.030s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__struct.hpp
+[95.030s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__traits.hpp
+[95.030s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__struct.hpp
+[95.030s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/image__builder.hpp
+[95.031s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__struct.hpp
+[95.031s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_field__struct.hpp
+[95.031s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__builder.hpp
+[95.031s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__struct.hpp
+[95.031s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/imu__builder.hpp
+[95.031s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__builder.hpp
+[95.031s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__struct.hpp
+[95.031s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__traits.hpp
+[95.032s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__builder.hpp
+[95.032s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__traits.hpp
+[95.032s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__struct.hpp
+[95.032s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/imu.hpp
+[95.032s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/multi_dof_joint_state.hpp
+[95.033s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs
+[95.033s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv
+[95.033s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail
+[95.033s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__rosidl_typesupport_fastrtps_cpp.hpp
+[95.034s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/dds_fastrtps
+[95.034s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg
+[95.034s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[95.034s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail
+[95.034s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__rosidl_typesupport_fastrtps_cpp.hpp
+[95.035s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/image__rosidl_typesupport_fastrtps_cpp.hpp
+[95.035s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__rosidl_typesupport_fastrtps_cpp.hpp
+[95.035s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__rosidl_typesupport_fastrtps_cpp.hpp
+[95.035s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__rosidl_typesupport_fastrtps_cpp.hpp
+[95.035s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__rosidl_typesupport_fastrtps_cpp.hpp
+[95.035s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_field__rosidl_typesupport_fastrtps_cpp.hpp
+[95.036s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__rosidl_typesupport_fastrtps_cpp.hpp
+[95.036s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__rosidl_typesupport_fastrtps_cpp.hpp
+[95.036s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__rosidl_typesupport_fastrtps_cpp.hpp
+[95.036s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__rosidl_typesupport_fastrtps_cpp.hpp
+[95.036s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__rosidl_typesupport_fastrtps_cpp.hpp
+[95.037s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__rosidl_typesupport_fastrtps_cpp.hpp
+[95.037s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__rosidl_typesupport_fastrtps_cpp.hpp
+[95.037s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/dds_fastrtps
+[95.037s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__rosidl_typesupport_fastrtps_cpp.hpp
+[95.038s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__rosidl_typesupport_fastrtps_cpp.hpp
+[95.038s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/imu__rosidl_typesupport_fastrtps_cpp.hpp
+[95.038s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__rosidl_typesupport_fastrtps_cpp.hpp
+[95.038s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/temperature__rosidl_typesupport_fastrtps_cpp.hpp
+[95.038s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/range__rosidl_typesupport_fastrtps_cpp.hpp
+[95.038s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__rosidl_typesupport_fastrtps_cpp.hpp
+[95.039s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__rosidl_typesupport_fastrtps_cpp.hpp
+[95.039s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__rosidl_typesupport_fastrtps_cpp.hpp
+[95.039s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__rosidl_typesupport_fastrtps_cpp.hpp
+[95.039s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__rosidl_typesupport_fastrtps_cpp.hpp
+[95.039s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy__rosidl_typesupport_fastrtps_cpp.hpp
+[95.040s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__rosidl_typesupport_fastrtps_cpp.hpp
+[95.040s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_fastrtps_cpp.so
+[95.040s] -- Set runtime path of "/home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[95.040s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs
+[95.040s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv
+[95.041s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail
+[95.041s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__type_support.c
+[95.041s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__rosidl_typesupport_introspection_c.h
+[95.041s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg
+[95.042s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[95.042s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail
+[95.042s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/image__rosidl_typesupport_introspection_c.h
+[95.042s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy__rosidl_typesupport_introspection_c.h
+[95.042s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/range__rosidl_typesupport_introspection_c.h
+[95.042s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__type_support.c
+[95.042s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__type_support.c
+[95.042s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__rosidl_typesupport_introspection_c.h
+[95.042s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__rosidl_typesupport_introspection_c.h
+[95.043s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/temperature__rosidl_typesupport_introspection_c.h
+[95.043s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__type_support.c
+[95.043s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__type_support.c
+[95.043s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__rosidl_typesupport_introspection_c.h
+[95.043s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__rosidl_typesupport_introspection_c.h
+[95.044s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__rosidl_typesupport_introspection_c.h
+[95.044s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__rosidl_typesupport_introspection_c.h
+[95.044s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__type_support.c
+[95.044s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/imu__rosidl_typesupport_introspection_c.h
+[95.044s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__rosidl_typesupport_introspection_c.h
+[95.045s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__rosidl_typesupport_introspection_c.h
+[95.045s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__rosidl_typesupport_introspection_c.h
+[95.045s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__rosidl_typesupport_introspection_c.h
+[95.045s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__type_support.c
+[95.045s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__rosidl_typesupport_introspection_c.h
+[95.046s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__rosidl_typesupport_introspection_c.h
+[95.046s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/imu__type_support.c
+[95.046s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__type_support.c
+[95.046s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy__type_support.c
+[95.046s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__rosidl_typesupport_introspection_c.h
+[95.046s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__type_support.c
+[95.046s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__type_support.c
+[95.047s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__rosidl_typesupport_introspection_c.h
+[95.047s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_field__type_support.c
+[95.047s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__rosidl_typesupport_introspection_c.h
+[95.047s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__type_support.c
+[95.047s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/range__type_support.c
+[95.048s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__type_support.c
+[95.048s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__rosidl_typesupport_introspection_c.h
+[95.048s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__type_support.c
+[95.048s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__rosidl_typesupport_introspection_c.h
+[95.048s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_field__rosidl_typesupport_introspection_c.h
+[95.049s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__rosidl_typesupport_introspection_c.h
+[95.049s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__rosidl_typesupport_introspection_c.h
+[95.049s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__type_support.c
+[95.049s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__type_support.c
+[95.049s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__type_support.c
+[95.050s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__type_support.c
+[95.050s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__type_support.c
+[95.050s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/temperature__type_support.c
+[95.050s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/image__type_support.c
+[95.050s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__type_support.c
+[95.051s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__rosidl_typesupport_introspection_c.h
+[95.051s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__rosidl_typesupport_introspection_c.h
+[95.051s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__type_support.c
+[95.051s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__type_support.c
+[95.052s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__type_support.c
+[95.052s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_introspection_c.so
+[95.052s] -- Set runtime path of "/home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_introspection_c.so" to ""
+[95.052s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_c.so
+[95.052s] -- Set runtime path of "/home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_c.so" to ""
+[95.052s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs
+[95.052s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv
+[95.053s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail
+[95.053s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__rosidl_typesupport_introspection_cpp.hpp
+[95.053s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__type_support.cpp
+[95.053s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg
+[95.054s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail
+[95.054s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__type_support.cpp
+[95.054s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__type_support.cpp
+[95.054s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__rosidl_typesupport_introspection_cpp.hpp
+[95.055s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__type_support.cpp
+[95.055s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/range__rosidl_typesupport_introspection_cpp.hpp
+[95.055s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/image__type_support.cpp
+[95.055s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__type_support.cpp
+[95.055s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy__rosidl_typesupport_introspection_cpp.hpp
+[95.056s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__type_support.cpp
+[95.056s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__rosidl_typesupport_introspection_cpp.hpp
+[95.056s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__rosidl_typesupport_introspection_cpp.hpp
+[95.056s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__rosidl_typesupport_introspection_cpp.hpp
+[95.056s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_field__type_support.cpp
+[95.057s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__type_support.cpp
+[95.057s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__rosidl_typesupport_introspection_cpp.hpp
+[95.057s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__rosidl_typesupport_introspection_cpp.hpp
+[95.057s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__type_support.cpp
+[95.058s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy__type_support.cpp
+[95.058s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__rosidl_typesupport_introspection_cpp.hpp
+[95.058s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__rosidl_typesupport_introspection_cpp.hpp
+[95.058s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__rosidl_typesupport_introspection_cpp.hpp
+[95.058s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/range__type_support.cpp
+[95.059s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__rosidl_typesupport_introspection_cpp.hpp
+[95.059s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__type_support.cpp
+[95.059s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__type_support.cpp
+[95.059s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/imu__type_support.cpp
+[95.060s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__rosidl_typesupport_introspection_cpp.hpp
+[95.060s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__rosidl_typesupport_introspection_cpp.hpp
+[95.060s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/imu__rosidl_typesupport_introspection_cpp.hpp
+[95.060s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__rosidl_typesupport_introspection_cpp.hpp
+[95.060s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__type_support.cpp
+[95.060s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__type_support.cpp
+[95.061s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__type_support.cpp
+[95.061s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__rosidl_typesupport_introspection_cpp.hpp
+[95.061s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__type_support.cpp
+[95.061s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__type_support.cpp
+[95.061s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__type_support.cpp
+[95.061s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__type_support.cpp
+[95.061s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__rosidl_typesupport_introspection_cpp.hpp
+[95.061s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_field__rosidl_typesupport_introspection_cpp.hpp
+[95.061s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__rosidl_typesupport_introspection_cpp.hpp
+[95.061s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/temperature__rosidl_typesupport_introspection_cpp.hpp
+[95.061s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__rosidl_typesupport_introspection_cpp.hpp
+[95.061s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__rosidl_typesupport_introspection_cpp.hpp
+[95.061s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__type_support.cpp
+[95.061s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/temperature__type_support.cpp
+[95.062s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__rosidl_typesupport_introspection_cpp.hpp
+[95.062s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/image__rosidl_typesupport_introspection_cpp.hpp
+[95.062s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__rosidl_typesupport_introspection_cpp.hpp
+[95.062s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__type_support.cpp
+[95.062s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__type_support.cpp
+[95.062s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__type_support.cpp
+[95.062s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__rosidl_typesupport_introspection_cpp.hpp
+[95.062s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__type_support.cpp
+[95.062s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_introspection_cpp.so
+[95.062s] -- Set runtime path of "/home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[95.062s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_cpp.so
+[95.062s] -- Set runtime path of "/home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_cpp.so" to ""
+[95.062s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/ament_index/resource_index/rust_packages/sensor_msgs
+[95.062s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/rust
+[95.063s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/rust/src
+[95.063s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/rust/src/msg.rs
+[95.063s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/rust/src/srv.rs
+[95.063s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/rust/src/lib.rs
+[95.063s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/rust/Cargo.toml
+[95.063s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/rust/build.rs
+[95.063s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/rust
+[95.063s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/rust/src
+[95.063s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/rust/src/msg.rs
+[95.063s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/rust/src/srv.rs
+[95.063s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/rust/src/lib.rs
+[95.063s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/rust/Cargo.toml
+[95.063s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/rust/build.rs
+[95.063s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/rust
+[95.063s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/rust/src
+[95.063s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/rust/src/msg.rs
+[95.064s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/rust/src/srv.rs
+[95.064s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/rust/src/lib.rs
+[95.064s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/rust/Cargo.toml
+[95.064s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/rust/build.rs
+[95.064s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/environment/pythonpath.sh
+[95.064s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/environment/pythonpath.dsv
+[95.064s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs-4.2.3-py3.10.egg-info
+[95.064s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs-4.2.3-py3.10.egg-info/top_level.txt
+[95.064s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs-4.2.3-py3.10.egg-info/dependency_links.txt
+[95.064s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs-4.2.3-py3.10.egg-info/SOURCES.txt
+[95.064s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs-4.2.3-py3.10.egg-info/PKG-INFO
+[95.064s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs
+[95.064s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/libsensor_msgs__rosidl_generator_py.so
+[95.064s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/srv
+[95.065s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/srv/_set_camera_info_s.c
+[95.065s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/srv/_set_camera_info.py
+[95.065s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/srv/__init__.py
+[95.065s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/sensor_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[95.065s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/_sensor_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[95.065s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/sensor_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[95.065s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/_sensor_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[95.065s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg
+[95.065s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_joy_feedback_array.py
+[95.065s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_joy.py
+[95.065s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_point_field_s.c
+[95.065s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_multi_echo_laser_scan_s.c
+[95.065s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_region_of_interest.py
+[95.065s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_joy_s.c
+[95.065s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_joy_feedback_s.c
+[95.066s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_point_cloud.py
+[95.066s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_compressed_image.py
+[95.066s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_nav_sat_fix_s.c
+[95.066s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_laser_scan_s.c
+[95.066s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_compressed_image_s.c
+[95.066s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_battery_state.py
+[95.066s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_channel_float32.py
+[95.066s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_illuminance.py
+[95.066s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_multi_dof_joint_state_s.c
+[95.066s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_joint_state.py
+[95.066s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_point_cloud_s.c
+[95.066s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_joy_feedback_array_s.c
+[95.066s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_magnetic_field.py
+[95.066s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_laser_scan.py
+[95.066s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_camera_info_s.c
+[95.067s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_point_cloud2.py
+[95.067s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_point_cloud2_s.c
+[95.067s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_laser_echo_s.c
+[95.067s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_laser_echo.py
+[95.067s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_nav_sat_fix.py
+[95.067s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_image.py
+[95.067s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_temperature.py
+[95.067s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_time_reference.py
+[95.067s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_joy_feedback.py
+[95.067s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_imu.py
+[95.067s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_point_field.py
+[95.067s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_multi_dof_joint_state.py
+[95.067s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_camera_info.py
+[95.067s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_relative_humidity_s.c
+[95.068s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_illuminance_s.c
+[95.068s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_channel_float32_s.c
+[95.068s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_joint_state_s.c
+[95.068s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_image_s.c
+[95.068s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_relative_humidity.py
+[95.068s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_nav_sat_status_s.c
+[95.068s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_range_s.c
+[95.068s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_nav_sat_status.py
+[95.068s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_multi_echo_laser_scan.py
+[95.068s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_temperature_s.c
+[95.068s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_fluid_pressure_s.c
+[95.068s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_time_reference_s.c
+[95.068s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_magnetic_field_s.c
+[95.068s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_range.py
+[95.068s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/__init__.py
+[95.069s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_fluid_pressure.py
+[95.069s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_battery_state_s.c
+[95.069s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_imu_s.c
+[95.069s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_region_of_interest_s.c
+[95.069s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/_sensor_msgs_s.ep.rosidl_typesupport_c.c
+[95.069s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/sensor_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[95.069s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/__init__.py
+[95.144s] Listing '/home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs'...
+[95.144s] Compiling '/home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/__init__.py'...
+[95.144s] Listing '/home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg'...
+[95.144s] Compiling '/home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/__init__.py'...
+[95.144s] Compiling '/home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_battery_state.py'...
+[95.144s] Compiling '/home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_camera_info.py'...
+[95.144s] Compiling '/home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_channel_float32.py'...
+[95.144s] Compiling '/home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_compressed_image.py'...
+[95.144s] Compiling '/home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_fluid_pressure.py'...
+[95.144s] Compiling '/home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_illuminance.py'...
+[95.144s] Compiling '/home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_image.py'...
+[95.145s] Compiling '/home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_imu.py'...
+[95.145s] Compiling '/home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_joint_state.py'...
+[95.145s] Compiling '/home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_joy.py'...
+[95.145s] Compiling '/home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_joy_feedback.py'...
+[95.145s] Compiling '/home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_joy_feedback_array.py'...
+[95.145s] Compiling '/home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_laser_echo.py'...
+[95.145s] Compiling '/home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_laser_scan.py'...
+[95.145s] Compiling '/home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_magnetic_field.py'...
+[95.145s] Compiling '/home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_multi_dof_joint_state.py'...
+[95.145s] Compiling '/home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_multi_echo_laser_scan.py'...
+[95.145s] Compiling '/home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_nav_sat_fix.py'...
+[95.145s] Compiling '/home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_nav_sat_status.py'...
+[95.145s] Compiling '/home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_point_cloud.py'...
+[95.145s] Compiling '/home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_point_cloud2.py'...
+[95.145s] Compiling '/home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_point_field.py'...
+[95.146s] Compiling '/home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_range.py'...
+[95.146s] Compiling '/home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_region_of_interest.py'...
+[95.146s] Compiling '/home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_relative_humidity.py'...
+[95.146s] Compiling '/home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_temperature.py'...
+[95.146s] Compiling '/home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_time_reference.py'...
+[95.146s] Listing '/home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/srv'...
+[95.146s] Compiling '/home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/srv/__init__.py'...
+[95.146s] Compiling '/home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/srv/_set_camera_info.py'...
+[95.149s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/sensor_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[95.150s] -- Set runtime path of "/home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/sensor_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[95.150s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/sensor_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[95.150s] -- Set runtime path of "/home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/sensor_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[95.150s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/sensor_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[95.151s] -- Set runtime path of "/home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/sensor_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[95.151s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/lib/libsensor_msgs__rosidl_generator_py.so
+[95.152s] -- Set runtime path of "/home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/lib/libsensor_msgs__rosidl_generator_py.so" to ""
+[95.152s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/msg/BatteryState.idl
+[95.152s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/msg/CameraInfo.idl
+[95.152s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/msg/ChannelFloat32.idl
+[95.153s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/msg/CompressedImage.idl
+[95.153s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/msg/FluidPressure.idl
+[95.153s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/msg/Illuminance.idl
+[95.154s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/msg/Image.idl
+[95.154s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/msg/Imu.idl
+[95.154s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/msg/JointState.idl
+[95.154s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/msg/Joy.idl
+[95.154s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/msg/JoyFeedback.idl
+[95.155s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/msg/JoyFeedbackArray.idl
+[95.155s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/msg/LaserEcho.idl
+[95.155s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/msg/LaserScan.idl
+[95.155s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/msg/MagneticField.idl
+[95.155s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/msg/MultiDOFJointState.idl
+[95.156s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/msg/MultiEchoLaserScan.idl
+[95.156s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/msg/NavSatFix.idl
+[95.157s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/msg/NavSatStatus.idl
+[95.157s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/msg/PointCloud.idl
+[95.157s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/msg/PointCloud2.idl
+[95.157s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/msg/PointField.idl
+[95.158s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/msg/Range.idl
+[95.158s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/msg/RegionOfInterest.idl
+[95.158s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/msg/RelativeHumidity.idl
+[95.158s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/msg/Temperature.idl
+[95.158s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/msg/TimeReference.idl
+[95.159s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/srv/SetCameraInfo.idl
+[95.159s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/msg/BatteryState.msg
+[95.159s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/msg/CameraInfo.msg
+[95.159s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/msg/ChannelFloat32.msg
+[95.159s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/msg/CompressedImage.msg
+[95.160s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/msg/FluidPressure.msg
+[95.160s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/msg/Illuminance.msg
+[95.160s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/msg/Image.msg
+[95.160s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/msg/Imu.msg
+[95.161s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/msg/JointState.msg
+[95.161s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/msg/Joy.msg
+[95.161s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/msg/JoyFeedback.msg
+[95.161s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/msg/JoyFeedbackArray.msg
+[95.161s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/msg/LaserEcho.msg
+[95.162s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/msg/LaserScan.msg
+[95.162s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/msg/MagneticField.msg
+[95.162s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/msg/MultiDOFJointState.msg
+[95.162s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/msg/MultiEchoLaserScan.msg
+[95.163s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/msg/NavSatFix.msg
+[95.163s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/msg/NavSatStatus.msg
+[95.163s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/msg/PointCloud.msg
+[95.163s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/msg/PointCloud2.msg
+[95.163s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/msg/PointField.msg
+[95.163s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/msg/Range.msg
+[95.163s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/msg/RegionOfInterest.msg
+[95.163s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/msg/RelativeHumidity.msg
+[95.163s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/msg/Temperature.msg
+[95.163s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/msg/TimeReference.msg
+[95.164s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/srv/SetCameraInfo.srv
+[95.164s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/srv/SetCameraInfo_Request.msg
+[95.164s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/srv/SetCameraInfo_Response.msg
+[95.164s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs
+[95.164s] -- Up-to-date: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs
+[95.164s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/point_cloud2_iterator.hpp
+[95.166s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/image_encodings.hpp
+[95.166s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/point_cloud_conversion.hpp
+[95.167s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/distortion_models.hpp
+[95.169s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/impl
+[95.169s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/impl/point_cloud2_iterator.hpp
+[95.169s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/fill_image.hpp
+[95.170s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/include/sensor_msgs/sensor_msgs/point_field_conversion.hpp
+[95.171s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/ament_index/resource_index/package_run_dependencies/sensor_msgs
+[95.171s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/ament_index/resource_index/parent_prefix_path/sensor_msgs
+[95.172s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/environment/ament_prefix_path.sh
+[95.172s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/environment/ament_prefix_path.dsv
+[95.172s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/environment/path.sh
+[95.172s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/environment/path.dsv
+[95.173s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/local_setup.bash
+[95.173s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/local_setup.sh
+[95.173s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/local_setup.zsh
+[95.173s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/local_setup.dsv
+[95.173s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/package.dsv
+[95.173s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/ament_index/resource_index/packages/sensor_msgs
+[95.174s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/cmake/export_sensor_msgs__rosidl_generator_cExport.cmake
+[95.174s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/cmake/export_sensor_msgs__rosidl_generator_cExport-noconfig.cmake
+[95.174s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/cmake/export_sensor_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[95.174s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/cmake/export_sensor_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[95.175s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/cmake/export_sensor_msgs__rosidl_generator_cppExport.cmake
+[95.175s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/cmake/export_sensor_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[95.175s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/cmake/export_sensor_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[95.175s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/cmake/sensor_msgs__rosidl_typesupport_introspection_cExport.cmake
+[95.175s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/cmake/sensor_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[95.175s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/cmake/sensor_msgs__rosidl_typesupport_cExport.cmake
+[95.176s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/cmake/sensor_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[95.176s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/cmake/sensor_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[95.176s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/cmake/sensor_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[95.176s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/cmake/sensor_msgs__rosidl_typesupport_cppExport.cmake
+[95.177s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/cmake/sensor_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[95.177s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/cmake/export_sensor_msgs__rosidl_generator_pyExport.cmake
+[95.177s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/cmake/export_sensor_msgs__rosidl_generator_pyExport-noconfig.cmake
+[95.177s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/cmake/export_sensor_msgsExport.cmake
+[95.178s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/cmake/rosidl_cmake-extras.cmake
+[95.178s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[95.178s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[95.178s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[95.178s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[95.179s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[95.179s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[95.179s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/cmake/sensor_msgsConfig.cmake
+[95.179s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/cmake/sensor_msgsConfig-version.cmake
+[95.179s] -- Installing: /home/hikari/ROScribe/ros_ws/src/install/sensor_msgs/share/sensor_msgs/package.xml
+[95.188s] Invoked command in '/home/hikari/ROScribe/ros_ws/src/build/sensor_msgs' returned '0': AMENT_PREFIX_PATH=/home/hikari/ROScribe/ros_ws/src/install/geometry_msgs:/home/hikari/ROScribe/ros_ws/src/install/std_msgs:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_runtime:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_generators:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs:/home/hikari/ROScribe/ros_ws/src/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hikari/ROScribe/ros_ws/src/install/geometry_msgs:/home/hikari/ROScribe/ros_ws/src/install/std_msgs:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_runtime:/home/hikari/ROScribe/ros_ws/src/install/rosidl_default_generators:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs:/opt/ros/humble LD_LIBRARY_PATH=/home/hikari/ROScribe/ros_ws/src/install/geometry_msgs/lib:/home/hikari/ROScribe/ros_ws/src/install/std_msgs/lib:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hikari/ROScribe/ros_ws/src/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/hikari/ROScribe/ros_ws/src/install/std_msgs/local/lib/python3.10/dist-packages:/home/hikari/ROScribe/ros_ws/src/install/builtin_interfaces/local/lib/python3.10/dist-packages:/home/hikari/ROScribe/ros_ws/src/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --install /home/hikari/ROScribe/ros_ws/src/build/sensor_msgs

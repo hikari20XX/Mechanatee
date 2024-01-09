@@ -1,0 +1,11 @@
+/home/hikari/ROScribe/ros_ws/src/build/rclrs/debug/deps/linux_raw_sys-79db541f182788a2.rmeta: /home/hikari/.cargo/registry/src/index.crates.io-6f17d22bba15001f/linux-raw-sys-0.4.10/src/lib.rs /home/hikari/.cargo/registry/src/index.crates.io-6f17d22bba15001f/linux-raw-sys-0.4.10/src/elf.rs /home/hikari/.cargo/registry/src/index.crates.io-6f17d22bba15001f/linux-raw-sys-0.4.10/src/x86_64/errno.rs /home/hikari/.cargo/registry/src/index.crates.io-6f17d22bba15001f/linux-raw-sys-0.4.10/src/x86_64/general.rs /home/hikari/.cargo/registry/src/index.crates.io-6f17d22bba15001f/linux-raw-sys-0.4.10/src/x86_64/ioctl.rs
+
+/home/hikari/ROScribe/ros_ws/src/build/rclrs/debug/deps/liblinux_raw_sys-79db541f182788a2.rlib: /home/hikari/.cargo/registry/src/index.crates.io-6f17d22bba15001f/linux-raw-sys-0.4.10/src/lib.rs /home/hikari/.cargo/registry/src/index.crates.io-6f17d22bba15001f/linux-raw-sys-0.4.10/src/elf.rs /home/hikari/.cargo/registry/src/index.crates.io-6f17d22bba15001f/linux-raw-sys-0.4.10/src/x86_64/errno.rs /home/hikari/.cargo/registry/src/index.crates.io-6f17d22bba15001f/linux-raw-sys-0.4.10/src/x86_64/general.rs /home/hikari/.cargo/registry/src/index.crates.io-6f17d22bba15001f/linux-raw-sys-0.4.10/src/x86_64/ioctl.rs
+
+/home/hikari/ROScribe/ros_ws/src/build/rclrs/debug/deps/linux_raw_sys-79db541f182788a2.d: /home/hikari/.cargo/registry/src/index.crates.io-6f17d22bba15001f/linux-raw-sys-0.4.10/src/lib.rs /home/hikari/.cargo/registry/src/index.crates.io-6f17d22bba15001f/linux-raw-sys-0.4.10/src/elf.rs /home/hikari/.cargo/registry/src/index.crates.io-6f17d22bba15001f/linux-raw-sys-0.4.10/src/x86_64/errno.rs /home/hikari/.cargo/registry/src/index.crates.io-6f17d22bba15001f/linux-raw-sys-0.4.10/src/x86_64/general.rs /home/hikari/.cargo/registry/src/index.crates.io-6f17d22bba15001f/linux-raw-sys-0.4.10/src/x86_64/ioctl.rs
+
+/home/hikari/.cargo/registry/src/index.crates.io-6f17d22bba15001f/linux-raw-sys-0.4.10/src/lib.rs:
+/home/hikari/.cargo/registry/src/index.crates.io-6f17d22bba15001f/linux-raw-sys-0.4.10/src/elf.rs:
+/home/hikari/.cargo/registry/src/index.crates.io-6f17d22bba15001f/linux-raw-sys-0.4.10/src/x86_64/errno.rs:
+/home/hikari/.cargo/registry/src/index.crates.io-6f17d22bba15001f/linux-raw-sys-0.4.10/src/x86_64/general.rs:
+/home/hikari/.cargo/registry/src/index.crates.io-6f17d22bba15001f/linux-raw-sys-0.4.10/src/x86_64/ioctl.rs:
