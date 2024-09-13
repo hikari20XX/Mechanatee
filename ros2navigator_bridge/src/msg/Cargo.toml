@@ -1,0 +1,12 @@
+[package]
+name = "ros2navigator_bridge_msgs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rosidl_runtime_rs = { version = "0.4.1", features = ["serde"] }
+serde = { version = "1.0", features = ["derive"] }
+rosidl_typesupport_c = { path = "/opt/ros/humble/lib/rosidl_typesupport_c" }
+[lib]
+crate-type = ["rlib"]  # This allows it to be used as a library by other crates
+path = "lib.rs" 
